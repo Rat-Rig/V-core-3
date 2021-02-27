@@ -1,0 +1,76 @@
+site_name: "Rat Rig - V-Core 3"
+site_url: https://v-core3.ratrig.com/
+site_author: "Rat Rig"
+edit_uri: ""
+
+copyright: Copyright &copy; 2021 Rat Rig
+
+repo_name: V-core-3
+repo_url: https://github.com/Rat-Rig/V-core-3
+
+docs_dir: src
+theme:
+  logo: assets/logo_rat_medium.png
+  favicon: assets/logo_rat_small.png
+  language: en
+  name: material
+  # custom_dir: overrides
+  palette:
+    scheme: default
+    primary: rat_rig
+    accent: rat_rig_alt
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - awesome-pages
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - js/extra.js
+
+markdown_extensions:
+  - abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
