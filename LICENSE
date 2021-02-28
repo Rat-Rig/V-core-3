@@ -1,35 +1,3 @@
----
-title: Creative Commons Attribution Share Alike 4.0 International
-spdx-id: CC-BY-SA-4.0
-
-description: Similar to <a href='/licenses/cc-by-4.0/'>CC-BY-4.0</a> but requires derivatives be distributed under the same or a similar, <a href="https://creativecommons.org/compatiblelicenses/">compatible</a> license. Frequently used for media assets and educational materials. A previous version is the default license for Wikipedia and other Wikimedia projects. Not recommended for software.
-
-how: Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. It is also acceptable to solely supply a link to a copy of the license, usually to the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>canonical URL for the license</a>.
-
-using:
-  Flight rules for Git: https://github.com/k88hudson/git-flight-rules/blob/master/LICENSE
-  Material Design Iconic Font: https://github.com/zavoloklom/material-design-iconic-font/blob/master/License.md
-  OWASP MSTG: https://github.com/OWASP/owasp-mstg/blob/master/License.md
-
-permissions:
-  - commercial-use
-  - modifications
-  - distribution
-  - private-use
-
-conditions:
-  - include-copyright
-  - document-changes
-  - same-license
-
-limitations:
-  - liability
-  - trademark-use
-  - patent-use
-  - warranty
-
----
-
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
