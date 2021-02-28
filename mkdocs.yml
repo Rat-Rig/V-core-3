@@ -8,8 +8,8 @@ copyright: Copyright &copy; 2021 Rat Rig
 repo_name: V-core-3
 repo_url: https://github.com/Rat-Rig/V-core-3
 
-docs_dir: src
-site_dir: ../site
+docs_dir: docs/src
+site_dir: site
 theme:
   logo: assets/logo_rat_medium.png
   favicon: assets/logo_rat_small.png
