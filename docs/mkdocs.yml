@@ -9,6 +9,7 @@ repo_name: V-core-3
 repo_url: https://github.com/Rat-Rig/V-core-3
 
 docs_dir: src
+site_dir: ../site
 theme:
   logo: assets/logo_rat_medium.png
   favicon: assets/logo_rat_small.png
@@ -20,11 +21,16 @@ theme:
     primary: rat_rig
     accent: rat_rig_alt
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.tabs
+
+files_url: https://github.com/Rat-Rig/V-core-3/tree/main/cad
+zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
+onshape_public_url: https://cad.onshape.com/documents/d94df008ab784b239866b668/w/ab1c5f2e60ecc0f22d346772/e/b8a9a500995d657088a1bb8b
 
 plugins:
   - search
+  - macros
   - minify:
       minify_html: true
   - awesome-pages

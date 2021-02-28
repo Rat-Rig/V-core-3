@@ -1,3 +1,11 @@
 nav:
     - index.md
-    - ...
+    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html
+    - bom.md
+    - printed_parts.md
+    - electronics.md
+    - firmware.md
+    - build_guide.md
+    - faq.md
+    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity
+    - Contact: mailto:info@ratrig.com

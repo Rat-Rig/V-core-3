@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 
 [data-md-color-primary="rat_rig"] {
     --md-rat-rig-color: #76fb00;
     --md-rat-rig-dark-gary-color: #232323;
     --md-primary-bar-color: #76fb00;
-    --md-primary-fg-color: #6b776d;
+    --md-primary-fg-color: #2b2b2b;
     --md-primary-fg-color--light: #afff56;
     --md-primary-fg-color--dark: #34c700;
     --md-primary-bg-color: rgb(221, 221, 221);
     --md-primary-bg-color--light: #777777;
+    --md-typeset-a-color: #76fb00;
+    /* --md-accent-fg-color: #2b2b2b; */
 }
 
 [data-md-color-accent="rat_rig_alt"] {
-    --md-accent-fg-color:              #578F62;
+    --md-accent-fg-color:              #2b2b2b;
     --md-accent-fg-color--transparent: rgba(75, 75, 75, 0.1);
 }
 
@@ -28,6 +32,36 @@ body {
     color: var(--md-rat-rig-dark-gary-color);
 }
 
+.md-tabs {
+    font-family: "Oswald", georgia, serif;
+    padding: 2px 0;
+}
+.md-tabs__item {
+    padding: 0;
+    margin: 0 0 0 -3px;
+}
+.md-tabs__link {
+    margin-top: 4px;
+    padding: 12px 0.6rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--md-rat-rig-color);
+}
+
+.md-tabs__link:hover {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
+
+}
+
+.md-tabs__link--active {
+    background-color: var(--md-rat-rig-color);
+    color: var(--md-primary-fg-color);
+}
+
+.md-tabs__link--active:hover {
+    background-color: var(--md-rat-rig-color);
+}
+
 .md-header {
     background: var(--md-primary-bar-color);
     background: linear-gradient(
@@ -37,6 +71,13 @@ body {
         #ececec 30.05%,
         #ececec 100%
     );
+}
+
+.md-header-nav__topic{
+    color: var(--md-primary-fg-color);
+}
+.md-header-nav__button{
+    color: var(--md-primary-fg-color);
 }
 
 .md-source__icon.md-icon svg {
