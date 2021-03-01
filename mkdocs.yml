@@ -1,9 +1,12 @@
 site_name: "Rat Rig - V-Core 3"
 site_url: https://v-core3.ratrig.com/
 site_author: "Rat Rig"
+site_description: "The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises."
 edit_uri: ""
 
 copyright: Copyright &copy; 2021 Rat Rig
+extra:
+  generator: false
 
 repo_name: V-core-3
 repo_url: https://github.com/Rat-Rig/V-core-3
@@ -15,14 +18,18 @@ theme:
   favicon: assets/logo_rat_small.png
   language: en
   name: material
-  # custom_dir: overrides
+  custom_dir: docs/overrides
   palette:
     scheme: default
     primary: rat_rig
     accent: rat_rig_alt
   features:
     # - navigation.instant
+    - navigation.tabs.sticky
     - navigation.tabs
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
 
 files_url: https://github.com/Rat-Rig/V-core-3/tree/main/cad
 zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
