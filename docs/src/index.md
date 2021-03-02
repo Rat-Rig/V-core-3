@@ -83,7 +83,9 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] Frame made with 30x30mm T-Slot aluminium with a beautiful black anodization
 - [x] 4mm thick anodized aluminium plates
 - [x] 9mm Belts
+- [x] Weight of Z drivetrain and bed is distributed across the Z motor mounts - not on the motors themselves
 
+![](assets/pillow_block.png)
 
 ## Customization
 
