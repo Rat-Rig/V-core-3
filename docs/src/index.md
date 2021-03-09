@@ -115,14 +115,14 @@ While previous V-Core versions, like many other printers on the market, relied s
 !!! tip end "What is EVA?"
     EVA is an independently developed and maintained project that aims to be a single platform for many extrusion types.
 
-    **Dragon Hotend** and **Orbiter Extruder** support incoming!
+    **Copperhead** and **Bondtech LGX** support incoming!
 
     Note that not all print head types (due to their physical dimensions) can achieve the full 300x300 print space.
 
-![EVA Logo](assets/eva_logo.png){: align=left }
+<img align="left" alt="EVA Logo" width="200" src="assets/eva_logo.png">
 EVA 2 is the next iteration of the EVA platform with which V-Core 3 is fully compatible. Most vivid improvements since the last iteration is the improved front belt clamp feature (no more zip ties!), improved contribution system, more ease of assembly, modular X endstop system, dedicated cable paths and shrouds (for ascetics).
 
-Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://eva-3d.github.io/eva-main/)
+Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://main.eva-3d.page//)
 
 
 ## Support

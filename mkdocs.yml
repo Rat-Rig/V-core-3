@@ -37,7 +37,8 @@ onshape_public_url: https://cad.onshape.com/documents/d94df008ab784b239866b668/w
 
 plugins:
   - search
-  - macros
+  - macros:
+      module_name: src/plugin
   - minify:
       minify_html: true
   - awesome-pages

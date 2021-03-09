@@ -12,7 +12,7 @@ mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.4.20"
 mkdocs-awesome-pages-plugin = "^2.4.0"
 selenium = "^3.141.0"
-mkdocs-material = "^7.0.3"
+# mkdocs-material = "^7.0.3"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
