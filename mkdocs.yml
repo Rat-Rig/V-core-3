@@ -36,6 +36,7 @@ zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
 onshape_public_url: https://cad.onshape.com/documents/d94df008ab784b239866b668/w/ab1c5f2e60ecc0f22d346772/e/b8a9a500995d657088a1bb8b
 
 plugins:
+  - monorepo
   - search
   - macros:
       module_name: src/plugin
@@ -88,3 +89,18 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: true
+      toc_depth: 1
+
+nav:
+    - index.md
+    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html
+    - bom.md
+    - printed_parts.md
+    - electronics.md
+    - firmware.md
+    - build_guide.md
+    - faq.md
+    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity
+    - Contact: mailto:info@ratrig.com
+    - Legacy V-core: '!include ./v_core_1_3/mkdocs.yml'
+

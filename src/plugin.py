@@ -30,7 +30,7 @@ def define_env(env):
     def generate_hardware_bom_tables(products):
         for index, product in enumerate(products):
             yield f""
-            yield f"### {product.name} (`{product.sku}`)"
+            yield f"#### {product.name} (`{product.sku}`)"
             yield f"| SKU | Product name | QTY | Length (mm) |"
             yield f"| --- | ------------ | --- | ------ |"
             for item in product.items:
@@ -65,7 +65,9 @@ def define_env(env):
         return "\n".join(generate_hardware_bom_tables(products))
 
     @env.macro
-    def printed_parts_bom(file_path: str):
+    def printed_parts_bom(file_path: str, repo_base_url: Optional[str] = None):
+        if repo_base_url is None:
+            repo_base_url = env.variables['config']['repo_url']
         table = []
         table.append(f"| Category | Name | QTY | Link |")
         table.append(f"| -------- | ---- | --- | ---- |")
@@ -73,7 +75,7 @@ def define_env(env):
             reader = csv.reader(csvfile, delimiter=",", quotechar='"')
             for row in reader:
                 table.append(
-                    f"| {row[0]} | {row[1]} | {row[2]} | [:material-download: Download]({env.variables['config']['repo_url']}/tree/main{row[3]}){{: target=_blank }} |"
+                    f"| {row[0]} | {row[1]} | {row[2]} | [:material-download: Download]({repo_base_url}/tree/main{row[3]}){{: target=_blank }} |"
                 )
 
         return "\n".join(table)

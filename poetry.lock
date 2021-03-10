@@ -328,6 +328,17 @@ jsmin = ">=2.2.2"
 mkdocs = ">=1.0.4"
 
 [[package]]
+name = "mkdocs-monorepo-plugin"
+version = "0.4.12"
+description = "Plugin for adding monorepository support in Mkdocs."
+category = "main"
+optional = false
+python-versions = ">=3"
+
+[package.dependencies]
+mkdocs = ">=1.0.4"
+
+[[package]]
 name = "mkdocs-redirects"
 version = "1.0.1"
 description = "A MkDocs plugin for dynamic page redirects to prevent broken links."
@@ -428,21 +439,6 @@ description = "Run a subprocess in a pseudo terminal"
 category = "dev"
 optional = false
 python-versions = "*"
-
-[[package]]
-name = "pydantic"
-version = "1.8"
-description = "Data validation and settings management using python 3.6 type hinting"
-category = "main"
-optional = false
-python-versions = ">=3.6.1"
-
-[package.dependencies]
-typing-extensions = ">=3.7.4.3"
-
-[package.extras]
-dotenv = ["python-dotenv (>=0.10.4)"]
-email = ["email-validator (>=1.0.3)"]
 
 [[package]]
 name = "pygments"
@@ -579,7 +575,7 @@ python-versions = "*"
 name = "typing-extensions"
 version = "3.7.4.3"
 description = "Backported and Experimental Type Hints for Python 3.5+"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -618,7 +614,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "00cad7a92fdfc682c2b736d2d6d34e62e9a06808ed3671ea17aae4bae65ae34b"
+content-hash = "8bfe0259721ee3df7cf8e79fcfdc5167098ccb8b8b42fe14851f46a3dbe6207b"
 
 [metadata.files]
 appdirs = [
@@ -758,6 +754,10 @@ mkdocs-minify-plugin = [
     {file = "mkdocs-minify-plugin-0.3.0.tar.gz", hash = "sha256:06fecd8ddb9cb90f30bcee2d94c3d4b46a090f403d7ff0edff089a435906c4ee"},
     {file = "mkdocs_minify_plugin-0.3.0-py2-none-any.whl", hash = "sha256:9bac96276b1681debb3eb2cf5bae972586b4c1138e8d78ea63a984ea6276563d"},
 ]
+mkdocs-monorepo-plugin = [
+    {file = "mkdocs-monorepo-plugin-0.4.12.tar.gz", hash = "sha256:5c58395d2d562cd9477cef4d3039a967af92e6303a3be310f05579e789a92bbb"},
+    {file = "mkdocs_monorepo_plugin-0.4.12-py3-none-any.whl", hash = "sha256:cc00816d7754ac49341be87da33fc929f38274d0efe877ec807d68838e5c294f"},
+]
 mkdocs-redirects = [
     {file = "mkdocs-redirects-1.0.1.tar.gz", hash = "sha256:0a21301bee7f743d622226a6869f4718f3bfb26887985e23aafac7f7f6b050aa"},
 ]
@@ -791,30 +791,6 @@ prompt-toolkit = [
 ptyprocess = [
     {file = "ptyprocess-0.7.0-py2.py3-none-any.whl", hash = "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"},
     {file = "ptyprocess-0.7.0.tar.gz", hash = "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"},
-]
-pydantic = [
-    {file = "pydantic-1.8-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:22fe5756c6c57279234e4c4027a3549507aca29e9ee832d6aa39c367cb43c99f"},
-    {file = "pydantic-1.8-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:c26d380af3e9a8eb9abe3b6337cea28f057b5425330817c918cf74d0a0a2303d"},
-    {file = "pydantic-1.8-cp36-cp36m-manylinux2014_i686.whl", hash = "sha256:a0ff36e3f929d76b91d1624c6673dbdc1407358700d117bb7f29d5696c52d288"},
-    {file = "pydantic-1.8-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:d5aeab86837f8799df0d84bec1190e6cc0062d5c5374636b5599234f2b39fe0a"},
-    {file = "pydantic-1.8-cp36-cp36m-win_amd64.whl", hash = "sha256:999cc108933425752e45d1bf2f57d3cf091f2a5e8b9b8afab5b8872d2cc7645f"},
-    {file = "pydantic-1.8-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:a989924324513215ad2b2cfd187426e6372f76f507b17361142c0b792294960c"},
-    {file = "pydantic-1.8-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:2bc9e9f5d91a29dec53346efc5c719d82297885d89c8a62b971492fba222c68d"},
-    {file = "pydantic-1.8-cp37-cp37m-manylinux2014_i686.whl", hash = "sha256:12ed0b175bba65e29dfc5859cd539d3512f58bb776bf620a3d3338501fd0f389"},
-    {file = "pydantic-1.8-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:26821f61623b01d618bd8b3243f790ac8bd7ae31b388c0e41aa586002cf350eb"},
-    {file = "pydantic-1.8-cp37-cp37m-win_amd64.whl", hash = "sha256:d361d181a3fb53ebfdc2fb1e3ca55a6b2ad717578a5e119c99641afd11b31a47"},
-    {file = "pydantic-1.8-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:91baec8ed771d4c53d71ef549d8e36b0f92a31c32296062d562d1d7074dd1d6e"},
-    {file = "pydantic-1.8-cp38-cp38-manylinux1_i686.whl", hash = "sha256:b4e03c84f4e96e3880c9d34508cccbd0f0df6e7dc14b17f960ea8c71448823a3"},
-    {file = "pydantic-1.8-cp38-cp38-manylinux2014_i686.whl", hash = "sha256:c8a3600435b83a4f28f5379f3bb574576521180f691828268268e9f172f1b1eb"},
-    {file = "pydantic-1.8-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:ccc2ab0a240d01847f3d5f0f9e1582d450a2fc3389db33a7af8e7447b205a935"},
-    {file = "pydantic-1.8-cp38-cp38-win_amd64.whl", hash = "sha256:ad2fae68e185cfae5b6d83e7915352ff0b6e5fa84d84bc6a94c3e2de58327114"},
-    {file = "pydantic-1.8-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:5759a4b276bda5ac2360f00e9b1e711aaac51fabd155b422d27f3339710f4264"},
-    {file = "pydantic-1.8-cp39-cp39-manylinux1_i686.whl", hash = "sha256:865410a6df71fb60294887770d19c67d499689f7ce64245182653952cdbd4183"},
-    {file = "pydantic-1.8-cp39-cp39-manylinux2014_i686.whl", hash = "sha256:edf37d30ea60179ef067add9772cf42299ea6cd490b3c94335a68f1021944ac4"},
-    {file = "pydantic-1.8-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:4a83d24bcf9ce8e6fa55c379bba1359461eedb85721bfb3151e240871e2b13a8"},
-    {file = "pydantic-1.8-cp39-cp39-win_amd64.whl", hash = "sha256:77e04800d19acc2a8fbb95fe3d47ff397ce137aa5a2b32cc23a87bac70dda343"},
-    {file = "pydantic-1.8-py3-none-any.whl", hash = "sha256:42b8fb1e4e4783c4aa31df44b64714f96aa4deeacbacf3713a8a238ee7df3b2b"},
-    {file = "pydantic-1.8.tar.gz", hash = "sha256:0b71ca069c16470cb00be0acaf0657eb74cbc4ff5f11b42e79647f170956cda3"},
 ]
 pygments = [
     {file = "Pygments-2.8.0-py3-none-any.whl", hash = "sha256:b21b072d0ccdf29297a82a2363359d99623597b8a265b8081760e4d0f7153c88"},
