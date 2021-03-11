@@ -15,4 +15,6 @@ The whole repository, with CAD files can be downloaded under the following link:
 
 ## Hardware
 
+[:material-table: CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/V-CORE%203.0%20-%20pub.csv){: .md-button .md-button--primary target=_blank}
+
 {{ hardware_bom("bom/V-CORE 3.0 - pub.csv") }}
