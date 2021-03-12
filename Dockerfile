@@ -14,7 +14,6 @@ RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-
     poetry config virtualenvs.create false
 
 COPY poetry.lock pyproject.toml /app/
-COPY libs /app/libs
 WORKDIR /app
 RUN poetry install --no-root --no-dev --no-interaction --no-ansi
 

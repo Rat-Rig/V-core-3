@@ -89,16 +89,13 @@ QTY,SKU,Length (mm),Tap,Item name
 6,HW1522NC,,,T-Nut - Square for 2020 - M5 (Single)
 76,HW1821NC,,,T-Nut - Drop In for 3030 - M3 (Single)
 4,HW2120WC,,,Micro Precision Shim - 6.5 x 5 x 1mm
-3,HW2127GC,,,Magnet - 20 x 10 x 5mm - Two hole
+3,HW2127GC,,,Magnet - 20 x 10 x 5mm - Two hole (M3 Countersink screws)
 6,HW2137SC,,,Countersink Screw M3 (Single) (Length: 20mm)
 3,HW2349SC,,,Countersink Screw M5 (Single) (Length: 16mm)
 10,HW2173SC,,,Countersink Screw M6 (Single) (Length: 14mm)
 4,HW2125GC,,,Rubber foot with metal insert - Heavy Duty - 28*22*16.5mm
 4,HW2110SC,,,Cap Head Screw M5 (Single) (Length: 18mm)
 4,HW1383NC,,,T-Nut - Drop In for 3030 - M5 (Single)
-6,HW1060SC,,,Cap Head Screw M5 (Single) (Length: 35mm)
-6,HW2138SC,,,Cap Head Screw M5 (Single) (Length: 40mm)
-4,HW2140SC,,,Cap Head Screw M5 (Single) (Length: 55mm)
 2,HW1227SK,,,Cap Head Screw M3 (Single) (Length: 30mm)
 3,HW2118WC,,,Thrust Bearing F8-16M
 1,HW2077GK,,,EVA 2.2.0 Hardware Pack
@@ -112,7 +109,7 @@ QTY,SKU,Length (mm),Tap,Item name
 QTY,SKU,Length (mm),Tap,Item name
 3,HW2191SC,,,TR8*4 Custom Metric Acme Lead Screw - 380mm
 3,HW2204GC,,,Coupler - Spider/Jaw Type - 5mm*8mm
-3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block 
+3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block
 ,,,,
 ,,,,
 ,SKU,,,Product Name
@@ -122,7 +119,7 @@ QTY,SKU,Length (mm),Tap,Item name
 QTY,SKU,Length (mm),Tap,Item name
 3,HW2192SC,,,TR8*4 Custom Metric Acme Lead Screw - 480mm
 3,HW2204GC,,,Coupler - Spider/Jaw Type - 5mm*8mm
-3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block 
+3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block
 ,,,,
 ,,,,
 ,SKU,,,Product Name
@@ -132,7 +129,7 @@ QTY,SKU,Length (mm),Tap,Item name
 QTY,SKU,Length (mm),Tap,Item name
 3,HW2193SC,,,TR8*4 Custom Metric Acme Lead Screw - 580mm
 3,HW2204GC,,,Coupler - Spider/Jaw Type - 5mm*8mm
-3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block 
+3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block
 ,,,,
 ,,,,
 ,SKU,,,Product Name
@@ -165,4 +162,26 @@ QTY,SKU,Length (mm),Tap,Item name
 1,HW2648GK,,,Rat Rig V-Core 3 - Base Parts Kit - All Versions
 1,HW2651GK,,,Rat Rig V-Core 3 - 500mm Specific Parts
 1,HW2654GK,,,Rat Rig V-Core 3 - 500mm Leadscrew Pack
+1,HW1511CC,,,Machine Packaging Generic
+,,,,
+,,,,
+,SKU,,,Product Name
+,HW2643GK,,,Rat Rig V-Core 3 - 400mm (Mechanical Kit) - Leadscrew Version
+,,,,
+,B.O.M.,,,
+QTY,SKU,Length (mm),Tap,Item name
+1,HW2648GK,,,Rat Rig V-Core 3 - Base Parts Kit - All Versions
+1,HW2650GK,,,Rat Rig V-Core 3 - 400mm Specific Parts
+1,HW2656GK,,,Rat Rig V-Core 3 - 400mm Ballscrew Pack
+1,HW1511CC,,,Machine Packaging Generic
+,,,,
+,,,,
+,SKU,,,Product Name
+,HW2644GK,,,Rat Rig V-Core 3 - 500mm (Mechanical Kit) - Leadscrew Version
+,,,,
+,B.O.M.,,,
+QTY,SKU,Length (mm),Tap,Item name
+1,HW2648GK,,,Rat Rig V-Core 3 - Base Parts Kit - All Versions
+1,HW2651GK,,,Rat Rig V-Core 3 - 500mm Specific Parts
+1,HW2657GK,,,Rat Rig V-Core 3 - 500mm Ballscrew Pack
 1,HW1511CC,,,Machine Packaging Generic
