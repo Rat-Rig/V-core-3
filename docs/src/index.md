@@ -183,7 +183,7 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc 
 
 ![](assets/modding.jpg)
-*Example of a user-designed Mod*
+*Example of a user-designed Mod by Spiro Argyros*
 
 ## Sample Prints
 
