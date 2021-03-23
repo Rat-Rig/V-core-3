@@ -182,9 +182,6 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Frame is built on a modular platform of T-Slot and V-Slot profiles, which allow for endless possibilites when it comes to mounting all types of parts 
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc 
 
-![](assets/modding.jpg)
-*Example of a user-designed Mod by Spiro Argyros*
-
 ## Sample Prints
 
 ![](assets/prints.jpg)
