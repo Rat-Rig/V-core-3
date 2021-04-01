@@ -12,7 +12,7 @@ QTY,SKU,Length (mm),Tap,Item name
 1,HW201BRC,422,,V-SLOT 2020 - Black Anodized 1000mm
 4,HW2036GC,,,Linear Rail - MGN12 400mm + MGN12C carriage
 2,HW2353GC,,,Linear Rail - MGN12 350mm + MGN12C carriage
-1,HW1653GC,4000,,Timing Belt  - GT2 9mm (By the meter)
+1,HW1653GC,4000,,Timing Belt  - 2GT 9mm (By the meter)
 1,HW2198PC,,,Bed Plate - Cast tooling plate - Pre-Machined - 329*329*6mm
 ,,,,
 ,,,,
@@ -34,7 +34,7 @@ QTY,SKU,Length (mm),Tap,Item name
 4,HW1665NC,,,T-Nut - Drop In for 2020 - M3 (Single)
 4,HW2034GC,,,Linear Rail - MGN12 500mm + MGN12C carriage
 2,HW2354GC,,,Linear Rail - MGN12 450mm + MGN12C carriage
-1,HW1653GC,5100,,Timing Belt  - GT2 9mm (By the meter)
+1,HW1653GC,5100,,Timing Belt  - 2GT 9mm (By the meter)
 1,HW2199PC,,,Bed Plate - Cast tooling plate - Pre-Machined - 429*429*6mm
 ,,,,
 ,,,,
@@ -56,7 +56,7 @@ QTY,SKU,Length (mm),Tap,Item name
 8,HW1665NC,,,T-Nut - Drop In for 2020 - M3 (Single)
 4,HW2356GC,,,Linear Rail - MGN12 600mm + MGN12C carriage
 2,HW2355GC,,,Linear Rail - MGN12 550mm + MGN12C carriage
-1,HW1653GC,6200,,Timing Belt  - GT2 9mm (By the meter)
+1,HW1653GC,6200,,Timing Belt  - 2GT 9mm (By the meter)
 1,HW2200PC,,,Bed Plate - Cast tooling plate - Pre-Machined - 529*529*6mm
 ,,,,
 ,,,,
@@ -89,9 +89,9 @@ QTY,SKU,Length (mm),Tap,Item name
 6,HW2126GC,,,Dowel Pin - 3.0mm x 35.0mm
 8,HW1251NC,,,Hex Locking Nut - M3
 17,HW1039NC,,,Hex Locking Nut - M5
-2,HW2119WC,,,Timing Pulley - Idler - GT2 (2mm) - 20 Tooth - For 9mm Belt
-10,HW2058WC,,,Idler Pulley - Smooth for GT2-20T - 9mm Belt - 5mm Bore (standard)
-2,HW1654WC,,,Timing Pulley - GT2 (2mm) - 20 Tooth - For 9mm Belt - 5mm Bore
+2,HW2119WC,,,Timing Pulley - Idler - 2GT (2mm) - 20 Tooth - For 9mm Belt
+10,HW2058WC,,,Idler Pulley - Smooth for 2GT-20T - 9mm Belt - 5mm Bore (standard)
+2,HW1654WC,,,Timing Pulley - 2GT (2mm) - 20 Tooth - For 9mm Belt - 5mm Bore
 24,HW1630NC,,,Mini Precision Shim - 8 x 5 x 1mm - C
 15,HW1018NC,,,Aluminium Spacer - 6mm
 16,HW1665NC,,,T-Nut - Drop In for 2020 - M3 (Single)
