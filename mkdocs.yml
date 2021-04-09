@@ -1,9 +1,12 @@
-site_name: "Rat Rig - V-Core 3"
-site_url: https://v-core3.ratrig.com/
+site_name: "Rat Rig - V-Core"
+site_url: https://v-core.ratrig.com/
 site_author: "Rat Rig"
+site_description: "The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises."
 edit_uri: ""
 
 copyright: Copyright &copy; 2021 Rat Rig
+extra:
+  generator: false
 
 repo_name: V-core-3
 repo_url: https://github.com/Rat-Rig/V-core-3
@@ -15,22 +18,28 @@ theme:
   favicon: assets/logo_rat_small.png
   language: en
   name: material
-  # custom_dir: overrides
+  custom_dir: docs/overrides
   palette:
     scheme: default
     primary: rat_rig
     accent: rat_rig_alt
   features:
     # - navigation.instant
+    - navigation.tabs.sticky
     - navigation.tabs
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
 
 files_url: https://github.com/Rat-Rig/V-core-3/tree/main/cad
 zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
 onshape_public_url: https://cad.onshape.com/documents/d94df008ab784b239866b668/w/ab1c5f2e60ecc0f22d346772/e/b8a9a500995d657088a1bb8b
 
 plugins:
+  - monorepo
   - search
-  - macros
+  - macros:
+      module_name: src/plugin
   - minify:
       minify_html: true
   - awesome-pages
@@ -80,3 +89,19 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: true
+      toc_depth: 1
+
+nav:
+    - index.md
+    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html" target="_blank
+    - bom.md
+    - printed_parts.md
+    - electronics.md
+    - firmware.md
+    - Build Guide: https://ratrig.dozuki.com/c/Rat_Rig_V-Core_3" target="_blank
+    - faq.md
+    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity" target="_blank
+    - Gallery: https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank
+    - Legacy V-core: '!include ./v_core_1_3/mkdocs.yml'
+    - Contact: mailto:info@ratrig.com
+

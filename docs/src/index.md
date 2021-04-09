@@ -7,7 +7,9 @@ hide:
 
 The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises. 
 
+<center>
 ![](assets/00.png)
+</center>
 
 <center><iframe width="1000" height="600" src="https://www.youtube.com/embed/Op-3dwBHY4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
@@ -81,7 +83,9 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] Frame made with 30x30mm T-Slot aluminium with a beautiful black anodization
 - [x] 4mm thick anodized aluminium plates
 - [x] 9mm Belts
+- [x] Weight of Z drivetrain and bed is distributed across the Z motor mounts - not on the motors themselves
 
+![](assets/pillow_block.png)
 
 ## Customization
 
@@ -104,6 +108,7 @@ While previous V-Core versions, like many other printers on the market, relied s
 
 - [x] Full End Stop solutions
 - [x] EVA 2 Carriage System provides mounts for most popular extruder and hot end choices on the market (Bowden, BMG, Titan, Aero, Hemera, and more to come!)
+- [x] Shipping with EVA 2.2.1
 
 ![](assets/EVA.png)
 
@@ -111,14 +116,14 @@ While previous V-Core versions, like many other printers on the market, relied s
 !!! tip end "What is EVA?"
     EVA is an independently developed and maintained project that aims to be a single platform for many extrusion types.
 
-    **Dragon Hotend** and **Orbiter Extruder** support incoming!
+    **Copperhead** and **Bondtech LGX** support incoming!
 
     Note that not all print head types (due to their physical dimensions) can achieve the full 300x300 print space.
 
-![EVA Logo](assets/eva_logo.png){: align=left }
+<img align="left" alt="EVA Logo" width="200" src="assets/eva_logo.png">
 EVA 2 is the next iteration of the EVA platform with which V-Core 3 is fully compatible. Most vivid improvements since the last iteration is the improved front belt clamp feature (no more zip ties!), improved contribution system, more ease of assembly, modular X endstop system, dedicated cable paths and shrouds (for ascetics).
 
-Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://eva-3d.github.io/eva-main/)
+Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://main.eva-3d.page/)
 
 
 ## Support
@@ -220,3 +225,10 @@ As an Open-source project, the V-Core 3 design is the result of prolonged brains
 - Lukas Sinitsch
 - Tomasz Paluszkiewicz
 
+## Licence
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
