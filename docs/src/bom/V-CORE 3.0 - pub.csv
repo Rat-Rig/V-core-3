@@ -85,7 +85,7 @@ QTY,SKU,Length (mm),Tap,Item name
 137,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
 10,HW1870SC,,,Cap Head Screw M6 (Single) (Length: 20mm)
 4,HW1285SC,,,Cap Head Screw M5 (Single) (Length: 10mm)
-4,HW1202SC,,,Cap Head Screw M5 (Single) (Length: 12mm)
+18,HW1202SC,,,Cap Head Screw M5 (Single) (Length: 12mm)
 6,HW2126GC,,,Dowel Pin - 3.0mm x 35.0mm
 8,HW1251NC,,,Hex Locking Nut - M3
 17,HW1039NC,,,Hex Locking Nut - M5
@@ -104,7 +104,7 @@ QTY,SKU,Length (mm),Tap,Item name
 10,HW2173SC,,,Countersink Screw M6 (Single) (Length: 14mm)
 4,HW2125GC,,,Rubber foot with metal insert - Heavy Duty - 28*22*16.5mm
 4,HW2110SC,,,Cap Head Screw M5 (Single) (Length: 18mm)
-5,HW1383NC,,,T-Nut - Drop In for 3030 - M5 (Single)
+19,HW1383NC,,,T-Nut - Drop In for 3030 - M5 (Single)
 2,HW1227SK,,,Cap Head Screw M3 (Single) (Length: 30mm)
 3,HW2118WC,,,Thrust Bearing F8-16M
 1,HW2687GK,,,V-Core 3 Extra Parts Bag

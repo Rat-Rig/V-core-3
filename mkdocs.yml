@@ -93,15 +93,15 @@ markdown_extensions:
 
 nav:
     - index.md
-    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html
+    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html" target="_blank
     - bom.md
     - printed_parts.md
     - electronics.md
     - firmware.md
-    - build_guide.md
+    - Build Guide: https://ratrig.dozuki.com/c/Rat_Rig_V-Core_3" target="_blank
     - faq.md
-    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity
-    - Gallery: https://photos.app.goo.gl/kfevYUU9f1RaxHxh9
+    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity" target="_blank
+    - Gallery: https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank
     - Legacy V-core: '!include ./v_core_1_3/mkdocs.yml'
     - Contact: mailto:info@ratrig.com
 
