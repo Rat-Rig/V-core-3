@@ -188,24 +188,6 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 
 ![](assets/tree.jpg)
 
-
-## Availability
-
-The V-Core 3 will start shipping in Q1 2021.
-
-Until then:
-
-- [x] Stay posted on all the developments at our <a href="https://www.facebook.com/groups/ratrig3dprintercommunity" target="_blank">Facebook 3D Printer Community</a>
-- [x] Get notified via e-mail once the kit is officially released (simply send an e-mail to info@ratrig.com with "V-Core 3 Waiting List" on the subject line)
-
-<center>[E-mail us! :fontawesome-solid-paper-plane:](mailto:info@ratrig.com?subject=V-Core 3 Waiting List){: .md-button .md-button--primary} </center>
-
-- [x] Pre-order one unit from the first ever production batch (pay 250€ as a deposit, to save your place in the queue)<p>
-
-<center>[Pre-order Now!](https://www.ratrig.com/v-core-3-pre-order.html){: .md-button .md-button--primary target=_blank}</center>
-
-<center>This page will be updated with additional information as we approach the launch date.</center>
-
 ## Acknowledgments
 
 As an Open-source project, the V-Core 3 design is the result of prolonged brainstorming, testing, and collaboration between many active members of the international 3D Printer Community, who shared their knowledge and experience with our design team. As such, the machine inevitably draws inspiration from and builds upon many existing design elements that have been developed, shared, tested, modded, and iterated by the community at large. The nature of the open-source movement makes it often difficult to trace back where each idea was originally generated, making it hard to produce a comprehensive list of acknowledgments. Nevertheless, below we list a few names and projects that we would like to credit for their direct or indirect contribution/inspiration to the V-Core 3 platform (in no particular order):
