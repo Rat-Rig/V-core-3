@@ -15,6 +15,7 @@ selenium = "^3.141.0"
 # mkdocs-material = "^7.0.3"
 
 mkdocs-monorepo-plugin = "^0.4.12"
+Pygments = "^2.8.1"
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
 readline = "^6.2.4"

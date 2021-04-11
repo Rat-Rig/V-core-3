@@ -1,5 +1,6 @@
 import csv
 from dataclasses import dataclass, field
+from io import StringIO
 from pprint import pprint
 from pathlib import Path
 from typing import List, Optional
@@ -36,6 +37,25 @@ def define_env(env):
             for item in product.items:
                 length = item.length if item.length else ""
                 yield f"| `{item.sku}` | {item.name} | {item.qty} | {length} |"
+
+    @env.macro
+    def gcode(file_path: str, line_from: int = None, line_to: int = None):
+        path = Path(env.conf["docs_dir"]) / file_path
+        buffer = StringIO()
+        buffer.write(f'``` gcode')
+        if line_from is not None:
+            buffer.write(f' linenums="{line_from}"')
+        buffer.write("\n")
+        with open(path) as gcode_file:
+            for line_no, line in enumerate(gcode_file.readlines(), start=1):
+                if line_from is not None and line_from > line_no:
+                    continue
+                if line_to is not None and line_to <= line_no:
+                    continue
+                buffer.write(line)
+        buffer.write("```")
+        buffer.seek(0)
+        return buffer.read()
 
     @env.macro
     def hardware_bom(file_path: str):
