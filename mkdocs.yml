@@ -94,7 +94,7 @@ markdown_extensions:
 
 nav:
     - index.md
-    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core-3-pre-order.html" target="_blank
+    - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank
     - bom.md
     - printed_parts.md
     - electronics.md
