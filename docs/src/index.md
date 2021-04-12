@@ -171,6 +171,7 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 ![](assets/MAIN_with_Enclosure.png)
 ![](assets/hinge.gif)
 
+*Sold separately as an upgrade kit. Not yet released as of April 2021.
 
 - [x] IEC and LAN ports
 
