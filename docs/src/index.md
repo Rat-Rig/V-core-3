@@ -158,10 +158,13 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 
 ![](assets/electronics_back.png)
 
+*Panel for mounting electronics is not supplied, user is meant to source it locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts are included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
 
 - [x] Easily and fully enclosable frame
 
 ![](assets/enclosure.png)
+
+*Enclosing panels are not supplied, user is meant to source them locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts for these panels are NOT included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
 
 - [x] Optional top lid
 
