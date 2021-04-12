@@ -71,6 +71,7 @@ body {
         #ececec 30.05%,
         #ececec 100%
     );
+    z-index: 9;
 }
 
 .md-header-nav__topic{

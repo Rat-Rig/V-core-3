@@ -13,7 +13,7 @@ The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises. 
 
 <center><iframe width="1000" height="600" src="https://www.youtube.com/embed/Op-3dwBHY4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-<center>[Pre-order Now!](https://www.ratrig.com/v-core-3-pre-order.html){: .md-button .md-button--primary target=_blank }</center>
+<center>[Order Now!](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html){: .md-button .md-button--primary target=_blank }</center>
 
 <div
     class="cloudimage-360"
@@ -29,7 +29,7 @@ This kit is the culmination of Rat Rig's accumulated years of experience designi
 
 <center><iframe width="1000" height="600" src="https://www.youtube.com/embed/ZB7LUQIaYpM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-<center>[Pre-order Now!](https://www.ratrig.com/v-core-3-pre-order.html){: .md-button .md-button--primary target=_blank }</center>
+<center>[Order Now!](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html){: .md-button .md-button--primary target=_blank }</center>
 
 ## Precision
 
