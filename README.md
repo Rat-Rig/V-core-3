@@ -1,4 +1,4 @@
-# Rat Rig V-core-3
+# Rat Rig V-Core-3
 
 ## Links
 

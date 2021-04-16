@@ -11,9 +11,13 @@ hide:
 
 !!! info "Download"
 
-    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF/Duet_RRF.zip).
+    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF/Duet_RRF.zip).
 
 ### config.g
+
+!!! warning "Please read"
+
+    Neither the files in the package or this guide is a complete - copy and paste configuration, please read and make sure to execute operations like PID tuning mentioned bellow.
 
 Start with setting up absolute coordinates but relative extruder moves. Here you also specify the printer name and it's CoreXY kinematic system:
 
@@ -43,7 +47,7 @@ Define where the nozzle is when hitting an endstop:
 
 ??? tip "Bigger printer?"
 
-    Here is where you would change the `maxima` for bigger V-core 3 sizes
+    Here is where you would change the `maxima` for bigger V-Core 3 sizes
 
 {{ gcode("firmware/Duet_RRF/config.g", 33, 35) }}
 
@@ -55,7 +59,7 @@ Define lead screw position for true bed leveling
 
 ??? tip "Bigger printer?"
 
-    Those values will be different for bigger printers, take a close look how those are defined `X-4.5:150:304.5 Y-4.52:305:-4.52` meaning that the first lead is at `X-4.5` and `-4.52`, the second at `X150`, `Y305` and so on. Naturally the first (left) lead screw position is the same for all size variants but, taking the second as an example it will land at `X250`, `Y505` for the 500x500x500 version of V-core 3.
+    Those values will be different for bigger printers, take a close look how those are defined `X-4.5:150:304.5 Y-4.52:305:-4.52` meaning that the first lead is at `X-4.5` and `-4.52`, the second at `X150`, `Y305` and so on. Naturally the first (left) lead screw position is the same for all size variants but, taking the second as an example it will land at `X250`, `Y505` for the 500x500x500 version of V-Core 3.
 
 {{ gcode("firmware/Duet_RRF/config.g", 41, 43) }}
 

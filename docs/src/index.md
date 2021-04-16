@@ -3,7 +3,7 @@ title: Introduction
 hide:
   - navigation
 ---
-# V-core 3
+# V-Core 3
 
 The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises. 
 

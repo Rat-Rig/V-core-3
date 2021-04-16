@@ -1,7 +1,7 @@
 ; General preferences
 G90                                     ; send absolute coordinates...
 M83                                     ; ...but relative extruder moves
-M550 P"V-core 3"                        ; set printer name
+M550 P"V-Core 3"                        ; set printer name
 M669 K1                                 ; CoreXY
 G29 S1                                  ; Set Units to Millimeters
 
@@ -44,7 +44,7 @@ M671 X-4.5:150:304.5 Y-4.52:305:-4.52 S5       ; Define positions of Z leadscrew
 ;; Inductive Probe
 ; M558 P5 C"!io3.in" H5 F400 T5000       ; set Z probe type to unmodulated and the dive height + speeds
 ;; BL-touch
-; M558 P5 C"!io4.in" H5 F400 T5000       ; set Z probe type to unmodulated and the dive height + speeds
+; M558 P5 C"io2.in" H5 F500 T10800       ; set Z probe type to unmodulated and the dive height + speeds
 
 M557 X30:300 Y15:300 P5                                ; define mesh grid
 

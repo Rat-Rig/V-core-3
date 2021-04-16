@@ -13,7 +13,7 @@ See [Files and printing](/printed_parts) for more information on printed parts.
 <img align="right" alt="EVA Logo" width="100" src="../assets/eva_logo.png">
 To download the most recent EVA parts go to https://main.eva-3d.page/, but if you are looking at stable parts that are tested by Rat Rig you can find those here: https://github.com/EVA-3D/eva-main/tree/2.2.1
 
-### V-core 3
+### V-Core 3
 
 The whole repository, with CAD files can be downloaded under the following link:  
 [:material-download-box: Download All](https://github.com/Rat-Rig/V-core-3/archive/main.zip){: .md-button .md-button--primary}
