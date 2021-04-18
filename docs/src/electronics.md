@@ -16,15 +16,15 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 
 ??? question "Zoom to endstop switch connection"
 
-    ![](assets/wiring_endstop.png)
+    ![](../assets/wiring_endstop.png)
 
 ??? question "Zoom fan connection"
 
-    ![](assets/wiring_fans.png)
+    ![](../assets/wiring_fans.png)
 
 ??? question "Zoom to bed probe connections"
 
-    ![](assets/wiring_probes.png)
+    ![](../assets/wiring_probes.png)
 
 ??? info "Identifying Motor phases"
 
@@ -34,7 +34,7 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 
     The trick to identify the motor pinout is to use a LED diode or a piece of wire and short two pins like on the example below and then rotate the shaft by hand. When shorting a phase the LED will light up or - if using the wire method - rotating the shaft will become much harder.
 
-    ![](assets/motor_phases.png)
+    ![](../assets/motor_phases.png)
 
     If the LED lights up when set like in the left image, the motor's pinout is `AABB`, if it's lighting up when set like on the right image it's a `ABAB`, you also may run into a `ABBA` pinout.
 
@@ -46,4 +46,27 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 
 !!! attention "This section is stil a work in progress"
 
-![](assets/SKR Pro V1.2 Wiring Diagram V1.0.png)
+<figure>
+  <a href="../assets/skr_wiring_huge.png" target="_blank">
+      <img src="../assets/skr_wiring.png"/>
+  </a>
+  <figcaption>(click to enlarge)</figcaption>
+</figure>
+
+??? question "Zoom to jumpers"
+
+    ![](../assets/skr_wiring_jumpers.png)
+
+??? question "Zoom to endstop switch and bed probe connection"
+
+    There is an option to use an inductive probe, in that case the `bl-touch` pins can be used as shown. 6V - 36V probes will require custom wiring - **do not plug more than 5V into the signal pin on the board**.
+
+    ![](../assets/skr_wiring_endstops.png)
+
+??? question "Zoom to VIN connections"
+
+    ![](../assets/skr_wiring_vin.png)
+
+??? question "Zoom to extruder motor wire swap"
+
+    ![](../assets/skr_wiring_e_crossover.png)
