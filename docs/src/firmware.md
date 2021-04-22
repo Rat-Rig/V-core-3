@@ -127,3 +127,51 @@ This file defines the sequence of actions for the printer to take on the `G28` -
 ### other files
 
 In the [:fontawesome-solid-archive: Duet_RRF.zip](Duet_RRF/Duet_RRF.zip) package you will find all of the files you'll need to start, including those that are not listed here. You should still look at the [firmware's documentation](https://duet3d.dozuki.com/c/Getting_Started){target="_blank"} to learn about everything that the firmware provides.
+
+## Klipper
+
+!!! info 
+
+    This guide assumes you've followed the wiring diagram for the SKR Pro 1.2 and have it connected to a Raspberry Pi 2 or newer.
+
+### Preparing the Raspberry Pi
+
+Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of VCoreOS [here](https://github.com/Rat-Rig/MainsailOS/releases).
+Then follow [The offical raspberry pi guide](https://www.raspberrypi.org/documentation/installation/installing-images/) to write that image to the SD card that goes into your raspberry pi (8GB or larger) 
+
+Note: this will destroy all data on the card!
+
+**WIFI (Optional)**
+!!! warning
+
+    Do **NOT** use a textprocessor such as Wordpad, it will mangle the file and your pi won't boot. Notepad, Notepad++, VSCode are all fine.
+
+When the process is complete, find the `/boot` volume / folder on the sd card. If you're having trouble finding the boot volume, try reinserting the SD card into your PC. Edit the `vcoreos-wpa-supplicant.txt` file found on the boot volume in a text editor and fill out your wifi information. Note the country code at the bottom of the file.
+
+When that is done reinsert the SD card into the Raspberry Pi, but don't turn on your printer / Raspberry Pi just yet.
+
+### Preparing the SKR Pro
+
+Move the firmware.bin file that you downloaded in the previous step to the SD card that goes into your SKR Pro, and reinsert the SD card in to the SKR Pro.
+
+### Setup
+
+With SKR Pro 1.2 connected via USB to your Raspberry Pi, turn on your printer. After a minute or two, open your browser and navigate to [http://vcoreos.local/](http://vcoreos.local)
+
+**Configuration**
+
+In the settings page in Mainsail, there's a list of files, among them should be a `printer.cfg`. Right click that and choose "Edit". This is where your klipper configuration lives. As you can see, it's prepopulated with some included files which are meant to get you up and running quick and easy. Follow the instructions in the file to make sure the configuration matches your setup.
+
+**Updating**
+
+In the settings page in Mainsail, you'll see a sheet with the title "Update Manager", if you're familiar with fluidd or mainsail, you'll notice 2 new entries `v-core-3-config` and `ratrig-theme`. The `v-core-3-config` will update all the config files in the v-core-3 folder, support for hotends, extruders etc, will be coming to your printer this way in the future.
+
+### Finalizing
+You'll need to adjust your endstop and probe offsets before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html) and [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html).
+
+### Troubleshooting
+If klipper won't connect, try restarting your raspberry pi. Make sure the SKR Pro is connected to the Pi via USB, that both are powered, and that the firmware.bin has been properly flashed. You can verify the last part by checking if the firmware.bin file has been changed to firmware.CUR on the SD card.
+
+??? tip "Input Shaping using ADXL345"
+
+    If you want to use an ADXL345 for automatic input shaper calibration, all the software you need is already installed on the pi, you just need to wire and map the pins for your ADXL345, and you're good to go. A default config and wiring diagram will be included in the future for connecting the ADXL directly to the SKR Pro. Read more here: https://www.klipper3d.org/Measuring_Resonances.html.
