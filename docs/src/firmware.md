@@ -7,11 +7,12 @@ hide:
 
 ## Duet - RepRap Firmware
 
-> This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}
+> This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
+> For an official guide from Duet you can go [here](https://duet3d.dozuki.com/Guide/1.)+Getting+Connected+to+your+Duet/) which is a very good introduction.
 
 !!! info "Download"
 
-    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF/Duet_RRF.zip).
+    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF.zip).
 
 ### config.g
 
@@ -63,17 +64,13 @@ Define lead screw position for true bed leveling
 
 {{ gcode("firmware/Duet_RRF/config.g", 41, 43) }}
 
-Z-probe setting, **uncomment** the line with your probe of choice:
-
-{{ gcode("firmware/Duet_RRF/config.g", 44, 48) }}
-
 !!! warning "Caution!"
 
     The following step defines settings for the **heating elements**, refer to [Duet's documentation](https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control) for guidance.
 
     The actuall PID settings are commented out here only to show where those can be set.
 
-{{ gcode("firmware/Duet_RRF/config.g", 51, 60) }}
+{{ gcode("firmware/Duet_RRF/config.g", 45, 53) }}
 
 Configure the hotend fan and layer fan.
 
@@ -81,11 +78,11 @@ Configure the hotend fan and layer fan.
 
     For the older Duet3 6HC you can use the `M950 F0 C"out7" Q500` and `M950 F1 C"out4" Q500` ports for fans
 
-{{ gcode("firmware/Duet_RRF/config.g", 62, 66) }}
+{{ gcode("firmware/Duet_RRF/config.g", 55, 59) }}
 
 Define the Tool (which is the print head):
 
-{{ gcode("firmware/Duet_RRF/config.g", 68, 75) }}
+{{ gcode("firmware/Duet_RRF/config.g", 61, 68) }}
 
 Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D V6 hotend.
 
@@ -95,12 +92,19 @@ Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D 
     
     The actuall PID settings are commented out here only to show where those can be set.
 
+{{ gcode("firmware/Duet_RRF/config.g", 71, 77) }}
 
-{{ gcode("firmware/Duet_RRF/config.g", 78, 88) }}
+Z-probe setting, **uncomment** the lines with your probe of choice:
+
+!!! info "BLTouch"
+
+    If you plan to use BLTouch you will also need to uncomment a few lines in `homeall.g` and `homez.g`
+
+{{ gcode("firmware/Duet_RRF/config.g", 79, 86) }}
 
 Finally you can calibrate pressure advance, read more about it [here](https://duet3d.dozuki.com/Wiki/Pressure_advance){target="_blank"}.
 
-{{ gcode("firmware/Duet_RRF/config.g", 90) }}
+{{ gcode("firmware/Duet_RRF/config.g", 87) }}
 
 ### homeall.g
 
@@ -124,9 +128,22 @@ This file defines the sequence of actions for the printer to take on the `G28` -
 ### bed.g
 {{ gcode("firmware/Duet_RRF/bed.g") }}
 
-### other files
+### deployprobe.g
 
-In the [:fontawesome-solid-archive: Duet_RRF.zip](Duet_RRF/Duet_RRF.zip) package you will find all of the files you'll need to start, including those that are not listed here. You should still look at the [firmware's documentation](https://duet3d.dozuki.com/c/Getting_Started){target="_blank"} to learn about everything that the firmware provides.
+!!! info "BLTouch"
+
+    Required only for BLTouch
+
+{{ gcode("firmware/Duet_RRF/deployprobe.g") }}
+
+### retractprobe.g
+
+!!! info "BLTouch"
+
+    Required only for BLTouch
+
+{{ gcode("firmware/Duet_RRF/retractprobe.g") }}
+
 
 ## Klipper
 
