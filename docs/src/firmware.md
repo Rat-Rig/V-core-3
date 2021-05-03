@@ -136,7 +136,7 @@ In the [:fontawesome-solid-archive: Duet_RRF.zip](Duet_RRF/Duet_RRF.zip) package
 
 ### Preparing the Raspberry Pi
 
-Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of VCoreOS [here](https://github.com/Rat-Rig/MainsailOS/releases).
+Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of VCoreOS [here](https://github.com/Rat-Rig/V-CoreOS/releases).
 Then follow [The offical raspberry pi guide](https://www.raspberrypi.org/documentation/installation/installing-images/) to write that image to the SD card that goes into your raspberry pi (8GB or larger) 
 
 Note: this will destroy all data on the card!
@@ -167,7 +167,7 @@ In the settings page in Mainsail, there's a list of files, among them should be 
 In the settings page in Mainsail, you'll see a sheet with the title "Update Manager", if you're familiar with fluidd or mainsail, you'll notice 2 new entries `v-core-3-config` and `ratrig-theme`. The `v-core-3-config` will update all the config files in the v-core-3 folder, support for hotends, extruders etc, will be coming to your printer this way in the future.
 
 ### Finalizing
-You'll need to adjust your endstop and probe offsets before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html) and [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html).
+You'll need to adjust your endstop and probe offsets before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html), [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html) and [Skew Correction](https://www.klipper3d.org/skew_correction.html).
 
 ### Troubleshooting
 If klipper won't connect, try restarting your raspberry pi. Make sure the SKR Pro is connected to the Pi via USB, that both are powered, and that the firmware.bin has been properly flashed. You can verify the last part by checking if the firmware.bin file has been changed to firmware.CUR on the SD card.
