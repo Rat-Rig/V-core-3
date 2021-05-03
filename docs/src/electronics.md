@@ -49,6 +49,15 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
   <figcaption>(click to enlarge)</figcaption>
 </figure>
 
+!!! info "X/Y Stepper driver pins"
+
+    To use physical endstops on the SKR Pro you need to cut the diag pins from your X and Y stepper drivers.
+    This will prevent you from using sensorless homing. If you later change your mind, you can swap X and Y
+    with 2 of the Z steppers.
+
+    ![](../assets/SKR Pro V1.2 Stepper Pins.png)
+    ![](../assets/SKR Pro V1.2 Stepper Pins Cut.png)
+
 ??? question "Zoom to jumpers"
 
     ![](../assets/skr_wiring_jumpers.png)
@@ -62,4 +71,5 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 ??? question "Zoom to VIN connections"
 
     ![](../assets/skr_wiring_vin.png)
+
 
