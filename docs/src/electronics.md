@@ -56,7 +56,7 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
     with 2 of the Z steppers.
 
     ![](../assets/SKR Pro V1.2 Stepper Pins.png)
-    ![](../assets/SKR Pro V1.2 Stepper Pins Cut.png)
+    ![](../assets/SKR Pro V1.2 Stepper Pins Alternate.png)
 
 ??? question "Zoom to jumpers"
 
