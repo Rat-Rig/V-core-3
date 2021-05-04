@@ -72,4 +72,11 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 
     ![](../assets/skr_wiring_vin.png)
 
+??? question "ADXL345 Wiring"
+
+    In Klipper you can use an ADXL345 accelerometer chip to automatically tune your Input Shaper settings. This works out of the box in VCoreOS if you wire it to the SPI port on the far right side of the SKR Pro 1.2.
+
+    ![](../assets/SKR_Pro_1.2_ADXL345_angled.png)
+    ![](../assets/SKR_Pro_1.2_ADXL345_top_down.png)
+
 
