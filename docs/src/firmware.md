@@ -36,7 +36,7 @@ Here you define the direction of the motors (`S`) and their mode of operation (`
 
 {{ gcode("firmware/Duet_RRF/config.g", 15, 24) }}
 
-Define steps per mm of travel for X, Y and Z axis (the following are for 1.8 deg motors and a Tr8x8 leadscrew):
+Define steps per mm of travel for X, Y and Z axis (the following are for 1.8 deg motors and a Tr8x4 leadscrew):
 
 {{ gcode("firmware/Duet_RRF/config.g", 24, 27) }}
 
