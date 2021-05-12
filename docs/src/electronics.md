@@ -38,6 +38,31 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
 
     ![](../assets/wiring_probes.png)
 
+## Duet 3 6HC
+
+Duet 3 6HC is another 6 drive board able to power a V-Core 3. Make sure to **check the jumpers section** bellow.
+
+<figure>
+  <a href="../assets/duet_3_6hc_wiring_huge.png" target="_blank">
+      <img src="../assets/duet_3_6hc_wiring.png"/>
+  </a>
+  <figcaption>(click to enlarge)</figcaption>
+</figure>
+
+??? question "Zoom to endstop switch connection"
+
+    ![](../assets/duet_3_6hc_wiring_endstops.png)
+
+??? warning "Zoom to jumpers"
+
+    Duet 3 6HC allows you to choose the voltage provided to the fans between VIN (usually 24V) and 12V. Make sure to check if the default setting suits your needs. **Wrong setting may destroy your fans**. For more information refer to [Duet's Hardware overview](https://duet3d.dozuki.com/Wiki/Duet_3_Mainboard_6HC_Hardware_Overview#Section_Power_distribution).
+
+    ![](../assets/duet_3_6hc_wiring_jumpers.png)
+
+??? question "Zoom to bed probe connections"
+
+    ![](../assets/duet_3_6hc_wiring_probes.png)
+
 ## SKR Pro 1.2
 
 !!! attention "This section is stil a work in progress"
