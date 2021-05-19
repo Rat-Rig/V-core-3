@@ -184,7 +184,9 @@ In the settings page in Mainsail, there's a list of files, among them should be 
 In the settings page in Mainsail, you'll see a sheet with the title "Update Manager", if you're familiar with fluidd or mainsail, you'll notice 2 new entries `v-core-3-config` and `ratrig-theme`. The `v-core-3-config` will update all the config files in the v-core-3 folder, support for hotends, extruders etc, will be coming to your printer this way in the future.
 
 ### Finalizing
-You'll need to adjust your endstop and probe offsets before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html), [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html) and [Skew Correction](https://www.klipper3d.org/skew_correction.html).
+You'll need to adjust your endstop and probe z-offset before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html), [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html) and [Skew Correction](https://www.klipper3d.org/skew_correction.html).
+
+An easy way to do probe z-offset calibration is to home the printer, then put a piece of paper underneath. Now babystep Z through the Fluidd interface (or by issuing G0 commands through the console) until the nozzle touches the paper and there's a tiny bit of resistance when you pull on it. Then write "GET_POSITION" in the console and find the line that says `// kinematic: ...` And use the Z coordinate from that line, multiplied by -1. So if it says `// kinematic: X:0.000000 Y:0.000000 Z:-0.400000` Your probe's z_offset will be 0.4.  
 
 ### Troubleshooting
 If klipper won't connect, try restarting your raspberry pi. Make sure the SKR Pro is connected to the Pi via USB, that both are powered, and that the firmware.bin has been properly flashed. You can verify the last part by checking if the firmware.bin file has been changed to firmware.CUR on the SD card.
