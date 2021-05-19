@@ -19,7 +19,7 @@ If you’re passionate and knowledgeable about 3D Printing, you may be intereste
 
 ## Unofficial Community on Discord
 
-This community is run exclusively by Rat Rig users, there’s no interference/moderation/monitoring by Rat Rig, so we recommend that you proceed with caution and make sure you keep checking official sources too, to ensure you always have access to the most accurate/updated information.
+This community is run exclusively by Rat Rig users, there’s no interference/moderation/monitoring by Rat Rig. Make sure you keep checking official sources too, to ensure you always have access to the most accurate/updated information.
 
 Even though this is an unofficial community, over time we’ve found that this is one of the best resources for users seeking technical support. There are many knowledgeable and super helpful members on the server, and their response time is usually much shorter than what Rat Rig can provide as a company.
 
