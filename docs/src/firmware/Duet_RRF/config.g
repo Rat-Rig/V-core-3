@@ -75,7 +75,7 @@ M143 H1 S250
 
 ; EVA 2 / BMG / E3D V6
 
-M92 E415          ; set extruder steps per mm, 1.8 angle/step
+M92 E830          ; set extruder steps per mm, 0.9 angle/step (LDO Pancake)
 M906 E800         ; set extruder motor current (mA) and idle factor in per cent
 
 M308 S1 P"temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend"  
