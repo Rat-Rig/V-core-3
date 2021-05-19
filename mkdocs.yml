@@ -101,7 +101,7 @@ nav:
     - firmware.md
     - Build Guide: https://ratrig.dozuki.com/c/Rat_Rig_V-Core_3" target="_blank
     - faq.md
-    - Community: https://www.facebook.com/groups/ratrig3dprintercommunity" target="_blank
+    - community.md
     - Gallery: https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank
     - Legacy V-core: '!include ./v_core_1_3/mkdocs.yml'
     - Contact: mailto:info@ratrig.com
