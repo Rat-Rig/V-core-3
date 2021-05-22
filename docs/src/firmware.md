@@ -8,7 +8,7 @@ hide:
 ## Duet - RepRap Firmware
 
 > This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
-> For an official guide from Duet you can go [here](https://duet3d.dozuki.com/Guide/1.)+Getting+Connected+to+your+Duet/) which is a very good introduction.
+> For an official guide from Duet you can go [here](https://duet3d.dozuki.com/Wiki/Getting_Started_with_Duet_3_Mini_5plus#Section_Introduction){target=_blank} which is a very good introduction.
 
 !!! info "Download"
 
