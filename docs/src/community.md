@@ -14,7 +14,7 @@ Rat Rig 3D Printers are not the brainchild of Rat Rig in isolation. Instead, the
 
 ### Beta/Dev Team
 
-If you’re passionate and knowledgeable about 3D Printing, you may be interested to learn that our Beta/Development Team is mostly made of users who at some point in time bought one of our printers and got involved in the community. Active and knowledgeable members who passionately contribute to the community don’t go by unnoticed, and will sometimes be invited to join our Beta testing and R&D team. If this is something that gets you excited, come and join us, connecting is always the first step on the Rat Rig journey! 
+If you’re passionate and knowledgeable about 3D Printing, you may be interested to learn that our Beta/Development Team is mostly made of users who at some point in time bought one of our printers and got involved in the community. Active and knowledgeable members who passionately contribute to the community don’t go by unnoticed, and will sometimes be invited to join the team. If this is something that gets you excited, come and join us, connecting is always the first step on the Rat Rig journey! 
 
 Beta/Dev users not only get to influence product strategy and design decisions, but also benefit from several awesome perks, like early access to products and discounted prices on all orders. Above everything else, they get to participate in extremely nerdy debates with like-minded people, and witness how those debates materialize over time in products who will be enjoyed by many people.
 
