@@ -154,7 +154,7 @@ This file defines the sequence of actions for the printer to take on the `G28` -
 ### Introduction
 V-CoreOS is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
 
-To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (Other boards coming in the future) and a Raspberry Pi. The initial configuration is made to work with the [Wiring Diagram](electronics.md#skr-pro-12).
+To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (Other boards coming in the future) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
 
 [:material-github: Download V-CoreOS](https://github.com/Rat-Rig/V-CoreOS/releases){: .md-button .md-button--primary}
 ### Preparing the Raspberry Pi
