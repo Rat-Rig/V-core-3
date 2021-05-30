@@ -145,7 +145,7 @@ This file defines the sequence of actions for the printer to take on the `G28` -
 {{ gcode("firmware/Duet_RRF/retractprobe.g") }}
 
 
-## V-CoreOS (Klipper Firmware)
+## V-CoreOS - Klipper Firmware
 
 !!! info 
 
