@@ -65,8 +65,6 @@ Duet 3 6HC is another 6 drive board able to power a V-Core 3. Make sure to **che
 
 ## SKR Pro 1.2
 
-!!! attention "This section is stil a work in progress"
-
 <figure>
   <a href="../assets/skr_wiring_huge.png" target="_blank">
       <img src="../assets/skr_wiring.png"/>
