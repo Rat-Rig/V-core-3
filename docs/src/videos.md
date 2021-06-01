@@ -23,7 +23,7 @@ Michael's build is all about pushing the machine to its limits, and will be part
 Adam from Vector3D live streamed his entire V-Core 3 build, from unboxing to first print:
 
 - [x] **Build volume:** 300x300x300   
-- [x] **Main Board:** Duet 3 Mini 5+   
+- [x] **Main Board:** Duet 3 Mini 5+ 
 - [x] **Firmware:** RepRap Firmware       
 - [x] **EVA:** BMG-M and V6
 

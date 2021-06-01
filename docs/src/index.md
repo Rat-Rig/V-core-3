@@ -108,7 +108,7 @@ While previous V-Core versions, like many other printers on the market, relied s
 
 - [x] Full End Stop solutions
 - [x] EVA 2 Carriage System provides mounts for most popular extruder and hot end choices on the market (Bowden, BMG, Titan, Aero, Hemera, and more to come!)
-- [x] Shipping with EVA 2.2.1
+- [x] Shipping with EVA 2.3.0 (since June 1st 2021))
 
 ![](assets/EVA.png)
 
@@ -171,7 +171,7 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 ![](assets/MAIN_with_Enclosure.png)
 ![](assets/hinge.gif)
 
-*Sold separately as an upgrade kit. Not yet released as of April 2021.
+*Sold separately as an upgrade kit. Not yet released as of June 2021.
 
 - [x] IEC and LAN ports
 
