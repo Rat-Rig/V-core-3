@@ -27,7 +27,7 @@ This kit is the culmination of Rat Rig's accumulated years of experience designi
 
 <p>&nbsp;</p>
 
-<center><iframe width="1000" height="600" src="https://www.youtube.com/embed/ZB7LUQIaYpM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="1000" height="600" src="https://www.youtube.com/embed/ZB7LUQIaYpM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5kbxjMeS5jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <center>[Order Now!](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html){: .md-button .md-button--primary target=_blank }</center>
 
