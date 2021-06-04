@@ -130,3 +130,5 @@ dmypy.json
 
 downloads/
 .vscode/
+
+.DS_Store
