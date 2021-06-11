@@ -39,7 +39,7 @@ M574 Y2 S1 P"io0.in"                           ; configure active high endstops
 M574 Z1 S2                                     ; configure Z-probe endstop for low end on Z
 
 M671 X-4.5:150:304.5 Y-4.52:305:-4.52 S5       ; define positions of Z leadscrews or bed levelling screws
-M557 X30:300 Y15:300 P5                        ; define 5x5 mesh grid
+M557 X20:280 Y20:280 P5                        ; define 5x5 mesh grid
 
 ; Heaters
 M308 S0 P"temp0" Y"thermistor" T100000 B3950 A"Bed"    ; configure sensor 0 as thermistor on pin temp0
