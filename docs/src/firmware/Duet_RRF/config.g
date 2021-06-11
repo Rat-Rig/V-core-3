@@ -81,7 +81,7 @@ M308 S1 P"temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend"
 ; G31 P500 X-30 Y-15 Z0.20               ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed
 ;; BLTouch
 ; M950 S0 C"io2.out"                     ; Create a servo pin on io2
-; M558 P9 C"io2.in" H5 F500 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds
+; M558 P9 C"io2.in" H5 F240 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds
 ; G31 P25 X-28.00 Y-13.00 Z0.90          ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed
 
 M404 N1.75 D0.4                                 ; Filament width and nozzle diameter
