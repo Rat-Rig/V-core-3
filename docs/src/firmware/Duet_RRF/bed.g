@@ -7,5 +7,3 @@ M561 ; clear any bed transform
 G30 P0 X5 Y5 Z-99999 ; probe near a leadscrew
 G30 P1 X150 Y285 Z-99999 ; probe near a leadscrew
 G30 P2 X270 Y5 Z-99999 S3 ; probe near a leadscrew and calibrate 3 motors
-
-G29  ; probe the bed and enable compensation
