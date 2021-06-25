@@ -38,6 +38,10 @@ This kit is the culmination of Rat Rig's accumulated years of experience designi
 
 ![](assets/bed_tilt.png)
 
+Bed plates expand as they heat up. If their mounting points are unmovable, the bed will have no room to expand to the sides, and it will be forced to bow (either upwards or downwards). The V-Core 3 bed plate is not rigidly connected to the machine's frame. Instead, 3 steel balls connected to the bed sit on low friction dowel pins. The pins act like a pair of rails for the steel balls, guiding their movement as the bed expands and ensuring that only radial movement is possible - there's zero margin for lateral movement. This means that while your plate is firmly in place, it can still remain perfectly flat as it expands.
+
+Since the bed only has 3 mounting points, which are connected to 3 independently driven Z motors, bed-levelling is exclusively determined by motor position and can be done 100% electronically - simple and instantaneous.
+
 <center><iframe width="1000" height="600" src="https://www.youtube.com/embed/bgkK7Fez8VU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <p>&nbsp;</p>
@@ -72,6 +76,10 @@ This kit is the culmination of Rat Rig's accumulated years of experience designi
 <p>&nbsp;</p>
 
 ![](assets/leadcomp.png)
+
+The V-Core 3 uses 3 lead screws to drive the Z axis of the machine. They move the bed down in small increments, at the end of each complete layer. The Z axis moves very slowly, so speed is not the priority - precision and resolution are. 
+The V-Core 3 uses TR8X4mm lead screws instead of the TR8x8mm used in previous machines, effectively halving the pitch of the lead screw - this means that each rotation of the motor, now moves the bed half as much.
+This both doubles the Z resolution of your layers and multiplies the holding torque - always helpful when you're moving such a heavy bed, especially on the larger variants.
 
 
 ## Robustness
@@ -141,7 +149,7 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 ## Safety
 
 - [x] Wiring design includes multiple cable management parts, for cable clamping, guiding and strain relief
-- [x] Custom Keenovo Heat Pad with pre-wired 157ºC Thermal Fuse for extra safety (Optional)
+- [x] Custom Keenovo Heat Pad with pre-wired 157ºC Thermal Fuse for extra safety (Optional). The wiring comes out of the pad slightly off-center, so it's neatly guided to the back of the machine without interfering with the bed mounting point at the back.
 
 ![](assets/pad.png)
 
@@ -159,6 +167,8 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 ![](assets/electronics_back.png)
 
 *Panel for mounting electronics is not supplied, user is meant to source it locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts are included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
+
+:warning: Electronics Panel should not be thicker than 4mm, otherwise it will not fit in the available space.
 
 - [x] Easily and fully enclosable frame
 
@@ -184,7 +194,8 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 
 - [x] Fully open-source design, with downloadable 3D models and part libraries freely available
 - [x] Frame is built on a modular platform of T-Slot and V-Slot profiles, which allow for endless possibilites when it comes to mounting all types of parts 
-- [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc 
+- [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc
+- [x] For some inspiration, check out the <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank">V-Core 3 Gallery</a> with builds from users worldwide
 
 ## Sample Prints
 
