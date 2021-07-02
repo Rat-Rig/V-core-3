@@ -12,7 +12,11 @@ It’s also the place where more advanced users share mods they’ve made to the
 
 Rat Rig 3D Printers are not the brainchild of Rat Rig in isolation. Instead, they are the result of a continuous and tight-knit feedback loop between users and developers. Join us and take part of this beautiful process that has been building on top of itself for many years and throughout many product iterations!
 
-If you’re passionate and knowledgeable about 3D Printing, you may be interested to learn that our Beta/Development Team is mostly made of users who at some point in time bought one of our printers and got involved in the community. Active and knowledgeable members who passionately contribute to the community don’t go by unnoticed, and will sometimes be invited to take part on the development effort. If this is something that gets you excited, come and join us, connecting is always the first step on the Rat Rig journey! 🙂
+### Beta/Dev Team
+
+If you’re passionate and knowledgeable about 3D Printing, you may be interested to learn that our Beta/Development Team is mostly made of users who at some point in time bought one of our printers and got involved in the community. Active and knowledgeable members who passionately contribute to the community don’t go by unnoticed, and will sometimes be invited to join the team. If this is something that gets you excited, come and join us, connecting is always the first step on the Rat Rig journey! 
+
+Beta/Dev users not only get to influence product strategy and design decisions, but also benefit from several awesome perks, like early access to products and discounted prices on all orders. Above everything else, they get to participate in extremely nerdy debates with like-minded people, and witness how those debates materialize over time in products who will be enjoyed by many people.
 
 [:material-facebook: Rat Rig 3D Printer Community](https://www.facebook.com/groups/ratrig3dprintercommunity){: .md-button .md-button--primary}
 
