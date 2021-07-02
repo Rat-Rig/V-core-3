@@ -19,5 +19,3 @@ G30                     ; home Z by probing the bed
 G91                    ; relative positioning
 G1 Z5 F100             ; lift Z relative to current position
 G90                    ; absolute positioning
-G1 X0 Y0 F10000
-

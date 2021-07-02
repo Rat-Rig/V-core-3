@@ -133,3 +133,15 @@ body {
 .preorder {
     margin-top: 25px;
 }
+
+.videowrapper { 
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
