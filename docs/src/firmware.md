@@ -152,9 +152,9 @@ This file defines the sequence of actions for the printer to take on the `G28` -
     This guide assumes you've followed the wiring diagram for the SKR Pro 1.2 and have it connected to a Raspberry Pi 2 or newer.
 
 ### Introduction
-V-CoreOS is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
+[V-CoreOS](https://rat-rig.github.io/V-CoreOS) is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
 
-To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (Other boards coming in the future) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
+To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (check [the offical V-CoreOS docs](https://rat-rig.github.io/V-CoreOS/#/installation?id=preparing-your-control-board) for other boards) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
 
 [:material-github: Download V-CoreOS](https://github.com/Rat-Rig/V-CoreOS/releases){: .md-button .md-button--primary}
 ### Preparing the Raspberry Pi
@@ -176,11 +176,11 @@ When that is done reinsert the SD card into the Raspberry Pi, but don't turn on 
 
 ### Preparing the SKR Pro
 
-Move the firmware.bin file that you downloaded in the previous step to the SD card that goes into your SKR Pro, and reinsert the SD card in to the SKR Pro.
+Move the `firmware-skr-pro-12.bin` file that you downloaded in the previous step to the SD card that goes into your SKR Pro and rename it to `firmware.bin`, then reinsert the SD card in to the SKR Pro.
 
 ### Setup
 
-With SKR Pro 1.2 connected via USB to your Raspberry Pi, turn on your printer. After a minute or two, open your browser and navigate to [http://vcoreos.local/](http://vcoreos.local)
+With SKR Pro 1.2 connected via USB to your Raspberry Pi, turn on your printer. After a minute or two, open your browser and navigate to [http://v-coreos.local/](http://v-coreos.local)
 
 **Configuration**
 
@@ -213,3 +213,6 @@ If you want to use an ADXL345 for automatic input shaper calibration, all the so
 ### Software Credits
 
 V-CoreOS is based on [Klipper](https://www.klipper3d.org/), [Fluidd](https://docs.fluidd.xyz/), [MainsailOS](https://github.com/raymondh2/MainsailOS) and [FluiddPi](https://github.com/cadriel/FluiddPI), without these and the amazing people behind them, V-CoreOS would not have been possible.
+
+### Official V-CoreOS Documentation
+For the most up to date information and documentation about V-CoreOS check the [Official V-CoreOS Documentation Site](https://rat-rig.github.io/V-CoreOS)
