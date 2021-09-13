@@ -1,9 +1,10 @@
-This is a bundle of configurations for Superslicer - atm it contains a profile for the V-Core-3 300,
-with 400 and 500 profiles about to be added.
+This is a bundle of configurations for Superslicer - atm it contains a profile for the 
+V-Core-3 300, with 400 and 500 profiles about to be added.
 
-This is based on the flow limitations of the E3D V6 hotend, as it's considered the "stock" configuration of a V-Core 3.
-It is easy to adjust for higher flow hotends by increasing the flow limit in the "print profile" and the speed choices for
-the different features like infill, perimeter, first layer etc.
+This is based on the flow limitations of the E3D V6 hotend, as it's considered the "stock" 
+configuration of a V-Core 3. It is easy to adjust for higher flow hotends by increasing the flow
+limit in the "print profile" and the speed choices for the different features like infill, 
+perimeter, first layer etc.
 
 To install:
 
