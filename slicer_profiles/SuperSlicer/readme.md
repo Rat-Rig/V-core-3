@@ -28,3 +28,8 @@ That's it! You just added a printer profile for your V-Core-3, some basic filame
 PLA, PETG and ABS, and a few print profiles. These are a starting point that works on a stock V-Core-3.
 Depending on your hotend and the requirements of your print objects, you may want to adjust settings and 
 also create new profiles.
+
+Attribution: 
+The graphics for the bed (PNG and SVG) were created by PwnCNC and published on Thingiverse under the 
+Creative Commons Attribution license: https://www.thingiverse.com/thing:4861532/files
+
