@@ -6,16 +6,14 @@ authors = ["Paweł Kucmus <pkucmus@gmail.com>"]
 license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-mkdocs-minify-plugin = "^0.3.0"
+python = "^3.9"
 mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.4.20"
 mkdocs-awesome-pages-plugin = "^2.4.0"
-selenium = "^3.141.0"
-# mkdocs-material = "^7.0.3"
-
+mkdocs-material = "^7.2.6"
 mkdocs-monorepo-plugin = "^0.4.12"
-Pygments = "^2.8.1"
+Pygments = "^2.10.0"
+
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
 readline = "^6.2.4"
