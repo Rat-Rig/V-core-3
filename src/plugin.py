@@ -36,7 +36,8 @@ def define_env(env):
             yield f"| --- | ------------ | --- | ------ |"
             for item in product.items:
                 length = item.length if item.length else ""
-                yield f"| `{item.sku}` | {item.name} | {item.qty} | {length} |"
+                sku = f"`{item.sku}`" if item.sku else ""
+                yield f"| {sku} | {item.name} | {item.qty} | {length} |"
 
     @env.macro
     def gcode(file_path: str, line_from: int = None, line_to: int = None):
@@ -65,7 +66,7 @@ def define_env(env):
             is_next_item = False
             products = []
             for row in reader:
-                if not row[1] or row[1].upper() == "B.O.M.":
+                if not any(row) or row[1].upper() == "B.O.M.":
                     continue
                 elif row[4].upper() == "ITEM NAME":
                     is_next_item = True

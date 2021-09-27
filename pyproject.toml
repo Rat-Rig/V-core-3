@@ -8,10 +8,10 @@ license = "GPL-3.0-or-later"
 [tool.poetry.dependencies]
 python = "^3.9"
 mkdocs-redirects = "^1.0.1"
-mkdocs-macros-plugin = "^0.4.20"
-mkdocs-awesome-pages-plugin = "^2.4.0"
-mkdocs-material = "^7.2.6"
-mkdocs-monorepo-plugin = "^0.4.12"
+mkdocs-macros-plugin = "^0.5.0"
+mkdocs-awesome-pages-plugin = "^2.5.0"
+mkdocs-material = "^7.3.0"
+mkdocs-monorepo-plugin = "^0.4.16"
 Pygments = "^2.10.0"
 
 [tool.poetry.dev-dependencies]
