@@ -37,3 +37,9 @@ extra,enc_enclosure_filler,2,/cad/printed_parts/extra/stl/enc_enclosure_filler.s
 extra,enc_lid_hinged_tiedown,4,/cad/printed_parts/extra/stl/enc_lid_hinged_tiedown.stl
 extra,enc_magnet_clip,2,/cad/printed_parts/extra/stl/enc_magnet_clip.stl
 extra,enc_v_core_3_interface,4,/cad/printed_parts/extra/stl/enc_v_core_3_interface.stl
+extra,shelf_left_300,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_left_300.stl
+extra,shelf_right_300,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_right_300.stl
+extra,shelf_left_400,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_left_400.stl
+extra,shelf_right_400,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_right_400.stl
+extra,shelf_left_500,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_left_500.stl
+extra,shelf_right_500,1 (for the correct size),/cad/printed_parts/extra/stl/shelf_right_500.stl
