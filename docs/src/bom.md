@@ -18,7 +18,21 @@ To download the most recent EVA parts go to https://main.eva-3d.page/, but if yo
 The whole repository, with CAD files can be downloaded under the following link:  
 [:material-download-box: Download All](https://github.com/Rat-Rig/V-core-3/archive/main.zip){: .md-button .md-button--primary}
 
-{{ printed_parts_bom("bom/printed_parts.csv") }}
+#### Essentials
+
+{{ printed_parts_bom("bom/printed_parts_essentials.csv") }}
+
+#### Accessories
+
+{{ printed_parts_bom("bom/printed_parts_accessories.csv") }}
+
+#### Extras
+
+{{ printed_parts_bom("bom/printed_parts_extras.csv") }}
+
+#### Contrib and obsolete parts
+
+You can access parts that were contributed over at [:material-github: GitHub](https://github.com/Rat-Rig/V-core-3/tree/main/cad/printed_parts).
 
 ## Hardware
 
