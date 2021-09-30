@@ -30,6 +30,10 @@ The whole repository, with CAD files can be downloaded under the following link:
 
 {{ printed_parts_bom("bom/printed_parts_extras.csv") }}
 
+#### Contrib and obsolete parts
+
+You can access parts that were contributed over at [:material-github: GitHub](https://github.com/Rat-Rig/V-core-3/tree/main/cad/printed_parts).
+
 ## Hardware
 
 [:material-table: CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/V-CORE%203.0%20-%20pub.csv){: .md-button .md-button--primary target=_blank}
