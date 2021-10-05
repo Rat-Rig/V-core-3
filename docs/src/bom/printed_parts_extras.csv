@@ -2,7 +2,9 @@ extra,nut,1,/cad/printed_parts/extra/stl/nut.stl
 extra,colar,1,/cad/printed_parts/extra/stl/colar.stl
 extra,lan_socket_adapter,1,/cad/printed_parts/extra/stl/lan_socket_adapter.stl
 extra,iec_socket_adapter,1,/cad/printed_parts/extra/stl/iec_socket_adapter.stl
-extra,back_spine,1,/cad/printed_parts/extra/stl/back_spine.stl
+extra,back_spine_300,1 (for the correct size),/cad/printed_parts/extra/stl/back_spine_300.stl
+extra,back_spine_400,1 (for the correct size),/cad/printed_parts/extra/stl/back_spine_400.stl
+extra,back_spine_500,1 (for the correct size),/cad/printed_parts/extra/stl/back_spine_500.stl
 extra,enc_3030_end_cap,2,/cad/printed_parts/extra/stl/enc_3030_end_cap.stl
 extra,enc_3030_spool_holder_guide,1,/cad/printed_parts/extra/stl/enc_3030_spool_holder_guide.stl
 extra,enc_door_hinge_door,4,/cad/printed_parts/extra/stl/enc_door_hinge_door.stl
