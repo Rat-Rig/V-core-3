@@ -152,14 +152,14 @@ This file defines the sequence of actions for the printer to take on the `G28` -
     This guide assumes you've followed the wiring diagram for the SKR Pro 1.2 and have it connected to a Raspberry Pi 2 or newer.
 
 ### Introduction
-[V-CoreOS](https://rat-rig.github.io/V-CoreOS) is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
+[V-CoreOS](https://rat-os.github.io/RatOS) is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
 
-To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (check [the offical V-CoreOS docs](https://rat-rig.github.io/V-CoreOS/#/installation?id=preparing-your-control-board) for other boards) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
+To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (check [the offical V-CoreOS docs](https://rat-os.github.io/RatOS/#/installation?id=preparing-your-control-board) for other boards) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
 
-[:material-github: Download V-CoreOS](https://github.com/Rat-Rig/V-CoreOS/releases){: .md-button .md-button--primary}
+[:material-github: Download V-CoreOS](https://github.com/Rat-OS/RatOS/releases){: .md-button .md-button--primary}
 ### Preparing the Raspberry Pi
 
-Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of [VCoreOS on github](https://github.com/Rat-Rig/V-CoreOS/releases).
+Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of [VCoreOS on github](https://github.com/Rat-OS/RatOS/releases).
 Then follow [The offical raspberry pi guide](https://www.raspberrypi.org/documentation/installation/installing-images/) to write that image to the SD card that goes into your raspberry pi (8GB or larger) 
 
 Note: this will destroy all data on the card!
@@ -208,11 +208,11 @@ For further support check out the v-coreos and klipper channels on the [Unnoffic
 
 ### (Optional) Input Shaping using an ADXL345
 
-If you want to use an ADXL345 for automatic input shaper calibration, all the software you need is already installed on the pi, you just need to wire and map the pins for your ADXL345, and you're good to go. Check the ADXL345 dropdown in the bottom of the [electronics page](electronics.md#https://v-core.ratrig.com/electronics/#skr-pro-12) for a visual guide of how to wire the ADXL345 to your SKR Pro 1.2. For wiring the ADXL345 to other boards supported by V-CoreOS, checkout the [official V-CoreOS documentation](https://rat-rig.github.io/V-CoreOS/#). To enable resonance testing, uncomment the adxl include section at the top of printer.cfg. To verify that your ADXL is properly connected, write `MEASURE_AXES_NOISE` in the Fluidd console, if the values are below 100, you're good to go. To calibrate input shaper, write `SHAPER_CALIBRATE` in the console. For more information on automatic input shaper calibration, check out the [official klipper documentation](https://www.klipper3d.org/Measuring_Resonances.html).
+If you want to use an ADXL345 for automatic input shaper calibration, all the software you need is already installed on the pi, you just need to wire and map the pins for your ADXL345, and you're good to go. Check the ADXL345 dropdown in the bottom of the [electronics page](electronics.md#https://v-core.ratrig.com/electronics/#skr-pro-12) for a visual guide of how to wire the ADXL345 to your SKR Pro 1.2. For wiring the ADXL345 to other boards supported by V-CoreOS, checkout the [official V-CoreOS documentation](https://rat-os.github.io/RatOS/). To enable resonance testing, uncomment the adxl include section at the top of printer.cfg. To verify that your ADXL is properly connected, write `MEASURE_AXES_NOISE` in the Fluidd console, if the values are below 100, you're good to go. To calibrate input shaper, write `SHAPER_CALIBRATE` in the console. For more information on automatic input shaper calibration, check out the [official klipper documentation](https://www.klipper3d.org/Measuring_Resonances.html).
 
 ### Software Credits
 
 V-CoreOS is based on [Klipper](https://www.klipper3d.org/), [Fluidd](https://docs.fluidd.xyz/), [MainsailOS](https://github.com/raymondh2/MainsailOS) and [FluiddPi](https://github.com/cadriel/FluiddPI), without these and the amazing people behind them, V-CoreOS would not have been possible.
 
 ### Official V-CoreOS Documentation
-For the most up to date information and documentation about V-CoreOS check the [Official V-CoreOS Documentation Site](https://rat-rig.github.io/V-CoreOS)
+For the most up to date information and documentation about V-CoreOS check the [Official V-CoreOS Documentation Site](https://rat-os.github.io/RatOS/)
