@@ -6,7 +6,7 @@ This is based on the flow limitations of the E3D V6 hotend, as it's considered t
 
 ## Installation 
 
-1. Download the INI-file, plus the SVG- and STL-files that match your printer size.  
+1. Download the ZIP-File and unpack it on your computer.  
 2. In Superslicer, open the "File" menu and chose Import/Import Config Bundle.  
 3. Choose the INI-file.  
 4. Switch to the tab "Printer settings"  
