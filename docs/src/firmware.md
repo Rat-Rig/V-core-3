@@ -10,6 +10,10 @@ hide:
 > This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
 > For an official guide from Duet you can go [here](https://duet3d.dozuki.com/Wiki/Getting_Started_with_Duet_3_Mini_5plus#Section_Introduction){target=_blank} which is a very good introduction.
 
+!!! warning "Please read"
+
+    Both this guide, as well as the provided configuration package, are designed for use with the Duet 3 Mini 5+. Modifications to the configuration will be required to use these files on other boards supported by the RepRap Firmware, such as the Duet 3 MB6HC.
+
 !!! info "Download"
 
     Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF.zip).
