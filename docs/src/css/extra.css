@@ -67,8 +67,8 @@ body {
     background: linear-gradient(
         65deg,
         var(--md-primary-bar-color) 0%,
-        var(--md-primary-bar-color) 30%,
-        #ececec 30.05%,
+        var(--md-primary-bar-color) 35%,
+        #ececec 35.05%,
         #ececec 100%
     );
     z-index: 9;
@@ -83,6 +83,10 @@ body {
 
 .md-source__icon.md-icon svg {
     fill:  rgb(45, 45, 45);
+}
+
+.md-header__title {
+    margin-left: 0rem;
 }
 
 .md-header__topic .md-ellipsis, .md-source__repository {
