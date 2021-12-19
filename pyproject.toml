@@ -10,9 +10,10 @@ python = "^3.9"
 mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.5.0"
 mkdocs-awesome-pages-plugin = "^2.5.0"
-mkdocs-material = "^7.3.0"
+mkdocs-material = "^8.1.2"
 mkdocs-monorepo-plugin = "^0.4.16"
 Pygments = "^2.10.0"
+python-slugify = "^5.0.2"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
