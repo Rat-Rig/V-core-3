@@ -41,7 +41,7 @@ jobs:
       - name: Set up Python runtime
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9.7
+          python-version: 3.10.0
       - name: Run image
         uses: abatilo/actions-poetry@v2.0.0
         with:
