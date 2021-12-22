@@ -170,22 +170,29 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 
 :warning: Electronics Panel should not be thicker than 4mm, otherwise it will not fit in the available space.
 
-- [x] Easily and fully enclosable frame
-
-![](assets/enclosure.png)
-
-*Enclosing panels are not supplied, user is meant to source them locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts for these panels are NOT included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
-
-- [x] Optional top lid
-
-![](assets/MAIN_with_Enclosure.png)
-![](assets/hinge.gif)
-
-*Sold separately as an upgrade kit. Not yet released as of June 2021.
-
 - [x] IEC and LAN ports
 
 ![](assets/extras.png)
+
+
+## Fully Enclosable
+### Enclosure Kit
+
+The V-Core 3 was designed from the ground up with full enclosing in mind, with no need for an external enclosure. The design ensures that all motors and electronics are safely placed outside the printing chamber, so they are shielded from high temperatures, and no machine elements protrude from the frame, ensuring that the frame can be directly covered with panels from all sides.
+
+![](assets/enclosure_kit_1.png)
+
+* The enclosure kit does not contain the enclosure panels, these must be sourced locally. DXF and STEP files are available on the project documentation for all panels on all machine sizes.
+
+<center>[Order Now!](https://www.ratrig.com/v-core-3-enclosure-kit.html){: .md-button .md-button--primary target=_blank }</center>
+
+### In-Lid Spool Holder
+
+Our in-house spool holder was also designed with the V-Core 3 enclosure in mind. It can be securely installed inside the V-Core 3 lid, allowing your spool to stay tidy and neat.
+
+<center>![](assets/enclosure_kit_2.png)</center>
+
+<center>[Order Now!](https://www.ratrig.com/rat-rig-spool-holder-v2-0-kit-extrusion-based.html){: .md-button .md-button--primary target=_blank }</center>
 
 
 ## Modding
