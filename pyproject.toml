@@ -6,7 +6,7 @@ authors = ["Paweł Kucmus <pkucmus@gmail.com>"]
 license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.5.0"
 mkdocs-awesome-pages-plugin = "^2.5.0"
