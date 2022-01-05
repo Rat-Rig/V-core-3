@@ -108,7 +108,7 @@ Z-probe setting, **uncomment** the lines with your probe of choice:
 
 Finally you can calibrate pressure advance, read more about it [here](https://duet3d.dozuki.com/Wiki/Pressure_advance){target="_blank"}.
 
-{{ gcode("firmware/Duet_RRF/config.g", 87) }}
+{{ gcode("firmware/Duet_RRF/config.g", 89) }}
 
 ### homeall.g
 
