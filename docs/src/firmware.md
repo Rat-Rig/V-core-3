@@ -5,6 +5,12 @@ hide:
   # - toc
 ---
 
+## RatOS
+RatOS is developed and maintained by Mikkel Schmidt (a member of Rat Rig's Beta/Dev team). It combines the power of the Klipper firmware, as well as several other open-source projects, to provide a stable and easy-to-use operating system for all your printing needs.
+![](/assets/ratos_logo.png)
+
+<center>[:material-link-box-variant: Official RatOS documentation](https://os.ratrig.com/){: .md-button .md-button--primary}</center>
+
 ## Duet - RepRap Firmware
 
 > This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
@@ -147,8 +153,3 @@ This file defines the sequence of actions for the printer to take on the `G28` -
     Required only for BLTouch
 
 {{ gcode("firmware/Duet_RRF/retractprobe.g") }}
-
-
-## RatOS - Klipper Firmware
-
-Please refer to the [official RatOS documentation](https://os.ratrig.com/).
