@@ -15,7 +15,7 @@ SuperSlicer is a free and open-source project. It can be obtained directly from 
 The following video shows how to manually obtain and install the profiles on SuperSlicer v2.3.57 and below:
 <center><iframe width="1000" height="600" src="https://www.youtube.com/embed/cL5WGpLS94k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-### Configuring SuperSlicer for the V-Minion
+### Configuring SuperSlicer for the V-Core 3
 !!! warning "Please read"
 
     Although the video shows configuring SuperSlicer for the V-Minion, the process is identical for the V-Core 3. Simply choose the appropriate V-Core 3 profile for your machine size, instead of choosing the V-Minion.
