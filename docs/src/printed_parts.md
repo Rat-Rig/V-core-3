@@ -12,14 +12,6 @@ STL, STEP and DXF files are neatly organized in the project repository on GitHub
 
 For the CAD 3D Model refer to: [:fontawesome-solid-folder-open: Onshape]({{ config.onshape_public_url }}){ target="_blank" }
 
-## Slicer profiles
-
-These profiles are a starting point, based on the capabilities of an E3D V6 hotend. You may want to optimise them for your particular hotend and your favourite filament brand. 
-
-Keep in mind that some objects require adjustments.
-
-- [Superslicer](https://github.com/Rat-Rig/V-core-3/tree/main/slicer_profiles/SuperSlicer)
-
 ## Printing instructions
 
 | Setting      | Value        |
