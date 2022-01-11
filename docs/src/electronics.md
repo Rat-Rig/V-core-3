@@ -16,6 +16,16 @@ hide:
 
     A very detailed article on the matter is provided in [Duet 3D's documentation](https://duet3d.dozuki.com/Wiki/Choosing_and_connecting_stepper_motors#Section_Using_the_internal_drivers).
 
+## BIGTREETECH Octopus v1.1 Wiring Diagram
+
+The BIGTREETECH Octopus v1.1 is the preferred configuration for the V-Core 3 as it is fully supported by RatOS. Rat Rig provides a detailed wiring diagram for this configuration.
+<figure>
+  <a href="../assets/octopus_wiring_huge.png" target="_blank">
+      <img src="../assets/octopus_wiring.png"/>
+  </a>
+  <figcaption>(click to enlarge)</figcaption>
+</figure>
+
 ## Duet 3 Mini 5+ with Duet 3 Expansion Mini 2+
 
 V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is required. Duet 3 Mini 5+ with the Mini 2+ expansion provides 7 drives which is more than enough. The following diagram presents a wiring example for V-Core 3 with that board configuration.
