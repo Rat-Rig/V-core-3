@@ -95,9 +95,9 @@ nav:
     - Order: https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank
     - bom.md
     - printed_parts.md
+    - Build Guide: https://ratrig.dozuki.com/c/Rat_Rig_V-Core_3" target="_blank
     - electronics.md
     - firmware.md
-    - Build Guide: https://ratrig.dozuki.com/c/Rat_Rig_V-Core_3" target="_blank
     - slicer.md
     - contribution.md
     - community.md
