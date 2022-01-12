@@ -204,11 +204,13 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc
 - [x] For some inspiration, check out the <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank">V-Core 3 Gallery</a> with builds from users worldwide
 
-## Sample Prints
+## Sample Prints / Parts
+These images showcase 3D prints produced by V-Core 3 machines belonging to members of our community. Clicking any image will open the full size version.
 
-![](assets/prints.jpg)
-
-![](assets/tree.jpg)
+[![](/assets/samples/01_thumb.png)](/assets/samples/01.png){ target=_blank }
+[![](/assets/samples/02_thumb.png)](/assets/samples/02.png){ target=_blank }
+[![](/assets/samples/03_thumb.png)](/assets/samples/03.png){ target=_blank }
+[![](/assets/samples/04_thumb.png)](/assets/samples/04.png){ target=_blank }
 
 ## Acknowledgments
 
