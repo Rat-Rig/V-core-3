@@ -36,6 +36,12 @@ V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is
   <figcaption>(click to enlarge)</figcaption>
 </figure>
 
+??? question "Zoom to BL-Touch connector"
+
+    Please notice how the two ground wires (black and ground) are connected to the same pin in the connector
+
+    ![](../assets/wiring_bl_touch.png)
+
 ??? question "Zoom to endstop switch connection"
 
     ![](../assets/wiring_endstop.png)
@@ -58,6 +64,12 @@ Duet 3 6HC is another 6 drive board able to power a V-Core 3. Make sure to **che
   </a>
   <figcaption>(click to enlarge)</figcaption>
 </figure>
+
+??? question "Zoom to BL-Touch connector"
+
+    Please notice how the two ground wires (black and ground) are connected to the same pin in the connector
+
+    ![](../assets/duet_3_6hc_wiring_bl_touch.png)
 
 ??? question "Zoom to endstop switch connection"
 
