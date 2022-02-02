@@ -82,10 +82,6 @@ The V-Core 3 uses TR8X4mm lead screws instead of the TR8x8mm used in previous ma
 This both doubles the Z resolution of your layers and multiplies the holding torque - always helpful when you're moving such a heavy bed, especially on the larger variants.
 
 
-## Dimensions
-![](assets/dimensions.png)
-
-
 ## Robustness
 
 While previous V-Core versions, like many other printers on the market, relied solely on 20 Series profiles, the V-Core 3 is fully built on a 30 Series aluminium frame. From screws and nuts to brackets and plates, everything is bigger, stronger and tougher.  
@@ -149,6 +145,7 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 
 ![](assets/bed_arm.png)
 
+
 ## Convenience
 
 - [x] Designed for a far easier and quicker assembly than previous versions
@@ -194,6 +191,11 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Frame is built on a modular platform of T-Slot and V-Slot profiles, which allow for endless possibilites when it comes to mounting all types of parts 
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc
 - [x] For some inspiration, check out the <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank">V-Core 3 Gallery</a> with builds from users worldwide
+
+
+## Dimensions
+![](assets/dimensions.png)
+
 
 ## Sample Prints / Parts
 These images showcase 3D prints produced by V-Core 3 machines belonging to members of our community. Clicking any image will open the full size version.
