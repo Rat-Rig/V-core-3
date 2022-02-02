@@ -82,6 +82,10 @@ The V-Core 3 uses TR8X4mm lead screws instead of the TR8x8mm used in previous ma
 This both doubles the Z resolution of your layers and multiplies the holding torque - always helpful when you're moving such a heavy bed, especially on the larger variants.
 
 
+## Dimensions
+![](assets/dimensions.png)
+
+
 ## Robustness
 
 While previous V-Core versions, like many other printers on the market, relied solely on 20 Series profiles, the V-Core 3 is fully built on a 30 Series aluminium frame. From screws and nuts to brackets and plates, everything is bigger, stronger and tougher.  
@@ -95,25 +99,12 @@ While previous V-Core versions, like many other printers on the market, relied s
 
 ![](assets/pillow_block.png)
 
+
 ## Customization
 
 - [x] Available both as a complete kit and a configurable kit (for those who want to select their own electronics)
 - [x] Configurable options include LDO motors, Keenovo Heatpads, and multiple controller board options (from Duet3D, SKR, etc) 
 - [x] 3 build volumes available as standard option: 300, 400 and 500 mm3
-
-
-![](assets/sizes.png)
-
-| V-Core 3 variant| Build Volume (mm)|External dimensions (mm)*|  
-| ----------- | ------------------- | --------------------- |
-| 300  |  300x300x300  | 518x583x560 |
-| 400  |  400x400x400  | 618x683x660 |
-| 500  |  500x500x500  | 718x783x760 |
-
-*Z height corresponds to frame height. Your extruder head will protrude slightly above the frame, and you will need extra Z room for filament feed. For the frame version with a top chamber, add 245mm to the given Z height.
-
-<p>&nbsp;</p>
-
 - [x] Full End Stop solutions
 - [x] EVA 2 Carriage System provides mounts for most popular extruder and hot end choices on the market (Bowden, BMG, Titan, Aero, Hemera, and more to come!)
 - [x] Shipping with EVA 2.3.0 (since June 1st 2021)
