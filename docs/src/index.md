@@ -103,22 +103,20 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] 3 build volumes available as standard option: 300, 400 and 500 mm3
 - [x] Full End Stop solutions
 - [x] EVA 2 Carriage System provides mounts for most popular extruder and hot end choices on the market (Bowden, BMG, Titan, Aero, Hemera, and more to come!)
-- [x] Shipping with EVA 2.3.0 (since June 1st 2021)
+- [x] Shipping with EVA 2.4.2 (since Feb 2022)
 
-![](assets/EVA.png)
+![](assets/feature_eva.png)
 
 
 !!! tip end "What is EVA?"
     EVA is an independently developed and maintained project that aims to be a single platform for many extrusion types.
-
-    **Copperhead** and **Bondtech LGX** support incoming!
 
     Note that not all print head types (due to their physical dimensions) can achieve the full 300x300 print space.
 
 <img align="left" alt="EVA Logo" width="200" src="assets/eva_logo.png">
 EVA 2 is the next iteration of the EVA platform with which V-Core 3 is fully compatible. Most vivid improvements since the last iteration is the improved front belt clamp feature (no more zip ties!), improved contribution system, more ease of assembly, modular X endstop system, dedicated cable paths and shrouds (for ascetics).
 
-Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://main.eva-3d.page/)
+Read more about EVA on: [EVA 2 Documentation](https://main.eva-3d.page/)
 
 
 ## Support
