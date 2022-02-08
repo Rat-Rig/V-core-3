@@ -227,8 +227,8 @@ As an Open-source project, the V-Core 3 design is the result of prolonged brains
 
 This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>
 
-Even though the license is non-commercial, we may (and most likely will) still allow commercial use on a case-by-case basis, if you ask us.
+You may share, remix and mod the design. By default, you may not use the design and its derivatives for commercial purposes, but if you request a commercial license from us, we may (and most likely will) grant you one, as long as we deem your goals are aligned with the best interests of the project and its users. 
 
-Rat Rig was built on community mods - that's how products like the V-Core 3 came to life. Hindering contributions to the project is not the spirit of this license. Its intent is just to give us a bit more control over the product when it comes to competition from large-scale manufacturers. We are and always have been in favour of people building upon Rat Rig products. We welcome and encourage people to offer services, mods, and to use our product commercially, as long as you contact us first!
+The spirit of the project is to remove barriers to innovation and focus on pushing the technology, working as a collective, inspiring each other and experimenting with new ideas. We are happy to foster a rich ecosystem of suppliers and services that empowers users by offering them more options and alternatives.
 
 [:material-email: Request a Commercial License](mailto:info@ratrig.com){: .md-button .md-button--primary}
