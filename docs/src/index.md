@@ -231,4 +231,4 @@ You may share, remix and mod the design. By default, you may not use the design 
 
 The spirit of the project is to remove barriers to innovation and focus on pushing the technology, working as a collective, inspiring each other and experimenting with new ideas. We are happy to foster a rich ecosystem of suppliers and services that empowers users by offering them more options and alternatives.
 
-[:material-email: Request a Commercial License](mailto:info@ratrig.com){: .md-button .md-button--primary}
+[:material-link-box-variant: Request a Commercial License](https://forms.gle/g8QWjqNmytDGKZLj7){: .md-button .md-button--primary target=_blank }
