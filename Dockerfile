@@ -1,4 +1,4 @@
-FROM python:3.8.1-alpine3.11
+FROM python:3.9.7-alpine3.14
 
 RUN apk add --no-cache \
     bash \

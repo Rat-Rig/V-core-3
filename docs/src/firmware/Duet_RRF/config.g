@@ -34,9 +34,8 @@ M208 X0 Y0 Z0 S1                               ; set axis minima
 M208 X310 Y300 Z300 S0                         ; set axis maxima
 
 ; Endstops
-M574 X1 S1 P"io1.in"                           ; configure active high endstops
-M574 Y2 S1 P"io0.in"                           ; configure active high endstops
-M574 Z1 S2                                     ; configure Z-probe endstop for low end on Z
+M574 X1 S1 P"io0.in"                           ; configure active high endstops
+M574 Y2 S1 P"io1.in"                           ; configure active high endstops
 
 M671 X-4.5:150:304.5 Y-4.52:305:-4.52 S5       ; define positions of Z leadscrews or bed levelling screws
 M557 X20:280 Y20:280 P5                        ; define 5x5 mesh grid
@@ -80,11 +79,10 @@ M308 S1 P"temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend"
 ; M558 P5 C"!io3.in" H5 F400 T5000       ; set Z probe type to unmodulated and the dive height + speeds
 ; G31 P500 X-30 Y-15 Z0.20               ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed
 ;; BLTouch
-; M950 S0 C"io2.out"                     ; Create a servo pin on io2
-; M558 P9 C"io2.in" H5 F240 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds
+; M950 S0 C"io7.out"                     ; Create a servo pin on io7
+; M558 P9 C"io7.in" H5 F240 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds
 ; G31 P25 X-28.00 Y-13.00 Z0.90          ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed
 
-M404 N1.75 D0.4                                 ; Filament width and nozzle diameter
 T0
 
 ; Pressure Advance

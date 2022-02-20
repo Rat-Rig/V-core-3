@@ -5,10 +5,20 @@ hide:
   # - toc
 ---
 
+## RatOS
+RatOS is developed and maintained by Mikkel Schmidt (a member of Rat Rig's Beta/Dev team). It combines the power of the Klipper firmware, as well as several other open-source projects, to provide a stable and easy-to-use operating system for all your printing needs.
+![](/assets/ratos_logo.png)
+
+<center>[:material-link-box-variant: Official RatOS documentation](https://os.ratrig.com/){: .md-button .md-button--primary}</center>
+
 ## Duet - RepRap Firmware
 
 > This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
 > For an official guide from Duet you can go [here](https://duet3d.dozuki.com/Wiki/Getting_Started_with_Duet_3_Mini_5plus#Section_Introduction){target=_blank} which is a very good introduction.
+
+!!! warning "Please read"
+
+    Both this guide, as well as the provided configuration package, are designed for use with the Duet 3 Mini 5+. Modifications to the configuration will be required to use these files on other boards supported by the RepRap Firmware, such as the Duet 3 MB6HC.
 
 !!! info "Download"
 
@@ -54,7 +64,7 @@ Define where the nozzle is when hitting an endstop:
 
 Configure endstops, here the X endstop defines *Xmin* and the Y endstop *Ymax*
 
-{{ gcode("firmware/Duet_RRF/config.g", 37, 40) }}
+{{ gcode("firmware/Duet_RRF/config.g", 37, 39) }}
 
 Define lead screw position for true bed leveling
 
@@ -62,7 +72,7 @@ Define lead screw position for true bed leveling
 
     Those values will be different for bigger printers, take a close look how those are defined `X-4.5:150:304.5 Y-4.52:305:-4.52` meaning that the first lead is at `X-4.5` and `-4.52`, the second at `X150`, `Y305` and so on. Naturally the first (left) lead screw position is the same for all size variants but, taking the second as an example it will land at `X250`, `Y505` for the 500x500x500 version of V-Core 3.
 
-{{ gcode("firmware/Duet_RRF/config.g", 41, 43) }}
+{{ gcode("firmware/Duet_RRF/config.g", 40, 42) }}
 
 !!! warning "Caution!"
 
@@ -70,7 +80,7 @@ Define lead screw position for true bed leveling
 
     The actuall PID settings are commented out here only to show where those can be set.
 
-{{ gcode("firmware/Duet_RRF/config.g", 45, 53) }}
+{{ gcode("firmware/Duet_RRF/config.g", 44, 52) }}
 
 Configure the hotend fan and layer fan.
 
@@ -78,11 +88,11 @@ Configure the hotend fan and layer fan.
 
     For the older Duet3 6HC you can use the `M950 F0 C"out7" Q500` and `M950 F1 C"out4" Q500` ports for fans
 
-{{ gcode("firmware/Duet_RRF/config.g", 55, 59) }}
+{{ gcode("firmware/Duet_RRF/config.g", 54, 58) }}
 
 Define the Tool (which is the print head):
 
-{{ gcode("firmware/Duet_RRF/config.g", 61, 68) }}
+{{ gcode("firmware/Duet_RRF/config.g", 60, 67) }}
 
 Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D V6 hotend.
 
@@ -92,7 +102,7 @@ Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D 
     
     The actuall PID settings are commented out here only to show where those can be set.
 
-{{ gcode("firmware/Duet_RRF/config.g", 71, 77) }}
+{{ gcode("firmware/Duet_RRF/config.g", 70, 76) }}
 
 Z-probe setting, **uncomment** the lines with your probe of choice:
 
@@ -100,11 +110,11 @@ Z-probe setting, **uncomment** the lines with your probe of choice:
 
     If you plan to use BLTouch you will also need to uncomment a few lines in `homeall.g` and `homez.g`
 
-{{ gcode("firmware/Duet_RRF/config.g", 79, 86) }}
+{{ gcode("firmware/Duet_RRF/config.g", 78, 85) }}
 
 Finally you can calibrate pressure advance, read more about it [here](https://duet3d.dozuki.com/Wiki/Pressure_advance){target="_blank"}.
 
-{{ gcode("firmware/Duet_RRF/config.g", 87) }}
+{{ gcode("firmware/Duet_RRF/config.g", 88) }}
 
 ### homeall.g
 
@@ -143,76 +153,3 @@ This file defines the sequence of actions for the printer to take on the `G28` -
     Required only for BLTouch
 
 {{ gcode("firmware/Duet_RRF/retractprobe.g") }}
-
-
-## V-CoreOS - Klipper Firmware
-
-!!! info 
-
-    This guide assumes you've followed the wiring diagram for the SKR Pro 1.2 and have it connected to a Raspberry Pi 2 or newer.
-
-### Introduction
-[V-CoreOS](https://rat-os.github.io/RatOS) is a preconfigured software package for the V-Core 3, that aims to make it as painless as possible to get Klipper, Fluidd and Moonraker up and running on your printer. It is developed and maintained by Mikkel Schmidt (miklschmidt#2036 on Discord).
-
-To run V-CoreOS on your V-Core 3 you need an SKR Pro 1.2 (check [the offical V-CoreOS docs](https://rat-os.github.io/RatOS/#/installation?id=preparing-your-control-board) for other boards) and a Raspberry Pi. The initial configuration is made to work with the official [SKR Pro 1.2 Wiring Diagram](electronics.md#skr-pro-12).
-
-[:material-github: Download V-CoreOS](https://github.com/Rat-OS/RatOS/releases){: .md-button .md-button--primary}
-### Preparing the Raspberry Pi
-
-Download the newest release (includes a firmware.bin and a vcoreos-*.zip file under the assets dropdown) of [VCoreOS on github](https://github.com/Rat-OS/RatOS/releases).
-Then follow [The offical raspberry pi guide](https://www.raspberrypi.org/documentation/installation/installing-images/) to write that image to the SD card that goes into your raspberry pi (8GB or larger) 
-
-Note: this will destroy all data on the card!
-
-
-**WIFI (Optional)**
-!!! warning
-
-    Do **NOT** use a textprocessor such as Wordpad, it will mangle the file and your pi won't boot. Notepad, Notepad++, VSCode are all fine.
-
-When the process is complete, find the `/boot` volume / folder on the sd card. If you're having trouble finding the boot volume, try reinserting the SD card into your PC. Edit the `vcoreos-wpa-supplicant.txt` file found on the boot volume in a text editor and fill out your wifi information. Note the country code at the bottom of the file.
-
-When that is done reinsert the SD card into the Raspberry Pi, but don't turn on your printer / Raspberry Pi just yet.
-
-### Preparing the SKR Pro
-
-Move the `firmware-skr-pro-12.bin` file that you downloaded in the previous step to the SD card that goes into your SKR Pro and rename it to `firmware.bin`, then reinsert the SD card in to the SKR Pro.
-
-### Setup
-
-With SKR Pro 1.2 connected via USB to your Raspberry Pi, turn on your printer. After a minute or two, open your browser and navigate to [http://v-coreos.local/](http://v-coreos.local)
-
-**Configuration**
-
-In the settings page in Fluidd, there's a list of files, among them should be a `printer.cfg`. Right click that and choose "Edit". This is where your klipper configuration lives. As you can see, it's prepopulated with some included files which are meant to get you up and running quick and easy. Follow the instructions in the file to make sure the configuration matches your setup.
-
-**Updating**
-
-In the settings page in Fluidd, you'll see a sheet with the title "Update Manager", if you're familiar with Fluidd or Mainsail, you'll notice a new entry called `vcore3`. This `vcore3` package will update all the config files in the v-core-3 folder, improvements, support for hotends, extruders etc, will be coming to your printer this way in the future.
-
-### Finalizing
-You'll need to adjust your endstop and probe z-offset before printing and be sure to run PID tuning for your extruder and your bed. After that it's advisable to run [Pressure Advance tuning](https://www.klipper3d.org/Pressure_Advance.html), [Input Shaper calibration](https://www.klipper3d.org/Resonance_Compensation.html) and [Skew Correction](https://www.klipper3d.org/skew_correction.html).
-
-An easy way to do probe z-offset calibration is to home the printer, then put a piece of paper underneath. Now babystep Z through the Fluidd interface (or by issuing G0 commands through the console) until the nozzle touches the paper and there's a tiny bit of resistance when you pull on it. Then write "GET_POSITION" in the console and find the line that says `// kinematic: ...` And use the Z coordinate from that line, multiplied by -1. So if it says `// kinematic: X:0.000000 Y:0.000000 Z:-0.400000` Your probe's z_offset will be 0.4.
-
-### Troubleshooting
-If klipper won't connect, try restarting your raspberry pi. Make sure the SKR Pro is connected to the Pi via USB, that both are powered, and that the firmware.bin has been properly flashed. You can verify the last part by checking if the firmware.bin file has been changed to firmware.CUR on the SD card. If you have trouble flashing the motherboard (a green light should flash while booting, indicating the firmware has been flashed succefully), try disconnecting your endstops, if these are wired incorrectly the board will not boot properly.
-
-If any of your axes are inverted, tripple check your wiring. It's important to note that this config is made specifically for the SKR Pro 1.2 and the 48mm LDO's that ship optionally with the V-Core 3. For other steppers, you'll have to check the stepper pinout and potentially move pins on your cable, or you can override the stepper dir_pins as needed in your printer.cfg after the steppers.cfg file has been included, like so:
-```
-[stepper_x]
-dir_pin: PF1
-```
-
-For further support check out the v-coreos and klipper channels on the [Unnofficial RatRig Discord Community](community.md#unofficial-community-on-discord).
-
-### (Optional) Input Shaping using an ADXL345
-
-If you want to use an ADXL345 for automatic input shaper calibration, all the software you need is already installed on the pi, you just need to wire and map the pins for your ADXL345, and you're good to go. Check the ADXL345 dropdown in the bottom of the [electronics page](electronics.md#https://v-core.ratrig.com/electronics/#skr-pro-12) for a visual guide of how to wire the ADXL345 to your SKR Pro 1.2. For wiring the ADXL345 to other boards supported by V-CoreOS, checkout the [official V-CoreOS documentation](https://rat-os.github.io/RatOS/). To enable resonance testing, uncomment the adxl include section at the top of printer.cfg. To verify that your ADXL is properly connected, write `MEASURE_AXES_NOISE` in the Fluidd console, if the values are below 100, you're good to go. To calibrate input shaper, write `SHAPER_CALIBRATE` in the console. For more information on automatic input shaper calibration, check out the [official klipper documentation](https://www.klipper3d.org/Measuring_Resonances.html).
-
-### Software Credits
-
-V-CoreOS is based on [Klipper](https://www.klipper3d.org/), [Fluidd](https://docs.fluidd.xyz/), [MainsailOS](https://github.com/raymondh2/MainsailOS) and [FluiddPi](https://github.com/cadriel/FluiddPI), without these and the amazing people behind them, V-CoreOS would not have been possible.
-
-### Official V-CoreOS Documentation
-For the most up to date information and documentation about V-CoreOS check the [Official V-CoreOS Documentation Site](https://rat-os.github.io/RatOS/)

@@ -1,5 +1,7 @@
 ---
 title: Community
+hide:
+  - navigation
 ---
 
 ## Official Community on Facebook
