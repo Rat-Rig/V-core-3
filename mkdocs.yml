@@ -33,7 +33,6 @@ theme:
 
 files_url: https://github.com/Rat-Rig/V-core-3/tree/main/cad
 zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
-onshape_public_url: https://cad.onshape.com/documents/d94df008ab784b239866b668/w/ab1c5f2e60ecc0f22d346772/e/b8a9a500995d657088a1bb8b
 
 plugins:
   - monorepo

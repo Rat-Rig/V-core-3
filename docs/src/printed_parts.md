@@ -10,7 +10,13 @@ STL, STEP and DXF files are neatly organized in the project repository on GitHub
 
 ## CAD
 
-For the CAD 3D Model refer to: [:fontawesome-solid-folder-open: Onshape]({{ config.onshape_public_url }}){ target="_blank" }
+CAD models for all machine sizes are made available via the RatRig Fusion 360 online viewer.
+
+| Size | Configuration ||
+| ---- | ------------- ||
+| 300x300 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uB8XUG){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3tMpcPS){ target="_blank" } |
+| 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3DftKkC){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3iESM3c){ target="_blank" } |
+| 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
 
 ## Printing instructions
 
