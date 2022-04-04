@@ -6,7 +6,7 @@ hide:
 
 ## Source files
 
-STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository]({{ config.files_url }}) to access the files. Alternatively you can download the whole project in a ZIP package [:fontawesome-solid-archive: here]({{ config.zip_download_url }}).
+STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository]({{ config.files_url }}) to access the files. Alternatively you can download the whole project in a ZIP package [:material-archive-arrow-down: here]({{ config.zip_download_url }}).
 
 ## CAD
 

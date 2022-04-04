@@ -22,7 +22,7 @@ RatOS is developed and maintained by Mikkel Schmidt (a member of Rat Rig's Beta/
 
 !!! info "Download"
 
-    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:fontawesome-solid-archive: here](Duet_RRF.zip).
+    Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package [:material-archive-arrow-down: here](/firmware/Duet_RRF.zip).
 
 ### config.g
 
