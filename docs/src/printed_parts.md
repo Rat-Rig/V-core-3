@@ -35,7 +35,7 @@ On the 360 view bellow you will find the print orientation for the *essential* p
 
 <div 
     class="cloudimage-360"
-    data-folder="../assets/360/print/"
+    data-folder="/assets/360/print/"
     data-filename="{index}.png"
     data-amount="36"
     data-speed="500"
@@ -51,4 +51,4 @@ On the 360 view bellow you will find the print orientation for the *essential* p
 
 When slicing the files you will notice that some of the holes are covered. This is intentional, to simplify the printing process - those layers are there to trick the slicer into building a bridge there. Once printed those need to be poked out with a screw, screwdriver, Allen key or even a matching size screw.
 
-![](../assets/holes.png)
+![](/assets/holes.png)

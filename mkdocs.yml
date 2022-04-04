@@ -35,11 +35,11 @@ files_url: https://github.com/Rat-Rig/V-core-3/tree/main/cad
 zip_download_url: https://github.com/Rat-Rig/V-core-3/archive/main.zip
 
 plugins:
+  - awesome-pages
   - monorepo
   - search
   - macros:
       module_name: src/plugin
-  - awesome-pages
 
 extra_css:
   - css/extra.css
