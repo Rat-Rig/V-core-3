@@ -3,7 +3,7 @@ G90                                     ; send absolute coordinates...
 M83                                     ; ...but relative extruder moves
 M550 P"V-Core 3"                        ; set printer name
 M669 K1                                 ; CoreXY
-G29 S1                                  ; Set Units to Millimeters
+G21                                     ; Set Units to Millimeters
 
 ; Network
 M552 P0.0.0.0 S1                        ; enable network and acquire dynamic address via DHCP
