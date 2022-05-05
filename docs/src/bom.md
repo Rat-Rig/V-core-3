@@ -36,9 +36,9 @@ You can access parts that were contributed over at [:material-github: GitHub](ht
 
 ## Hardware
 
-[:material-table: CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore3_17022022_1046.csv){: .md-button .md-button--primary target=_blank}
+[:material-table: CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore3_05042022_1602.csv){: .md-button .md-button--primary target=_blank}
 
-{{ hardware_bom("bom/vcore3_17022022_1046.csv") }}
+{{ hardware_bom("bom/vcore3_05042022_1602.csv") }}
 
 ## Enclosure
 

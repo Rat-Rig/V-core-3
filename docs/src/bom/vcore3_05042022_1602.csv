@@ -151,7 +151,7 @@ QTY,SKU,Length (mm),Tap,Item name
 2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
 1,HW2346EK,,,Heater Bed Pad Kit - Keenovo 280 x 280mm 220V 600W(Thermal fuse) + SSR 40A Relay
 1,HW1895GC,,,FlexPlate Set - Powder coated PEI 310 x 310 mm
-1,HW2902EC,,,Power Supply Meanwell - 200Watt 24V - LRS-200-24 (Fanless)
+1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
@@ -175,7 +175,7 @@ QTY,SKU,Length (mm),Tap,Item name
 2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
 1,HW2347EK,,,Heater Bed Pad Kit - Keenovo 380 x 380mm 220V 1000W(Thermal fuse) + SSR 40A Relay
 1,HW1896GC,,,FlexPlate Set - Powder coated PEI 410 x 410 mm
-1,HW2902EC,,,Power Supply Meanwell - 200Watt 24V - LRS-200-24 (Fanless)
+1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
@@ -199,7 +199,7 @@ QTY,SKU,Length (mm),Tap,Item name
 2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
 1,HW2729EK,,,Heater Bed Pad Kit - Keenovo 480 x 480mm 220V 1500W(Thermal fuse) + SSR 40A Relay
 1,HW1897GC,,,FlexPlate Set - Powder coated PEI 510 x 510 mm
-1,HW2902EC,,,Power Supply Meanwell - 200Watt 24V - LRS-200-24 (Fanless)
+1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
