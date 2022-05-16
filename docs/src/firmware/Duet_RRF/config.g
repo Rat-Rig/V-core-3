@@ -3,10 +3,10 @@ G90                                     ; send absolute coordinates...
 M83                                     ; ...but relative extruder moves
 M550 P"V-Core 3"                        ; set printer name
 M669 K1                                 ; CoreXY
-G29 S1                                  ; Set Units to Millimeters
+G21                                     ; Set Units to Millimeters
 
 ; Network
-M552 P0.0.0.0 S1                        ; enable network and acquire dynamic address via DHCP
+M552 S1                                 ; enable network
 M586 P0 S1                              ; enable HTTP
 M586 P1 S0                              ; disable FTP
 M586 P2 S0                              ; disable Telnet
@@ -47,7 +47,7 @@ M307 H0 B0 S1.00                                       ; disable bang-bang mode 
 M140 H0                                                ; map heated bed to heater 0
 M143 H0 S110                                           ; set temperature limit for heater 0 to 110C
 
-;; Run Bed PID Tune!! Bellow is an example for a 300x300 bed
+;; Run Bed PID Tune!! Below is an example for a 300x300 bed
 ;; M307 H0 A303.1 C356.7 D1.4 S1.00 V24.0 B0
 
 ; Fans
@@ -83,6 +83,7 @@ M308 S1 P"temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend"
 ; M558 P9 C"io7.in" H5 F240 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds
 ; G31 P25 X-28.00 Y-13.00 Z0.90          ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed
 
+; Select default tool
 T0
 
 ; Pressure Advance
