@@ -51,10 +51,10 @@ M143 H0 S110                                           ; set temperature limit f
 ;; M307 H0 A303.1 C356.7 D1.4 S1.00 V24.0 B0
 
 ; Fans
-M950 F0 C"out4" Q500                   ; create fan 1 on pin out4 and set its frequency
-M106 P0 C"Layer Fan" S0 H-1            ; set fan 1 name and value. Thermostatic control is turned off
-M950 F1 C"out3" Q500                   ; create fan 0 on pin out3 and set its frequency
-M106 P1 C"Hotend Fan" S0 H1 T45        ; set fan 0 name and value. Thermostatic control turned on for Hotend
+M950 F0 C"out4" Q500                   ; create fan 0 on pin out4 and set its frequency
+M106 P0 C"Layer Fan" S0 H-1            ; set fan 0 name and value. Thermostatic control is turned off
+M950 F1 C"out3" Q500                   ; create fan 1 on pin out3 and set its frequency
+M106 P1 C"Hotend Fan" S0 H1 T45        ; set fan 1 name and value. Thermostatic control turned on for Hotend
 
 ; Tools
 M563 P0 D0 H1 F0           ; define tool 0

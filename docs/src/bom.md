@@ -11,7 +11,7 @@ See [Files and printing](/printed_parts) for more information on printed parts.
 ### EVA
 
 <img align="right" alt="EVA Logo" width="100" src="../assets/eva_logo.png">
-To download the most recent EVA parts go to https://main.eva-3d.page/, but if you are looking at stable parts that are tested by Rat Rig you can find those here: [:material-github: EVA 2.3.0 release](https://github.com/EVA-3D/eva-main/releases/tag/2.3.0)
+To download the most recent EVA parts go to https://main.eva-3d.page/, but if you are looking at stable parts that are tested by Rat Rig you can find those here: [:material-github: EVA 2.4.2 release](https://github.com/EVA-3D/eva-main/releases/tag/2.4.2)
 
 ### V-Core 3
 
