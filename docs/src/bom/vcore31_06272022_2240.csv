@@ -1,7 +1,26 @@
 ,,,,
 ,SKU,,,Product Name
-,HW2649GK,,,Rat Rig V-Core 3 - 300mm Specific Parts
+,HW3008MK,,,Rat Rig V-Core 3.1 - 200mm Specific Parts
+,,,,22/06/2022
+,B.O.M.,,,
+QTY,SKU,Length (mm),Tap,Item name
+1,HW306BRC,320,,T-SLOT 3030 - Black Anodized 1000mm
+6,HW306BRC,340,,T-SLOT 3030 - Black Anodized 1000mm
+2,HW306BRC,350,,T-SLOT 3030 - Black Anodized 1000mm
+4,HW306BRC,405,,T-SLOT 3030 - Black Anodized 1000mm
+4,HW306BRC,410,,T-SLOT 3030 - Black Anodized 1000mm
+1,HW201BRC,322,,V-SLOT 2020 - Black Anodized 1000mm
+4,HW2911GC,,,Linear Rail - MGN12 300mm + MGN12C carriage
+2,HW2352GC,,,Linear Rail - MGN12 250mm + MGN12C carriage
+3,HW2945SC,,,Lead Screw - TR8*4 Metric Acme Lead Screw - 280mm
+1,HW2954PC,,,Bed Plate - Cast tooling plate - Pre-Machined - 229*229*5mm
+1,HW1653GC,3500,,Timing Belt  - 2GT 9mm (By the meter)
 ,,,,
+,,,,
+,,,,
+,SKU,,,Product Name
+,HW3013MK,,,Rat Rig V-Core 3.1 - 300mm Specific Parts
+,,,,22/06/2022
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
 1,HW306BRC,420,,T-SLOT 3030 - Black Anodized 1000mm
@@ -19,7 +38,7 @@ QTY,SKU,Length (mm),Tap,Item name
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2650GK,,,Rat Rig V-Core 3 - 400mm Specific Parts
+,HW3017MK,,,Rat Rig V-Core 3.1 - 400mm Specific Parts
 ,,,,
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
@@ -42,7 +61,7 @@ QTY,SKU,Length (mm),Tap,Item name
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2651GK,,,Rat Rig V-Core 3 - 500mm Specific Parts
+,HW3021MK,,,Rat Rig V-Core 3.1 - 500mm Specific Parts
 ,,,,
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
@@ -65,63 +84,62 @@ QTY,SKU,Length (mm),Tap,Item name
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2648GK,,,Rat Rig V-Core 3 - Base Parts Kit - All Versions
-,,,,
+,HW3004MK,,,Rat Rig V-Core 3.1 - Base Parts Kit - All Versions
+,,,,13/06/2022
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
 20,HW1915PC,,,Joining Plate for 3030 - 90 Degree - Black Anodized
 2,HW2201PC,,,V-Core 3.0 - IDLER_PLATE_V1.0
 2,HW2202PC,,,V-Core 3.0 - MOTOR_PLATE_V1.0
-2,HW2203PC,,,V-Core 3.0 - XY_JOINER_PLATE_V1.0
+2,HW2949PC,,,V-Core 3.1 - XY_JOINER_PLATE_V1.1
 12,HW1916BC,,,Cast 90 Degree Corner Bracket for 3030 - 6 Slot - Black
 2,HW1505SC,,,Cap Head Screw M3 (Single) (Length: 10mm)
-76,HW1292SC,,,Cap Head Screw M3 (Single) (Length: 12mm)
+92,HW1292SC,,,Cap Head Screw M3 (Single) (Length: 12mm)
 12,HW1866SC,,,Cap Head Screw M3 (Single) (Length: 18mm)
-12,HW1504SC,,,Cap Head Screw M3 (Single) (Length: 20mm)
-2,HW1227SK,,,Cap Head Screw M3 (Single) (Length: 30mm)
-8,HW1868SC,,,Cap Head Screw M3 (Single) (Length: 35mm)
-24,HW1502SC,,,Cap Head Screw M3 (Single) (Length: 8mm)
+8,HW1504SC,,,Cap Head Screw M3 (Single) (Length: 20mm)
+10,HW1868SC,,,Cap Head Screw M3 (Single) (Length: 35mm)
+36,HW1502SC,,,Cap Head Screw M3 (Single) (Length: 8mm)
 4,HW1285SC,,,Cap Head Screw M5 (Single) (Length: 10mm)
 4,HW1202SC,,,Cap Head Screw M5 (Single) (Length: 12mm)
-4,HW2110SC,,,Cap Head Screw M5 (Single) (Length: 18mm)
-6,HW1060SC,,,Cap Head Screw M5 (Single) (Length: 35mm)
+5,HW2110SC,,,Cap Head Screw M5 (Single) (Length: 18mm)
 6,HW2138SC,,,Cap Head Screw M5 (Single) (Length: 40mm)
 4,HW2140SC,,,Cap Head Screw M5 (Single) (Length: 55mm)
-151,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
-10,HW1870SC,,,Cap Head Screw M6 (Single) (Length: 20mm)
-6,HW2137SC,,,Countersink Screw M3 (Single) (Length: 20mm)
+157,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
+9,HW1870SC,,,Cap Head Screw M6 (Single) (Length: 20mm)
+6,HW1874SC,,,Countersink Screw M3 (Single) (Length: 12mm)
 3,HW2349SC,,,Countersink Screw M5 (Single) (Length: 16mm)
 10,HW2173SC,,,Countersink Screw M6 (Single) (Length: 14mm)
 16,HW1665NC,,,T-Nut - Drop In for 2020 - M3 (Single)
 76,HW1821NC,,,T-Nut - Drop In for 3030 - M3 (Single)
 5,HW1383NC,,,T-Nut - Drop In for 3030 - M5 (Single)
-171,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
+176,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
 6,HW1522NC,,,T-Nut - Square for 2020 - M5 (Single)
-8,HW1251NC,,,Hex Locking Nut - M3
+28,HW1251NC,,,Hex Locking Nut - M3
 17,HW1039NC,,,Hex Locking Nut - M5
 15,HW1018NC,,,Aluminium Spacer - 6mm
-4,HW2120WC,,,Micro Precision Shim - 6.5 x 5 x 1mm
-24,HW1630NC,,,Mini Precision Shim - 8 x 5 x 1mm - C
+29,HW1630NC,,,Mini Precision Shim - 8 x 5 x 1mm - C
 8,HW2678NC,,,Nylon Spacer - 3mm x 7mm x 5mm
 38,HW2746NC,,,Washer Simple M6 - Black 12.9 Steel
-3,HW2204GC,,,Coupler - Spider/Jaw Type - 5mm*8mm
-10,HW2806WC,,,Idler Pulley - Smooth for 2GT-20T - 9mm Belt - 5mm Bore (Compressible)
-2,HW2854WC,,,Idler Pulley - Toothed for 2GT-20T - 9mm Belt - 5mm Bore (Compressible)
 2,HW1654WC,,,Timing Pulley - 2GT (2mm) - 20 Tooth - For 9mm Belt - 5mm Bore
 3,HW2118WC,,,Thrust Bearing F8-16M
+3,HW2990GC,,,Coupler - Rigid Type - Black 25*20mm - 5mm to 8mm
+3,HW2950WC,,,Rat Rig Bi-Material Lead Screw Decoupler
+3,HW2915GC,,,Leadscrew Nut - POM - TR8*4
+24,HW2947WC,,,Ball Bearing - F695ZZ
+12,HW2948WC,,,Ball Bearing - 695ZZ
+3,HW1309WC,,,Ball Bearing F688ZZ Flanged 8 x 16 x 5
 6,HW2126GC,,,Dowel Pin - 3.0mm x 35.0mm
 3,HW2127GC,,,Magnet - 20 x 10 x 5mm - Two hole (M3 Countersink screws)
 4,HW2125GC,,,Rubber foot with metal insert - Heavy Duty - 28*22*16.5mm
 3,HW2128GC,,,Steel Ball - 12mm - Threaded M5
-3,HW2205GC,,,TR8*4 Anti-Backlash Nut Block
-1,HW2687GK,,,V-Core 3 Extra Parts Bag
-1,HW2900GK,,,EVA 2.4.2 Hardware Pack
+1,HW3005MK,,,Rat Rig V-Core 3.1 - Extra Parts Bag
+1,HW3006MK,,,Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack
 ,,,,
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2687GK,,,V-Core 3 Extra Parts Bag
-,,,,
+,HW3005MK,,,Rat Rig V-Core 3.1 - Extra Parts Bag
+,,,,13/06/2022
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
 4,HW1502SC,,,Cap Head Screw M3 (Single) (Length: 8mm)
@@ -130,18 +148,17 @@ QTY,SKU,Length (mm),Tap,Item name
 8,HW1821NC,,,T-Nut - Drop In for 3030 - M3 (Single)
 8,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
 4,HW1039NC,,,Hex Locking Nut - M5
-4,HW1630NC,,,Mini Precision Shim - 8 x 5 x 1mm - C
-2,HW2120WC,,,Micro Precision Shim - 6.5 x 5 x 1mm
+6,HW1630NC,,,Mini Precision Shim - 8 x 5 x 1mm - C
 ,,,,
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2658GK,,,Rat Rig V-Core 3 - 300mm Standard Kit v1.1
+,HW3010MK,,,Rat Rig V-Core 3.1 - 200mm Standard Kit v1.3 (Europe)
 ,,,,
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
-1,HW2642GK,,,Rat Rig V-Core 3 - 300mm Mechanical Kit
-1,HW2832EC,,,BTT Octopus V1.1 Motherboard (board only - no drivers)
+1,HW3009MK,,,Rat Rig V-Core 3.1 - 200mm Mechanical Kit
+1,HW2832EC,,,BigTreeTech Octopus V1.1 Motherboard (board only - no drivers)
 1,HW2846EC,,,BigTreeTech TMC2209 Driver SPI (6 x PACK)
 1,HW2838EC,,,"RASPBERRY PI 3 B+ (1.4GHz, 1GB RAM, USB 2.0)"
 1,HW2847EC,,,Phaetus Rapido UHF Hotend - Black
@@ -149,59 +166,110 @@ QTY,SKU,Length (mm),Tap,Item name
 5,HW1078EC,,,"Nema 17 Stepper Motor - 48mm - 1.8degree/step, 76oz-in"
 4,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
 2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
-1,HW2346EK,,,Heater Bed Pad Kit - Keenovo 280 x 280mm 220V 600W(Thermal fuse) + SSR 40A Relay
+1,HW2956EC,,,Keenovo 180x180mm 220V 250W Silicone Heater Bed Pad w/ NTC 100K Thermistor and Thermal Fuse
+1,HW1733EC,,,C-Lin SSR 40A480VAC Solid State Relay Input 3V~32VDC 40DA
+1,HW2954GC,,,FlexPlate Set - Powder coated PEI 210 x 210 mm
+1,HW2860GK,,,Power Suppy - Meanwell LRS 200W 24V
+1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
+1,HW3007EC,,,Fan - 4028 Axial - Protechnic MGT4012WB-W28-C (1.2A / 12V / 23000RPM)
+1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
+2,HW2685EC,,,Endstop Module - Horizontal Limit switch with 1mt cable and connector
+1,HW3024MK,,,Rat Rig V-Core 3.1 - Printed Parts Bundle (PETG)
+,,,,
+,,,,
+,,,,
+,SKU,,,Product Name
+,HW3014MK,,,Rat Rig V-Core 3.1 - 300mm Standard Kit v1.3 (Europe)
+,,,,
+,B.O.M.,,,
+QTY,SKU,Length (mm),Tap,Item name
+1,HW3012MK,,,Rat Rig V-Core 3.1 - 300mm Mechanical Kit
+1,HW2832EC,,,BigTreeTech Octopus V1.1 Motherboard (board only - no drivers)
+1,HW2846EC,,,BigTreeTech TMC2209 Driver SPI (6 x PACK)
+1,HW2838EC,,,"RASPBERRY PI 3 B+ (1.4GHz, 1GB RAM, USB 2.0)"
+1,HW2847EC,,,Phaetus Rapido UHF Hotend - Black
+1,HW2840EC,,,LGX Lite Extruder by Bondtech
+5,HW1078EC,,,"Nema 17 Stepper Motor - 48mm - 1.8degree/step, 76oz-in"
+3,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
+3,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
+1,HW2349EC,,,Keenovo 280x280mm 220V 600W Silicone Heater Bed Pad w/ NTC 100K Thermistor and Thermal Fuse
+1,HW1733EC,,,C-Lin SSR 40A480VAC Solid State Relay Input 3V~32VDC 40DA
 1,HW1895GC,,,FlexPlate Set - Powder coated PEI 310 x 310 mm
-1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
+1,HW2860GK,,,Power Suppy - Meanwell LRS 200W 24V
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
-1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
+1,HW3007EC,,,Fan - 4028 Axial - Protechnic MGT4012WB-W28-C (1.2A / 12V / 23000RPM)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
 2,HW2685EC,,,Endstop Module - Horizontal Limit switch with 1mt cable and connector
-1,,,,Printed parts (LGX Lite + Rapido)
+1,HW3024MK,,,Rat Rig V-Core 3.1 - Printed Parts Bundle (PETG)
+,,,,
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2659GK,,,Rat Rig V-Core 3 - 400mm Standard Kit v1.1
+,HW3018MK,,,Rat Rig V-Core 3.1 - 400mm Standard Kit v1.3 (Europe)
 ,,,,
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
-1,HW2643GK,,,Rat Rig V-Core 3 - 400mm Mechanical Kit
-1,HW2832EC,,,BTT Octopus V1.1 Motherboard (board only - no drivers)
+1,HW3016MK,,,Rat Rig V-Core 3.1 - 400mm Mechanical Kit
+1,HW2832EC,,,BigTreeTech Octopus V1.1 Motherboard (board only - no drivers)
 1,HW2846EC,,,BigTreeTech TMC2209 Driver SPI (6 x PACK)
 1,HW2838EC,,,"RASPBERRY PI 3 B+ (1.4GHz, 1GB RAM, USB 2.0)"
 1,HW2847EC,,,Phaetus Rapido UHF Hotend - Black
 1,HW2840EC,,,LGX Lite Extruder by Bondtech
 5,HW1078EC,,,"Nema 17 Stepper Motor - 48mm - 1.8degree/step, 76oz-in"
-4,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
-2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
-1,HW2347EK,,,Heater Bed Pad Kit - Keenovo 380 x 380mm 220V 1000W(Thermal fuse) + SSR 40A Relay
+3,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
+3,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
+1,HW2350EC,,,Keenovo 380x380mm 220V 1000W Silicone Heater Bed Pad w/ NTC 100K Thermistor and Thermal Fuse
+1,HW1733EC,,,C-Lin SSR 40A480VAC Solid State Relay Input 3V~32VDC 40DA
 1,HW1896GC,,,FlexPlate Set - Powder coated PEI 410 x 410 mm
-1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
+1,HW2860GK,,,Power Suppy - Meanwell LRS 200W 24V
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
-1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
+1,HW3007EC,,,Fan - 4028 Axial - Protechnic MGT4012WB-W28-C (1.2A / 12V / 23000RPM)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
 2,HW2685EC,,,Endstop Module - Horizontal Limit switch with 1mt cable and connector
-1,,,,Printed parts (LGX Lite + Rapido)
+1,HW3024MK,,,Rat Rig V-Core 3.1 - Printed Parts Bundle (PETG)
+,,,,
 ,,,,
 ,,,,
 ,SKU,,,Product Name
-,HW2660GK,,,Rat Rig V-Core 3 - 500mm Standard Kit v1.1
+,HW3022MK,,,Rat Rig V-Core 3.1 - 500mm Standard Kit v1.3 (Europe)
 ,,,,
 ,B.O.M.,,,
 QTY,SKU,Length (mm),Tap,Item name
-1,HW2644GK,,,Rat Rig V-Core 3 - 500mm Mechanical Kit
-1,HW2832EC,,,BTT Octopus V1.1 Motherboard (board only - no drivers)
+1,HW3020MK,,,Rat Rig V-Core 3.1 - 500mm Mechanical Kit
+1,HW2832EC,,,BigTreeTech Octopus V1.1 Motherboard (board only - no drivers)
 1,HW2846EC,,,BigTreeTech TMC2209 Driver SPI (6 x PACK)
 1,HW2838EC,,,"RASPBERRY PI 3 B+ (1.4GHz, 1GB RAM, USB 2.0)"
 1,HW2847EC,,,Phaetus Rapido UHF Hotend - Black
 1,HW2840EC,,,LGX Lite Extruder by Bondtech
 5,HW1078EC,,,"Nema 17 Stepper Motor - 48mm - 1.8degree/step, 76oz-in"
-4,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
-2,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
-1,HW2729EK,,,Heater Bed Pad Kit - Keenovo 480 x 480mm 220V 1500W(Thermal fuse) + SSR 40A Relay
+3,HW1698EC,,,Nema 17 Stepper Motor Cable - 1mt
+3,HW1699EC,,,Nema 17 Stepper Motor Cable - 2mt
+1,HW2351EC,,,Keenovo 480x480mm 220V 1500W Silicone Heater Bed Pad w/ NTC 100K Thermistor and Thermal Fuse
+1,HW1733EC,,,C-Lin SSR 40A480VAC Solid State Relay Input 3V~32VDC 40DA
 1,HW1897GC,,,FlexPlate Set - Powder coated PEI 510 x 510 mm
-1,HW1351EC,,,Power Supply Weho - 250Watt 24V - Fanless
+1,HW2860GK,,,Power Suppy - Meanwell LRS 200W 24V
 1,HW2815EC,,,Fan - 40mm Axial Brushless 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
-1,HW2817EC,,,Fan - 50mm Blower Type 24V DC - 1500mm Cable - GDSTime High Quality (Double Ball Bearing)
+1,HW3007EC,,,Fan - 4028 Axial - Protechnic MGT4012WB-W28-C (1.2A / 12V / 23000RPM)
 1,HW2901EC,,,"Rat Rig ""SuperPinda"" probe by Pepperl & Fuchs (Inductive 5VDC Sensor)"
 2,HW2685EC,,,Endstop Module - Horizontal Limit switch with 1mt cable and connector
-1,,,,Printed parts (LGX Lite + Rapido)
+1,HW3024MK,,,Rat Rig V-Core 3.1 - Printed Parts Bundle (PETG)
+,,,,
+,,,,
+,,,,
+,SKU,,,Product Name
+,HW3006MK,,,Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack
+,,,,20/06/2022
+,B.O.M.,,,
+QTY,SKU,Length (mm),Tap,Item name
+8,HW2348SC,,,Cap Head Screw M3 (Single) (Length: 6mm)
+24,HW1502SC,,,Cap Head Screw M3 (Single) (Length: 8mm)
+2,HW1505SC,,,Cap Head Screw M3 (Single) (Length: 10mm)
+6,HW1292SC,,,Cap Head Screw M3 (Single) (Length: 12mm)
+4,HW1504SC,,,Cap Head Screw M3 (Single) (Length: 20mm)
+1,HW1290SC,,,Cap Head Screw M3 (Single) (Length: 25mm)
+9,HW1868SC,,,Cap Head Screw M3 (Single) (Length: 35mm)
+2,HW2138SC,,,Cap Head Screw M5 (Single) (Length: 40mm)
+43,HW1508NC,,,Hex Nut - M3
+2,HW1251NC,,,Hex Locking Nut - M3
+2,HW1039NC,,,Hex Locking Nut - M5
+1,HW2907GC,72,,PTFE Tube Generic - OD 4mm ID 2mm - 1000mm
