@@ -1,14 +1,10 @@
 ---
-title: Files and Printing
+title: Files & Printing
 hide:
   - navigation
 ---
 
-## Source files
-
-STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository]({{ config.files_url }}) to access the files. Alternatively you can download the whole project in a ZIP package [:material-archive-arrow-down: here]({{ config.zip_download_url }}).
-
-## CAD
+## CAD Models
 
 CAD models for all machine sizes are made available via the RatRig Fusion 360 online viewer.
 
@@ -18,7 +14,35 @@ CAD models for all machine sizes are made available via the RatRig Fusion 360 on
 | 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3DftKkC){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3iESM3c){ target="_blank" } |
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
 
-## Printing instructions
+## Printed Parts
+
+STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository]({{ config.files_url }}) to access the files. Alternatively you can download the whole project in a ZIP package [:material-archive-arrow-down: here]({{ config.zip_download_url }}).
+
+### Core
+These printed parts are required to build the V-Core 3.1
+
+{{ printed_parts_bom_31("bom/printed_parts_core.csv") }}
+
+### Electronics
+These printed parts are designed for use with the optional electronics panel
+
+{{ printed_parts_bom_31("bom/printed_parts_electronics.csv") }}
+
+### Enclosure
+These printed parts are required when building the V-Core 3.1 enclosure
+
+{{ printed_parts_bom_31("bom/printed_parts_enclosure.csv") }}
+
+### EVA3
+These printed parts are necessary to build EVA3
+
+TO BE ADDED
+
+## Recommended print settings
+
+All files are provided in the correct orientation for printing on a standard FDM 3D printer. In general the printed parts are quite forgiving, but are also quite large. If you suffer from drafts and/or poor bed adhesion you may need to use brims/rafts for some parts to prevent warping.
+
+The following table shows the recommended print settings when printing any of the parts provided.
 
 | Setting      | Value        |
 | ------------ | ------------ |
@@ -27,27 +51,7 @@ CAD models for all machine sizes are made available via the RatRig Fusion 360 on
 | Infill       | 25%          |
 | Supports     | None         |
 
-!!! quote inline end "Designer notes" 
-    The parts are in general quite forgiving but also quite big. If you suffer from drafts and/or poor bed adhesion you may need brims/rafts for parts like the bed arms.
-
-On the 360 view bellow you will find the print orientation for the *essential* parts.
-
-
-<div 
-    class="cloudimage-360"
-    data-folder="/assets/360/print/"
-    data-filename="{index}.png"
-    data-amount="36"
-    data-speed="500"
-    data-control-reverse="true"
-    data-full-screen="true"
-    data-magnifier="true"
-    data-bottom-circle="true"
-    data-hide-360-logo="true"
-    data-index-zero-base="4"
-></div>
-
-### Sacrificial layers
+## Sacrificial layers
 
 When slicing the files you will notice that some of the holes are covered. This is intentional, to simplify the printing process - those layers are there to trick the slicer into building a bridge there. Once printed those need to be poked out with a screw, screwdriver, Allen key or even a matching size screw.
 
