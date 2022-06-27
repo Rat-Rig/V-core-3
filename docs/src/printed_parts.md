@@ -36,7 +36,7 @@ These printed parts are required when building the V-Core 3.1 enclosure
 ### EVA3
 These printed parts are necessary to build EVA3
 
-TO BE ADDED
+{{ printed_parts_bom_31("bom/printed_parts_eva3_0_1.csv") }}
 
 ## Recommended print settings
 
