@@ -15,8 +15,7 @@ CAD models for all machine sizes are made available via the RatRig Fusion 360 on
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
 
 ## Printed Parts
-
-STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository]({{ config.files_url }}) to access the files. Alternatively you can download the whole project in a ZIP package [:material-archive-arrow-down: here]({{ config.zip_download_url }}).
+STL and STEP files are provided for all printed parts used on the V-Core 3.1. Each is listed below, organised by category. Alternatively you can download the an archive containing all DXF, STEP and STL files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_parts_and_panels.zip).
 
 ### Core
 These printed parts are required to build the V-Core 3.1
