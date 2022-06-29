@@ -1,5 +1,5 @@
 ---
-title: 3.0 Upgrade
+title: 3.1 Upgrade
 hide:
   - navigation
 ---
