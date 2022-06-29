@@ -10,9 +10,10 @@ CAD models for all machine sizes are made available via the RatRig Fusion 360 on
 
 | Size | Configuration ||
 | ---- | ------------- ||
-| 300x300 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uB8XUG){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3tMpcPS){ target="_blank" } |
-| 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3DftKkC){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3iESM3c){ target="_blank" } |
-| 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
+| 200x200 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3a4GbWn){ target="_blank" } | |
+| 300x300 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3y3wEHd){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3ucJNwf){ target="_blank" } |
+| 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/39ZnFi3){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3ORJfDW){ target="_blank" } |
+| 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3I2I4Q7){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3QYYfli){ target="_blank" } |
 
 ## Printed Parts
 STL and STEP files are provided for all printed parts used on the V-Core 3.1. Each is listed below, organised by category. Alternatively you can download the an archive containing all DXF, STEP and STL files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_parts_and_panels.zip).
