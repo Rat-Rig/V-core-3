@@ -6,7 +6,7 @@ hide:
 
 ## CAD Models
 
-CAD models for all machine sizes are made available via the RatRig Fusion 360 online viewer.
+CAD models for all V-Core 3.1 sizes are made available via the Rat Rig Fusion 360 online viewer.
 
 | Size | Configuration ||
 | ---- | ------------- ||
