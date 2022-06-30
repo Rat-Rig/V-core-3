@@ -102,5 +102,5 @@ nav:
     - community.md
     - Gallery: https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank
     - videos.md
-    - Legacy V-core: '!include ./v_core_1_3/mkdocs.yml'
+    - legacy.md
     - Contact: mailto:info@ratrig.com
