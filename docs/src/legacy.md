@@ -18,11 +18,11 @@ The archived 3.0 build guide is available via our documentation site: https://ra
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
 
 ## Printed Parts
-{{ printed_parts_bom("bom/3.0/printed_parts_essentials.csv") }}
+{{ printed_parts_bom_30("bom/3.0/printed_parts_essentials.csv") }}
 
-{{ printed_parts_bom("bom/3.0/printed_parts_accessories.csv") }}
+{{ printed_parts_bom_30("bom/3.0/printed_parts_accessories.csv") }}
 
-{{ printed_parts_bom("bom/3.0/printed_parts_extras.csv") }}
+{{ printed_parts_bom_30("bom/3.0/printed_parts_extras.csv") }}
 
 ## Panels
 STL, STEP and DXF files are neatly organized in the project repository on GitHub, navigate to [:fontawesome-brands-github: project repository](https://github.com/Rat-Rig/V-core-3/tree/1.0.4/cad) to access the files. Alternatively you can download the whole project in a ZIP package [:material-archive-arrow-down: here](https://github.com/Rat-Rig/V-core-3/archive/1.0.4.zip).
