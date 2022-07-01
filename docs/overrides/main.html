@@ -1,9 +1,5 @@
 {% extends "base.html" %}
 
-{% block announce %}
-  <h2 style="text-align: center; background-color: firebrick; color: white; margin: 0em">These pages are currently being updated for version 3.1 of the V-Core 3 project. Unless specified otherwise, information displayed refers to v3.0 of the project.</h2>
-{% endblock %}
-
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.title and not page.is_homepage %}
