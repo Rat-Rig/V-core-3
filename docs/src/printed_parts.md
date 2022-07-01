@@ -18,6 +18,9 @@ CAD models for all V-Core 3.1 sizes are made available via the Rat Rig Fusion 36
 ## Printed Parts
 STL and STEP files are provided for all printed parts used on the V-Core 3.1. Each is listed below, organised by category. Alternatively you can download the an archive containing all DXF, STEP and STL files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_parts_and_panels.zip).
 
+!!! attention "Downloading STL or STEP files"
+    To download individual STL or STEP files, please right click on the appropriate download link in the list and choose "Save link as..."
+
 ### Core
 These printed parts are required to build the V-Core 3.1
 
