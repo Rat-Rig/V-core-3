@@ -7,7 +7,8 @@ hide:
 # V-Core 3.0 to 3.1 Upgrade
 
 ## Upgrade Build Guide
-To be written. Please check back!
+The V-Core 3.0 upgrade guide walks you through the disassembly steps necessary to prepare your printer for the V-Core 3.1 upgrade.
+[:material-link-box-variant: V-Core 3.0 to 3.1 Upgrade Guide](https://ratrig.dozuki.com/Guide/02.+Rat+Rig+V-Core+3.0+Upgrade/148){: .md-button .md-button--primary}
 
 ## Upgrade BOM
 The following list shows all parts contained in the V-Core 3.0 to 3.1 upgrade kit
