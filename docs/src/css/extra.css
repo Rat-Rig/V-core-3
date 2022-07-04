@@ -86,7 +86,7 @@ body {
 }
 
 .md-header__title {
-    margin-left: 0rem;
+    margin-left: 0rem !important;
 }
 
 .md-header__topic .md-ellipsis, .md-source__repository {
