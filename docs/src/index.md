@@ -6,6 +6,7 @@ hide:
 # V-Core 3
 
 The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises. 
+![](assets/3_1_00.jpg)
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/bPxlbfAeEq0" title="Introducing V-Core 3.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -36,6 +37,8 @@ Since the bed only has 3 mounting points, which are connected to 3 independently
 <p>&nbsp;</p>
 
 - [x] Bi-material Decouplers on Z arms ensure that any inconsistencies on the drivetrain won't be transmitted to the print surface
+![](assets/decouplers.jpg)
+
 - [x] XY Kinematics built to last
 ![](assets/XY_joiner.png)
 
@@ -70,10 +73,13 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] Available both as a complete kit and a configurable kit (for those who want to select their own electronics)
 - [x] Configurable options include LDO motors, Keenovo Heatpads, and multiple controller board options (from Duet3D, SKR, etc) 
 - [x] 4 build volumes available as standard option: 200, 300, 400 and 500 mm3
+![](assets/allsizes.jpg)
+
 - [x] Full End Stop solutions
 - [x] EVA 3 Carriage System provides mounts for most popular extruder and hot end choices on the market
 - [x] Shipping with EVA 3.0.1
 ![](assets/feature_eva.png)
+![](assets/eva3.jpg)
 
 !!! tip end "What is EVA?"
     EVA is an independently developed and maintained project that aims to be a single platform for many extrusion types.
@@ -105,7 +111,7 @@ Read more about EVA on: [EVA 3 Documentation](https://main.eva-3d.page/)
 
 - [x] Designed for a far easier and quicker assembly than previous versions
 - [x] Separate chamber for electronics ensures heat insulation, short motor cable path, easy access to all wiring, and a very clean installation.
-![](assets/electronics_back.png)
+![](assets/backpanel.jpg)
 
 *Panel for mounting electronics is not supplied, user is meant to source it locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts are included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
 
