@@ -65,7 +65,7 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] 4mm thick anodized aluminium plates
 - [x] 9mm Belts
 - [x] Weight of Z drivetrain and bed is distributed across the Z motor mounts - not on the motors themselves
-![](assets/pillow_block.png)
+![](assets/pillow_block.jpg)
 
 
 ## Customization
@@ -73,7 +73,7 @@ While previous V-Core versions, like many other printers on the market, relied s
 - [x] Available both as a complete kit and a configurable kit (for those who want to select their own electronics)
 - [x] Configurable options include LDO motors, Keenovo Heatpads, and multiple controller board options (from Duet3D, SKR, etc) 
 - [x] 4 build volumes available as standard option: 200, 300, 400 and 500 mm3
-![](assets/allsizes.jpg)
+![](assets/allsizes.png)
 
 - [x] Full End Stop solutions
 - [x] EVA 3 Carriage System provides mounts for most popular extruder and hot end choices on the market
