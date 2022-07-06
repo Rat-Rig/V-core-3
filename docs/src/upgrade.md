@@ -25,3 +25,5 @@ These printed parts are required to upgrade a V-Core 3 from 3.0 to 3.1. They can
 ### Core
 {{ printed_parts_bom_31("bom/printed_parts_30_upgrade.csv") }}
 
+### EVA 3.0.2
+{{ printed_parts_bom_31("bom/printed_parts_eva3_0_2.csv") }}
