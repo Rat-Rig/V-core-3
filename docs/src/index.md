@@ -77,7 +77,7 @@ While previous V-Core versions, like many other printers on the market, relied s
 
 - [x] Full End Stop solutions
 - [x] EVA 3 Carriage System provides mounts for most popular extruder and hot end choices on the market
-- [x] Shipping with EVA 3.0.1
+- [x] Shipping with EVA 3.0.2
 ![](assets/feature_eva.png)
 ![](assets/eva3.jpg)
 
