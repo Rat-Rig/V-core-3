@@ -104,7 +104,7 @@ Read more about EVA on: [EVA 3 Documentation](https://main.eva-3d.page/)
 - [x] Custom Keenovo Heat Pad with pre-wired 157ºC Thermal Fuse for extra safety (Optional). The wiring comes out of the pad slightly off-center, so it's neatly guided to the back of the machine without interfering with the bed mounting point at the back.
 ![](assets/pad.png)
 
-- [x] For 220V Heat pad users, grounding point at the bed and fully isolated bed from the rest of the printer means that the printer frame is never conducting any dangerous voltages. 
+- [x] For 120/220V Heat pad users, grounding point at the bed and fully isolated bed from the rest of the printer means that the printer frame is never conducting any dangerous voltages. 
 ![](assets/bed_arm.png)
 
 ## Convenience
