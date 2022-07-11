@@ -6,11 +6,11 @@ M201 X500.00 Y500.00    ; Reduce acceleration for homing moves
 
 G91                     ; Relative positioning
 G1 H2 Z5 F6000          ; Lift Z relative to current position
-G1 H1 X-625 Y605 F3600  ; Move quickly to X and Y axis endstops and stop there (first pass)
-G1 H1 X-625 F1800       ; Move quickly to X and Y axis endstops and stop there (first pass)
-G1 H1 Y605 F1800        ; Move quickly to X and Y axis endstops and stop there (first pass)
+G1 H1 X-625 Y605 F1800  ; Move quickly to X and Y axis endstops and stop there (first pass)
 
-G1 H2 X1 Y-1 F600       ; Go back a few mm
+
+
+G1 X3 Y-3 F600          ; Go back a few mm
 
 G1 H1 X-625 Y605 F360   ; Move slowly to X and Y axis endstops once more (second pass)
 G1 H1 X-625 F360        ; Move slowly to X and Y axis endstops once more (second pass)
