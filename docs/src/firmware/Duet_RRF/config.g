@@ -12,12 +12,12 @@ M586 P1 S0                              ; disable FTP
 M586 P2 S0                              ; disable Telnet
 
 ; Drives
-M569 P0.0 S1 D3                         ; physical drive 0.0 goes forwards
-M569 P0.1 S1 D3                         ; physical drive 0.1 goes forwards
-M569 P0.2 S1 D3                         ; physical drive 0.2 goes forwards
-M569 P0.3 S1 D3                         ; physical drive 0.3 goes forwards
-M569 P0.4 S1 D3                         ; physical drive 0.4 goes forwards
-M569 P0.5 S1 D3                         ; physical drive 0.5 goes forwards
+M569 P0.0 S1                            ; physical drive 0.0 goes forwards
+M569 P0.1 S1                            ; physical drive 0.1 goes forwards
+M569 P0.2 S1                            ; physical drive 0.2 goes forwards
+M569 P0.3 S1                            ; physical drive 0.3 goes forwards
+M569 P0.4 S1                            ; physical drive 0.4 goes forwards
+M569 P0.5 S1                            ; physical drive 0.5 goes forwards
 M584 X0.4 Y0.3 Z0.0:0.1:0.2 E0.5        ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                 ; configure microstepping with interpolation
 
