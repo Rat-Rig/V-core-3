@@ -31,7 +31,7 @@ def define_env(env):
     def generate_hardware_bom_tables(products):
         for index, product in enumerate(products):
             yield f""
-            yield f"#### {product.name} (`{product.sku}`)"
+            yield f"### {product.name} (`{product.sku}`)"
             yield f"| SKU | Product name | QTY | Length (mm) |"
             yield f"| --- | ------------ | --- | ------ |"
             for item in product.items:
@@ -84,6 +84,38 @@ def define_env(env):
                     is_next_product = False
 
         return "\n".join(generate_hardware_bom_tables(products))
+
+    @env.macro
+    def printed_parts_bom_31(file_path: str, repo_base_url: Optional[str] = None):
+        if repo_base_url is None:
+            repo_base_url = env.variables['config']['repo_url']
+        table = []
+        table.append(f"| Category | Name | QTY | STL | STEP |")
+        table.append(f"| -------- | ---- | --- | --- | ---- |")
+        with open(Path(env.conf["docs_dir"]) / file_path, newline="") as csvfile:
+            reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+            for row in reader:
+                table.append(
+                    f"| {row[0]} | {row[1]} | {row[2]} | [:material-download: Download STL]({repo_base_url}/raw/main/cad/printed_parts/stl/{row[0]}/{row[1]}.stl){{: target=_blank }} | [:material-download: Download STEP]({repo_base_url}/raw/main/cad/printed_parts/step/{row[0]}/{row[1]}.step){{: target=_blank }} |"
+                )
+
+        return "\n".join(table)
+
+    @env.macro
+    def printed_parts_bom_30(file_path: str, repo_base_url: Optional[str] = None):
+        if repo_base_url is None:
+            repo_base_url = env.variables['config']['repo_url']
+        table = []
+        table.append(f"| Category | Name | QTY | Link |")
+        table.append(f"| -------- | ---- | --- | ---- |")
+        with open(Path(env.conf["docs_dir"]) / file_path, newline="") as csvfile:
+            reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+            for row in reader:
+                table.append(
+                    f"| {row[0]} | {row[1]} | {row[2]} | [:material-download: Download]({repo_base_url}/tree/1.0.4{row[3]}){{: target=_blank }} |"
+                )
+
+        return "\n".join(table)
 
     @env.macro
     def printed_parts_bom(file_path: str, repo_base_url: Optional[str] = None):

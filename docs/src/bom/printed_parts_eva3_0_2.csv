@@ -1,0 +1,17 @@
+eva3,40mm_fan_inlet,1
+eva3,back_core_xy,1
+eva3,bl_touch_mount,1 (Slice Engineering / Rapido HF)
+eva3,bl_touch_mount_volcano,1 (Rapido UHF)
+eva3,bottom_horns,1 (Slice Engineering / Rapido HF)
+eva3,bottom_horns_volcano,1 (Rapido UHF)
+eva3,cable_guide,1
+eva3,cable_guide_mount,1
+eva3,core_xy_belt_grabber,2
+eva3,drive_lgx_lite,1
+eva3,face_belt_grabber,2
+eva3,front_universal,1
+eva3,hotend_mosquito,1 (Slice Engineering Mosquito)
+eva3,hotend_rapido,1 (Rapido HF/UHF)
+eva3,lj8_probe_mount,1
+eva3,ratrig_eva3_shroud,1
+eva3,top_endstop_mgn12c,1
