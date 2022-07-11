@@ -1,7 +1,7 @@
 ; General preferences
 G90                                     ; send absolute coordinates...
 M83                                     ; ...but relative extruder moves
-M550 P"V-Core 3"                        ; set printer name
+M550 P"V-Core3"                         ; set printer name
 M669 K1                                 ; CoreXY
 G21                                     ; Set Units to Millimeters
 
@@ -22,7 +22,7 @@ M584 X0.4 Y0.3 Z0.0:0.1:0.2 E0.5        ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                 ; configure microstepping with interpolation
 
 M92 X80.00 Y80.00 Z800.00               ; set steps per mm
-M906 X1000 Y1000 Z800 I30               ; set motor currents (mA) and motor idle factor in per cent
+M906 X1600 Y1600 Z1600 I30              ; set motor currents (mA) and motor idle factor in per cent -- safe for Duet 3 mini 5+
 M84 S30                                 ; Set idle timeout
 
 M566 X400.00 Y400.00 Z6.00 E120.00 P1          ; set maximum instantaneous speed changes (mm/min)
