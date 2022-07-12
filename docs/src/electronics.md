@@ -26,6 +26,12 @@ The BIGTREETECH Octopus v1.1 is the preferred configuration for the V-Core 3 as 
   <figcaption>(click to enlarge)</figcaption>
 </figure>
 
+## Connecting a 4028 Fan
+
+EVA3 uses a more powerful 4028 fan for improved part cooling. To accurately control the fan, additional wiring is required beyond the normal 12/24V and ground.
+The following article on the RatOS site covers all aspects of using these fans:
+[:material-link-box-variant: RatOS - Connecting a 4028 fan](https://os.ratrig.com/docs/guides/4028/){: .md-button .md-button--primary target=_blank}
+
 ## Duet 3 Mini 5+ with Duet 3 Expansion Mini 2+
 
 V-Core 3 runs on 6 drives which means a board able to handle 6 or more drives is required. Duet 3 Mini 5+ with the Mini 2+ expansion provides 7 drives which is more than enough. The following diagram presents a wiring example for V-Core 3 with that board configuration.
