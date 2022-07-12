@@ -1,7 +1,7 @@
 ; General preferences
 G90                                     ; send absolute coordinates...
 M83                                     ; ...but relative extruder moves
-M550 P"V-Core 3"                        ; set printer name
+M550 P"V-Core3"                         ; set printer name
 M669 K1                                 ; CoreXY
 G21                                     ; Set Units to Millimeters
 
@@ -22,7 +22,7 @@ M584 X0.4 Y0.3 Z0.0:0.1:0.2 E0.5        ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                 ; configure microstepping with interpolation
 
 M92 X80.00 Y80.00 Z800.00               ; set steps per mm
-M906 X1000 Y1000 Z800 I30               ; set motor currents (mA) and motor idle factor in per cent
+M906 X1600 Y1600 Z1600 I30              ; set motor currents (mA) and motor idle factor in per cent -- safe for Duet 3 mini 5+
 M84 S30                                 ; Set idle timeout
 
 M566 X400.00 Y400.00 Z6.00 E120.00 P1          ; set maximum instantaneous speed changes (mm/min)
@@ -42,7 +42,7 @@ M557 X20:280 Y20:280 P5                        ; define 5x5 mesh grid
 
 ; Heaters
 M308 S0 P"temp0" Y"thermistor" T100000 B3950 A"Bed"    ; configure sensor 0 as thermistor on pin temp0
-M950 H0 C"out0" T0                                     ; create bed heater output on out5 and map it to sensor 0
+M950 H0 C"out0" T0 Q11                                 ; create bed heater output on out5 and map it to sensor 0, lower switching frequency to 11Hz
 M307 H0 B0 S1.00                                       ; disable bang-bang mode for the bed heater and set PWM limit
 M140 H0                                                ; map heated bed to heater 0
 M143 H0 S110                                           ; set temperature limit for heater 0 to 110C
