@@ -28,8 +28,13 @@ The BIGTREETECH Octopus v1.1 is the preferred configuration for the V-Core 3 as 
 
 ## Connecting a 4028 Fan
 
+!!! danger "WARNING! RAT RIG 4028 FANS ARE 12V"
+
+    Fully read the instructions linked below. Plugging a 12v fan into a 24v printer will destroy your fan.
+
 EVA3 uses a more powerful 4028 fan for improved part cooling. To accurately control the fan, additional wiring is required beyond the normal 12/24V and ground.
 The following article on the RatOS site covers all aspects of using these fans:
+
 [:material-link-box-variant: RatOS - Connecting a 4028 fan](https://os.ratrig.com/docs/guides/4028/){: .md-button .md-button--primary target=_blank}
 
 ## Duet 3 Mini 5+ with Duet 3 Expansion Mini 2+
