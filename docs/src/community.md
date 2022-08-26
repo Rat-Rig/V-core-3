@@ -20,7 +20,7 @@ If you’re passionate and knowledgeable about 3D Printing, you may be intereste
 
 Beta/Dev users not only get to influence product strategy and design decisions, but also benefit from several awesome perks, like early access to products and discounted prices on all orders. Above everything else, they get to participate in extremely nerdy debates with like-minded people, and witness how those debates materialize over time in products who will be enjoyed by many people.
 
-[:material-facebook: Rat Rig 3D Printer Community](https://www.facebook.com/groups/ratrig3dprintercommunity){: .md-button .md-button--primary}
+[:fontawesome-brands-facebook: Rat Rig 3D Printer Community](https://www.facebook.com/groups/ratrig3dprintercommunity){: .md-button .md-button--primary}
 
 
 ## Unofficial Community on Discord
@@ -31,7 +31,7 @@ Even though this is an unofficial community, over time we’ve found that this i
 
 The discord server is also the primary place to discuss and participate in the ongoing EVA development and testing.
 
-[:material-discord: Rat Rig Community [Unofficial]](https://discord.gg/D62e8XNeYa){: .md-button .md-button--primary}
+[:fontawesome-brands-discord: Rat Rig Community [Unofficial]](https://discord.gg/D62e8XNeYa){: .md-button .md-button--primary}
 
 ## Contributions
 
