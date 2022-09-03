@@ -1,0 +1,3 @@
+These files were maded for VC3-400 with T0:0.4mm and T1:1.0mm nozzle.
+
+In the [fast_mode], two filament [fisr_layer_temperature] must be different.
