@@ -36,6 +36,11 @@ These printed parts are required when building the V-Core 3.1 enclosure
 
 {{ printed_parts_bom_31("bom/printed_parts_enclosure.csv") }}
 
+### Enclosure (Optional Extras)
+These printed parts are optional extras used when building the V-Core 3.1 enclosure. Please note that these are dependant on panel width. Use the files with the appropriate panel thickness in the name (eg _4mm for 4mm panels).
+
+{{ printed_parts_bom_31("bom/printed_parts_enclosure_optional.csv") }}
+
 ### EVA 3.0.2
 These printed parts are necessary to build EVA3
 
