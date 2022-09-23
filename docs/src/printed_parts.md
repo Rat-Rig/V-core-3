@@ -10,8 +10,8 @@ CAD models for all V-Core 3.1 sizes are made available via the Rat Rig Fusion 36
 
 | Size | Configuration |||
 | ---- | ------------- |||
-| 200x200 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3a4GbWn){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3S7HwN3){ target="_blank" } | |
-| 300x300 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3y3wEHd){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3C5QViE){ target="_blank" } | |
+| 200x200 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3a4GbWn){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3S7HwN3){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Side Panels)](https://a360.co/3xOTXFo){ target="_blank" } |
+| 300x300 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3y3wEHd){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3C5QViE){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Side Panels)](https://a360.co/3R1S8vz){ target="_blank" } |
 | 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/39ZnFi3){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3LA7Htb){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Door & Side Panels)](https://a360.co/3r6JqRS){ target="_blank" } |
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3I2I4Q7){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3xLmwnc){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Door & Side Panels)](https://a360.co/3BG60FT){ target="_blank" } |
 
