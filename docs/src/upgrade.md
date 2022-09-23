@@ -17,7 +17,7 @@ The following list shows all parts contained in the V-Core 3.0 to 3.1 upgrade ki
 {{ hardware_bom("bom/eva3_0_2_hardware_07062022_0928.csv") }}
 
 ## Upgrade Printed Parts
-These printed parts are required to upgrade a V-Core 3 from 3.0 to 3.1. They can be downloaded induvidually or you can download the an archive containing all of the 3.1 upgrade files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_upgrade_parts_and_panels.zip).
+These printed parts are required to upgrade a V-Core 3 from 3.0 to 3.1. They can be downloaded individually or you can download the an archive containing all of the 3.1 upgrade files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_upgrade_parts_and_panels.zip).
 
 !!! attention "Downloading STL or STEP files"
     To download individual STL or STEP files, please right click on the appropriate download link in the list and choose "Save link as..."
