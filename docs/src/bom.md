@@ -12,10 +12,8 @@ hide:
 
 {{ hardware_bom("bom/vcore31_06272022_2240.csv") }}
 
-## V-Core 3.1 Enclosure Kits
+## V-Core 3.1 Enclosure 2.0 Kits
 
-{{ hardware_bom("bom/V-Core 3 Enclosure Kit Public BOM.csv") }}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/enclosure2_09232022_1551.csv){: .md-button .md-button--primary target=_blank}
 
-## V-Core 3.1 Spool Holder Kits
-
-{{ hardware_bom("bom/V-Core 3 Enclosure Kit Public BOM - spool holder.csv") }}
+{{ hardware_bom("bom/enclosure2_09232022_1551.csv") }}
