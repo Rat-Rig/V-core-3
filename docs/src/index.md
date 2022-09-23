@@ -113,33 +113,61 @@ Read more about EVA on: [EVA 3 Documentation](https://main.eva-3d.page/)
 - [x] Separate chamber for electronics ensures heat insulation, short motor cable path, easy access to all wiring, and a very clean installation.
 ![](assets/backpanel.jpg)
 
-*Panel for mounting electronics is not supplied, user is meant to source it locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts are included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
+:warning: Panel for mounting electronics is not supplied, user is meant to source it locally. A 4mm thick polycarbonate sheet is suggested. Mounting screws and nuts are included as part of the base kit. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
 
 :warning: Electronics Panel should not be thicker than 4mm, otherwise it will not fit in the available space.
 
-- [x] IEC and LAN ports
-![](assets/extras.png)
-
-
-## Fully Enclosable
+## Enclose Your V-Core 3
 ### Enclosure Kit
 
 The V-Core 3 was designed from the ground up with full enclosing in mind, with no need for an external enclosure. The design ensures that all motors and electronics are safely placed outside the printing chamber, so they are shielded from high temperatures, and no machine elements protrude from the frame, ensuring that the frame can be directly covered with panels from all sides.
 
+The enclosure kit is the perfect solution for users who want to:
+- Use filaments that require high temperatures
+- Shield their printer from humidity, dust, drafts, etc
+- Shield their environment from printer noises and smells
+
+<center><iframe width="1000" height="600" src="https://www.youtube.com/embed/xSd5vlLNMl8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+### Extended "Full Frame" for a fully enclosed work area
+
 ![](assets/enclosure_kit_1.png)
 
-* The enclosure kit does not contain the enclosure panels, these must be sourced locally. DXF and STEP files are available on the project documentation for all panels on all machine sizes.
+### Double door access
+Top and front easy access doors with foam seals
 
-<center>[Order the Enclosure Kit](https://www.ratrig.com/v-core-3-enclosure-kit.html){: .md-button .md-button--primary target=_blank }</center>
+![](assets/enclosure_kit_2.png)
 
-### In-Lid Spool Holder
+### Magnetically latched doors with double handles
+Easily remove the most convenient door depending on your printer position
 
-Our in-house spool holder was also designed with the V-Core 3 enclosure in mind. It can be securely installed inside the V-Core 3 lid, allowing your spool to stay tidy and neat.
+![](assets/enclosure_kit_3.png)
 
-<center>![](assets/enclosure_kit_2.png)</center>
+### New printed spool holder
+The new printed spool holder can be assembled outside the enclosure
 
-<center>[Order the Spool Holder](https://www.ratrig.com/rat-rig-spool-holder-v2-0-kit-extrusion-based.html){: .md-button .md-button--primary target=_blank }</center>
+![](assets/enclosure_kit_4.png)
 
+### All motors outside the heated chamber
+
+![](assets/enclosure_kit_5.png)
+
+### New full metal front idler mounts
+Easier installation and maintenance
+
+![](assets/enclosure_kit_6.png)
+
+### Optional "Split Panel" files and kit available for bigger printer sizes
+![](assets/enclosure_kit_7.png)
+
+### Y-Axis bumpers for optional Y-axis sensorless homing
+![](assets/enclosure_kit_8.png)
+
+### Not included
+* The enclosing panels themselves are not supplied, the user is meant to source them locally. A 4mm thick polycarbonate sheet is suggested. DXF files with size, shape and hole patterns for the panels are provided on the project documentation.
+* Printed parts are required and are also not supplied at the moment, the user will need to self-source them. More information on the printed part section below.
+
+<center>[Order the Enclosure 2.0 Kit](https://ratrig.com/3d-printing-cnc/all-kits-and-bundles/v-core-3-enclosure-kit.html){: .md-button .md-button--primary target=_blank }</center>
 
 ## Modding
 
@@ -149,11 +177,6 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Frame is built on a modular platform of T-Slot and V-Slot profiles, which allow for endless possibilites when it comes to mounting all types of parts 
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc
 - [x] For some inspiration, check out the <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank">V-Core 3 Gallery</a> with builds from users worldwide
-
-
-## Dimensions
-![](assets/dimensions.png)
-
 
 ## Sample Prints / Parts
 These images showcase 3D prints produced by V-Core 3 machines belonging to members of our community. Clicking any image will open the full size version.
@@ -181,6 +204,7 @@ As an Open-source project, the V-Core 3 design is the result of prolonged brains
 - Antonios Antzoulatos
 - Lukas Sinitsch
 - Tomasz Paluszkiewicz
+- Special thanks to thingiverse user TheInternets, for inspiring the community towards the Full Frame enclosure design
 
 ## License
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
