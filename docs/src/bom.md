@@ -6,11 +6,17 @@ hide:
 
 # Bill of Materials
 
+!!! warning "WARNING: Regarding the Raspberry Pi shortage"
+
+    The standard V-Core 3 kits require a Raspberry Pi, but do not currently include one due to the worldwide semiconductor shortage. Our user community has voted and made their voice heard - we will not be changing the Standard kit build, as individual users are still able to source their own Raspberry Pi. 
+    
+    For sourcing a Raspberry Pi in your country, the [:material-link-box-variant:Raspberry Pi Locator](https://rpilocator.com/){: target=_blank} website can be of great assistance!
+
 ## V-Core 3.1 Core Kits
 
-[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_06272022_2240.csv){: .md-button .md-button--primary target=_blank}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_09262022_1855.csv){: .md-button .md-button--primary target=_blank}
 
-{{ hardware_bom("bom/vcore31_06272022_2240.csv") }}
+{{ hardware_bom("bom/vcore31_09262022_1855.csv") }}
 
 ## V-Core 3.1 Enclosure 2.0 Kits
 
