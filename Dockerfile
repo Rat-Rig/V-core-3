@@ -1,4 +1,4 @@
-FROM python:3.9.7-alpine3.14
+FROM python:3.10.1-alpine3.15
 
 RUN apk add --no-cache \
     bash \
@@ -7,8 +7,8 @@ RUN apk add --no-cache \
     git-fast-import \
     openssh 
 RUN apk add --no-cache --virtual .build gcc musl-dev
-ENV POETRY_VERSION=1.0.10
-RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | POETRY_HOME=/opt/poetry python && \
+ENV POETRY_VERSION=1.1.12
+RUN curl -sSL https://install.python-poetry.org | POETRY_HOME=/opt/poetry python3 && \
     cd /usr/local/bin && \
     ln -s /opt/poetry/bin/poetry && \
     poetry config virtualenvs.create false
