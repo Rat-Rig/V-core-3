@@ -17,6 +17,9 @@ The archived 3.0 build guide is available via our documentation site: https://ra
 | 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3DftKkC){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3iESM3c){ target="_blank" } |
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3uFR1Zo){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3IOMKYm){ target="_blank" } |
 
+## Dimensions
+![](assets/dimensions_legacy.png)
+
 ## Printed Parts
 {{ printed_parts_bom_30("bom/3.0/printed_parts_essentials.csv") }}
 
