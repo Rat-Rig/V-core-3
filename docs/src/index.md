@@ -169,6 +169,9 @@ Easier installation and maintenance
 
 <center>[Order the Enclosure 2.0 Kit](https://ratrig.com/3d-printing-cnc/all-kits-and-bundles/v-core-3-enclosure-kit.html){: .md-button .md-button--primary target=_blank }</center>
 
+## Dimensions
+![](assets/dimensions.png)
+
 ## Modding
 
 The V-Core 3 is the perfect printer for advanced users who like to tweak and tinker with their machine:
