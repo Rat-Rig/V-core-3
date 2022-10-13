@@ -148,6 +148,9 @@ The new printed spool holder can be assembled outside the enclosure
 
 ![](assets/enclosure_kit_4.png)
 
+### Suggested Filament Routing (Using PTFE Tube)
+![](assets/enclosure_kit_9.png)
+
 ### All motors outside the heated chamber
 
 ![](assets/enclosure_kit_5.png)
