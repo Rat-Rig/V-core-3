@@ -14,9 +14,9 @@ hide:
 
 ## V-Core 3.1 Core Kits
 
-[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_21102022_1550.csv){: .md-button .md-button--primary target=_blank}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_1205022_11331.csv){: .md-button .md-button--primary target=_blank}
 
-{{ hardware_bom("bom/vcore31_21102022_1550.csv") }}
+{{ hardware_bom("bom/vcore31_1205022_11331.csv") }}
 
 ## V-Core 3.1 Enclosure 2.0 Kits
 
