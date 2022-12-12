@@ -8,9 +8,9 @@ hide:
 
 !!! warning "WARNING: Regarding the Raspberry Pi shortage"
 
-    The standard V-Core 3 kits require a Raspberry Pi, but do not currently include one due to the worldwide semiconductor shortage. Our user community has voted and made their voice heard - we will not be changing the Standard kit build, as individual users are still able to source their own Raspberry Pi. 
-    
-    For sourcing a Raspberry Pi in your country, the [:material-link-box-variant:Raspberry Pi Locator](https://rpilocator.com/){: target=_blank} website can be of great assistance!
+    The V-Core 3 requires a Raspberry Pi if you wish to use RatOS. However, due to the worldwide semiconductor shortage, availability of these can vary on a day-to-day basis. The store pages for the V-Core 3 kits now include a customizable option allowing purchase of a Raspberry Pi if required, and if they are currently in stock.
+
+    If the Raspberry Pi you wish to purchase is not currently in stock, the [:material-link-box-variant:Raspberry Pi Locator](https://rpilocator.com/){: target=_blank} website can be of great assistance in sourcing one in your country.
 
 ## V-Core 3.1 Core Kits
 
