@@ -15,12 +15,16 @@ CAD models for all V-Core 3.1 sizes are made available via the Rat Rig Fusion 36
 | 400x400 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/39ZnFi3){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3LA7Htb){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Door & Side Panels)](https://a360.co/3r6JqRS){ target="_blank" } |
 | 500x500 | [:fontawesome-solid-folder-open: Without Enclosure](https://a360.co/3I2I4Q7){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure](https://a360.co/3xLmwnc){ target="_blank" } | [:fontawesome-solid-folder-open: With Enclosure (Split Door & Side Panels)](https://a360.co/3BG60FT){ target="_blank" } |
 
-## Printed Parts
-STL and STEP files are provided for all printed parts used on the V-Core 3.1. Each is listed below, organised by category. Alternatively you can download the an archive containing all DXF, STEP and STL files [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_parts_and_panels.zip).
+## Panels and Printed Parts Pack
+A single archive containing DXF, STEP and STL files for all printed parts and panels can be downloaded [:material-archive-arrow-down: by clicking here](https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_parts_and_panels.zip). Alternatively, individual files can be found below.
+
+## Enclosure Panels
+Due to the large number of combinations, individual enclosure panel files are available on [:fontawesome-solid-folder-open: the V-Core 3.1 GitHub repository](https://github.com/Rat-Rig/V-core-3/tree/main/cad/panels){ target="_blank" }
 
 !!! attention "Downloading STL or STEP files"
     To download individual STL or STEP files, please right click on the appropriate download link in the list and choose "Save link as..."
 
+## Printed Parts
 ### Core
 These printed parts are required to build the V-Core 3.1
 
