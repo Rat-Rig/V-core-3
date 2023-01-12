@@ -3,6 +3,8 @@ core,bed_arm_left_3.1,1
 core,bed_arm_right_3.1,1
 core,bed_cable_relief_3.1,1
 core,electronics_wire_guide_rear,1
+core,enclosure2_bowden_clamp,1
+core,enclosure2_spool_holder_4mm,1
 core,lead_screw_constraint_front_left_3.1,1
 core,lead_screw_constraint_front_right_3.1,1
 core,lead_screw_constraint_rear_3.1,1
