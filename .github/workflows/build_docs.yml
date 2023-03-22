@@ -25,9 +25,6 @@ on:
       - master
       - main
 
-env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
 jobs:
   documentation:
     name: Build documentation
@@ -48,8 +45,6 @@ jobs:
           poetry-version: 1.1.12
       - name: Install Python dependencies
         run: poetry install --no-dev
-      - name: Install Insiders
-        run: poetry run pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - name: Deploy documentation
         run: |
           poetry run mkdocs gh-deploy --force
