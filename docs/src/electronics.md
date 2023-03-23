@@ -4,6 +4,12 @@ hide:
   - navigation
 ---
 
+## Detailed Wiring Guide
+
+A step-by-step wiring guide is now available. It covers the installation and wiring of a V-Core 3.1 when using the Standard Kit configuration.
+
+[:material-link-box-variant: Rat Rig Guides - V-Core 3.1 Wiring Guide](https://ratrig.dozuki.com/Guide/11.+Wiring+Firmware+&+RatOS/143){: .md-button .md-button--primary target=_blank}
+
 ??? info "Identifying Motor phases"
 
     If your motors were acquired at Rat Rig, you don’t need to worry about motor pinout, simply follow our wiring diagrams.
