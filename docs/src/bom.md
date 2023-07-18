@@ -14,12 +14,12 @@ hide:
 
 ## V-Core 3.1 Core Kits
 
-[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_12012023_1703.csv){: .md-button .md-button--primary target=_blank}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_bom.csv){: .md-button .md-button--primary target=_blank}
 
-{{ hardware_bom("bom/vcore31_12012023_1703.csv") }}
+{{ hardware_bom("bom/vcore31_bom.csv") }}
 
 ## V-Core 3.1 Enclosure 2.0 Kits
 
-[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/enclosure2_07132023_1041.csv){: .md-button .md-button--primary target=_blank}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/enclosure2_bom.csv){: .md-button .md-button--primary target=_blank}
 
-{{ hardware_bom("bom/enclosure2_07132023_1041.csv") }}
+{{ hardware_bom("bom/enclosure2_bom.csv") }}

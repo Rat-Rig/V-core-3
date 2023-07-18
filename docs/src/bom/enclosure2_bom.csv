@@ -50,31 +50,16 @@ QTY,SKU,Length (mm),Tap,Item name
 QTY,SKU,Length (mm),Tap,Item name
 6,HW1914PC,,,Joining Plate for 3030 - T - Black Anodized
 4,HW3056PC,,,Rat Rig V-Core 3 - Enclosure v2.0 - Idler Plate v1.0
-4,HW1555GC,,,V-Slot Door Handle
-40,HW2828GC,,,Magnet - Neodymium disc shape - 10mm x 4mm
+6,HW1555GC,,,V-Slot Door Handle
+48,HW2828GC,,,Magnet - Neodymium disc shape - 10mm x 4mm
 2,HW1016NC,,,Aluminium Spacer - 3mm
-68,HW1314NC,,,Washer Simple M6
-125,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
-8,HW2827SC,,,Cap Head Screw M6 (Single) (Length: 16mm)
+93,HW2746NC,,,Washer Simple M6 - Black 12.9 Steel
+139,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
+12,HW2827SC,,,Cap Head Screw M6 (Single) (Length: 16mm)
 2,HW2074SC,,,Cap Head Screw M5 (Single) (Length: 45mm)
-28,HW1311NC,,,Hex Locking Nut - M6
-105,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
+36,HW1311NC,,,Hex Locking Nut - M6
+115,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
 1,HW2943GC,5338,,Foam (meter) - 1mm x 8mm x 1000mm - Adhesive 3M - EVA material
-,,,,
-,,,,
-,,,,
-,SKU,,,Product Name
-,HW3078GK,,,Rat Rig V-Core 3 - Enclosure 2.0 - Split Panel Extra Parts
-,,,,
-,B.O.M.,,,
-QTY,SKU,Length (mm),Tap,Item name
-2,HW1555GC,,,V-Slot Door Handle
-8,HW2828GC,,,Magnet - Neodymium disc shape - 10mm x 4mm
-12,HW1314NC,,,Washer Simple M6
-16,HW1836SC,,,Cap Head Screw M6 (Single) (Length: 12mm)
-4,HW2827SC,,,Cap Head Screw M6 (Single) (Length: 16mm)
-8,HW1311NC,,,Hex Locking Nut - M6
-12,HW1361NC,,,T-Nut - Drop In for 3030 - M6 (Single)
 ,,,,
 ,,,,
 ,,,,
