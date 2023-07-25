@@ -1,0 +1,1179 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises.">
+      
+      
+        <meta name="author" content="Rat Rig">
+      
+      
+        <link rel="canonical" href="https://v-core.ratrig.com/firmware/">
+      
+      <link rel="icon" href="../assets/logo_rat_small.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>Firmware - Rat Rig - V-Core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+    
+  
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rat Rig - V-Core - Firmware">
+  <meta property="og:description" content="The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises.">
+  <meta property="og:url" content="https://v-core.ratrig.com/firmware/">
+  <meta property="og:image" content="https://v-core.ratrig.com/assets/banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="rat_rig" data-md-color-accent="rat_rig_alt">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ratos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Rat Rig - V-Core" class="md-header__button md-logo" aria-label="Rat Rig - V-Core" data-md-component="logo">
+      
+  <img src="../assets/logo_rat_medium.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Rat Rig - V-Core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Firmware
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Rat-Rig/V-core-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    V-core-3
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Intro
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank" class="md-tabs__link">
+      Order
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../bom/" class="md-tabs__link">
+      BOM
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../printed_parts/" class="md-tabs__link">
+      Files & Printing
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://ratrig.dozuki.com/c/01._Rat_Rig_V-Core" target="_blank" class="md-tabs__link">
+      Build Guide
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../upgrade/" class="md-tabs__link">
+      3.0 to 3.1 Upgrade
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../electronics/" class="md-tabs__link">
+      Electronics
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Firmware
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../slicer/" class="md-tabs__link">
+      Slicer
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../community/" class="md-tabs__link">
+      Community
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank" class="md-tabs__link">
+      Gallery
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../videos/" class="md-tabs__link">
+      Videos
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../legacy/" class="md-tabs__link">
+      Legacy V-Core 3.0
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="mailto:info@ratrig.com" class="md-tabs__link">
+      Contact
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Rat Rig - V-Core" class="md-nav__button md-logo" aria-label="Rat Rig - V-Core" data-md-component="logo">
+      
+  <img src="../assets/logo_rat_medium.png" alt="logo">
+
+    </a>
+    Rat Rig - V-Core
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Rat-Rig/V-core-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    V-core-3
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank" class="md-nav__link">
+        Order
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        BOM
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printed_parts/" class="md-nav__link">
+        Files & Printing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://ratrig.dozuki.com/c/01._Rat_Rig_V-Core" target="_blank" class="md-nav__link">
+        Build Guide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../upgrade/" class="md-nav__link">
+        3.0 to 3.1 Upgrade
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electronics/" class="md-nav__link">
+        Electronics
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Firmware
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Firmware
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ratos" class="md-nav__link">
+    RatOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duet-reprap-firmware" class="md-nav__link">
+    Duet - RepRap Firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Duet - RepRap Firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configg" class="md-nav__link">
+    config.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homeallg" class="md-nav__link">
+    homeall.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homexg" class="md-nav__link">
+    homex.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homeyg" class="md-nav__link">
+    homey.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homezg" class="md-nav__link">
+    homez.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bedg" class="md-nav__link">
+    bed.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployprobeg" class="md-nav__link">
+    deployprobe.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retractprobeg" class="md-nav__link">
+    retractprobe.g
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer/" class="md-nav__link">
+        Slicer
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos/" class="md-nav__link">
+        Videos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legacy/" class="md-nav__link">
+        Legacy V-Core 3.0
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mailto:info@ratrig.com" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ratos" class="md-nav__link">
+    RatOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duet-reprap-firmware" class="md-nav__link">
+    Duet - RepRap Firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Duet - RepRap Firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configg" class="md-nav__link">
+    config.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homeallg" class="md-nav__link">
+    homeall.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homexg" class="md-nav__link">
+    homex.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homeyg" class="md-nav__link">
+    homey.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homezg" class="md-nav__link">
+    homez.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bedg" class="md-nav__link">
+    bed.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployprobeg" class="md-nav__link">
+    deployprobe.g
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retractprobeg" class="md-nav__link">
+    retractprobe.g
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+  <h1>Firmware</h1>
+
+<h2 id="ratos">RatOS<a class="headerlink" href="#ratos" title="Permanent link">&para;</a></h2>
+<p>RatOS is developed and maintained by Mikkel Schmidt (a member of Rat Rig's Beta/Dev team). It combines the power of the Klipper firmware, as well as several other open-source projects, to provide a stable and easy-to-use operating system for all your printing needs.
+<img alt="" src="/assets/ratos_logo.png" /></p>
+<p><center><a class="md-button md-button--primary" href="https://os.ratrig.com/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.06 11.81L11.73 17c-.65.67-1.51 1-2.37 1-.86 0-1.72-.33-2.36-1-1.33-1.29-1.33-3.42 0-4.74l1.35-1.36-.01.6c-.01.5.07 1 .23 1.44l.05.15-.4.41a1.597 1.597 0 0 0 0 2.28c.61.62 1.67.62 2.28 0l2.2-2.19c.3-.31.48-.72.48-1.15 0-.44-.18-.83-.48-1.14a.87.87 0 0 1 0-1.24c.33-.33.91-.32 1.24 0 .63.64.98 1.48.98 2.38 0 .9-.35 1.74-.98 2.37M17 11.74l-1.34 1.36v-.6c.01-.5-.07-1-.23-1.44l-.05-.14.4-.42a1.597 1.597 0 0 0 0-2.28c-.61-.62-1.68-.61-2.28 0l-2.2 2.2c-.3.3-.48.71-.48 1.14 0 .44.18.83.48 1.14.17.16.26.38.26.62s-.09.46-.26.62a.86.86 0 0 1-.62.25c-.22 0-.45-.08-.62-.25a3.362 3.362 0 0 1 0-4.75L12.27 7A3.311 3.311 0 0 1 17 7c.65.62 1 1.46 1 2.36 0 .9-.35 1.74-1 2.38z"/></svg></span> Official RatOS documentation</a></center></p>
+<h2 id="duet-reprap-firmware">Duet - RepRap Firmware<a class="headerlink" href="#duet-reprap-firmware" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>This guide was prepared against the RepRap Firmware <a href="https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2" target="_blank">version 3.2.2</a>.
+For an official guide from Duet you can go <a href="https://duet3d.dozuki.com/Wiki/Getting_Started_with_Duet_3_Mini_5plus#Section_Introduction" target="_blank">here</a> which is a very good introduction.</p>
+</blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Please read</p>
+<p>Both this guide, as well as the provided configuration package, are designed for use with the Duet 3 Mini 5+. Modifications to the configuration will be required to use these files on other boards supported by the RepRap Firmware, such as the Duet 3 MB6HC.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Download</p>
+<p>Bellow you will find pieces of Duet configuration files with comment. All files with a boilerplate setup for the V-Core 3 can be downloaded as a ZIP package <a href="/firmware/Duet_RRF.zip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3h18v4H3V3m1 18V8h16v13H4m10-7v-3h-4v3H7l5 5 5-5h-3z"/></svg></span> here</a>.</p>
+</div>
+<h3 id="configg">config.g<a class="headerlink" href="#configg" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Please read</p>
+<p>Neither the files in the package or this guide is a complete - copy and paste configuration, please read and make sure to execute operations like PID tuning mentioned bellow.</p>
+</div>
+<p>Start with setting up absolute coordinates but relative extruder moves. Here you also specify the printer name and it's CoreXY kinematic system:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="2 "></span><span class="nb">G90 </span><span class="w">                                    </span><span class="c">; send absolute coordinates...</span>
+<span class="linenos" data-linenos="3 "></span><span class="nb">M83 </span><span class="w">                                    </span><span class="c">; ...but relative extruder moves</span>
+<span class="linenos" data-linenos="4 "></span><span class="nb">M550 </span>P&quot;V-Core3&quot;                         ; set printer name
+<span class="linenos" data-linenos="5 "></span><span class="nb">M669 </span><span class="k">K</span><span class="m">1</span><span class="w">                                 </span><span class="c">; CoreXY</span>
+<span class="linenos" data-linenos="6 "></span><span class="nb">G21 </span><span class="w">                                    </span><span class="c">; Set Units to Millimeters</span>
+</code></pre></div>
+<p>Specify the IP address of your printer (if connected to a network) and define which network protocols should it handle. If you don't know what those are leave only HTTP enabled:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 9 "></span><span class="nb">M552 </span><span class="k">S</span><span class="m">1</span><span class="w">                                 </span><span class="c">; enable network</span>
+<span class="linenos" data-linenos="10 "></span><span class="nb">M586 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                              </span><span class="c">; enable HTTP</span>
+<span class="linenos" data-linenos="11 "></span><span class="nb">M586 </span><span class="k">P</span><span class="m">1</span><span class="w"> </span><span class="k">S</span><span class="m">0</span><span class="w">                              </span><span class="c">; disable FTP</span>
+<span class="linenos" data-linenos="12 "></span><span class="nb">M586 </span><span class="k">P</span><span class="m">2</span><span class="w"> </span><span class="k">S</span><span class="m">0</span><span class="w">                              </span><span class="c">; disable Telnet</span>
+</code></pre></div>
+<p>Here you define the direction of the motors (<code>S</code>) and their mode of operation (<code>D2</code> for more powerfull SpreadCycle, <code>D3</code> for quiet stealthChop):</p>
+<div class="admonition info">
+<p class="admonition-title">Motor direction</p>
+<p>The motor direction and the <code>S</code> parameter depends on many things, you may find the motors going in the wrong directions - you may need to switch the <code>S</code> parameter and/or swap a pair of wires leading to a motor.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="15 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.0</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.0 goes forwards</span>
+<span class="linenos" data-linenos="16 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.1</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.1 goes forwards</span>
+<span class="linenos" data-linenos="17 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.2</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.2 goes forwards</span>
+<span class="linenos" data-linenos="18 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.3</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.3 goes forwards</span>
+<span class="linenos" data-linenos="19 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.4</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.4 goes forwards</span>
+<span class="linenos" data-linenos="20 "></span><span class="nb">M569 </span><span class="k">P</span><span class="m">0.5</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                            </span><span class="c">; physical drive 0.5 goes forwards</span>
+<span class="linenos" data-linenos="21 "></span><span class="nb">M584 </span><span class="k">X</span><span class="m">0.4</span><span class="w"> </span><span class="k">Y</span><span class="m">0.3</span><span class="w"> </span><span class="k">Z</span><span class="m">0.0</span><span class="k">:</span><span class="m">0.1</span><span class="k">:</span><span class="m">0.2</span><span class="w"> </span><span class="k">E</span><span class="m">0.5</span><span class="w">        </span><span class="c">; set drive mapping</span>
+<span class="linenos" data-linenos="22 "></span><span class="nb">M350 </span><span class="k">X</span><span class="m">16</span><span class="w"> </span><span class="k">Y</span><span class="m">16</span><span class="w"> </span><span class="k">Z</span><span class="m">16</span><span class="w"> </span><span class="k">E</span><span class="m">16</span><span class="w"> </span><span class="k">I</span><span class="m">1</span><span class="w">                 </span><span class="c">; configure microstepping with interpolation</span>
+</code></pre></div>
+<p>Define steps per mm of travel for X, Y and Z axis (the following are for 1.8 deg motors and a Tr8x4 leadscrew):</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="24 "></span><span class="nb">M92 </span><span class="k">X</span><span class="m">80.00</span><span class="w"> </span><span class="k">Y</span><span class="m">80.00</span><span class="w"> </span><span class="k">Z</span><span class="m">800.00</span><span class="w">               </span><span class="c">; set steps per mm</span>
+<span class="linenos" data-linenos="25 "></span><span class="nb">M906 </span><span class="k">X</span><span class="m">1600</span><span class="w"> </span><span class="k">Y</span><span class="m">1600</span><span class="w"> </span><span class="k">Z</span><span class="m">1600</span><span class="w"> </span><span class="k">I</span><span class="m">30</span><span class="w">              </span><span class="c">; set motor currents (mA) and motor idle factor in per cent -- safe for Duet 3 mini 5+</span>
+<span class="linenos" data-linenos="26 "></span><span class="nb">M84 </span><span class="k">S</span><span class="m">30</span><span class="w">                                 </span><span class="c">; Set idle timeout</span>
+</code></pre></div>
+<p>Bellow is where you define what influences the maximum speed of the printer:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="28 "></span><span class="nb">M566 </span><span class="k">X</span><span class="m">400.00</span><span class="w"> </span><span class="k">Y</span><span class="m">400.00</span><span class="w"> </span><span class="k">Z</span><span class="m">6.00</span><span class="w"> </span><span class="k">E</span><span class="m">120.00</span><span class="w"> </span><span class="k">P</span><span class="m">1</span><span class="w">          </span><span class="c">; set maximum instantaneous speed changes (mm/min)</span>
+<span class="linenos" data-linenos="29 "></span><span class="nb">M203 </span><span class="k">X</span><span class="m">10800.00</span><span class="w"> </span><span class="k">Y</span><span class="m">10800.00</span><span class="w"> </span><span class="k">Z</span><span class="m">1000.00</span><span class="w"> </span><span class="k">E</span><span class="m">3600.00</span><span class="w">     </span><span class="c">; set maximum speeds (mm/min)</span>
+<span class="linenos" data-linenos="30 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">3000.00</span><span class="w"> </span><span class="k">Y</span><span class="m">3000.00</span><span class="w"> </span><span class="k">Z</span><span class="m">100.00</span><span class="w"> </span><span class="k">E</span><span class="m">3600.00</span><span class="w">        </span><span class="c">; set accelerations (mm/s^2)</span>
+</code></pre></div>
+<p>Define where the nozzle is when hitting an endstop:</p>
+<details class="tip">
+<summary>Bigger printer?</summary>
+<p>Here is where you would change the <code>maxima</code> for bigger V-Core 3 sizes</p>
+</details>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="33 "></span><span class="nb">M208 </span><span class="k">X</span><span class="m">0</span><span class="w"> </span><span class="k">Y</span><span class="m">0</span><span class="w"> </span><span class="k">Z</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w">                               </span><span class="c">; set axis minima</span>
+<span class="linenos" data-linenos="34 "></span><span class="nb">M208 </span><span class="k">X</span><span class="m">310</span><span class="w"> </span><span class="k">Y</span><span class="m">300</span><span class="w"> </span><span class="k">Z</span><span class="m">300</span><span class="w"> </span><span class="k">S</span><span class="m">0</span><span class="w">                         </span><span class="c">; set axis maxima</span>
+</code></pre></div>
+<p>Configure endstops, here the X endstop defines <em>Xmin</em> and the Y endstop <em>Ymax</em></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="37 "></span><span class="nb">M574 </span><span class="k">X</span><span class="m">1</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w"> </span>P&quot;io0.in&quot;                           ; configure active high endstops
+<span class="linenos" data-linenos="38 "></span><span class="nb">M574 </span><span class="k">Y</span><span class="m">2</span><span class="w"> </span><span class="k">S</span><span class="m">1</span><span class="w"> </span>P&quot;io1.in&quot;                           ; configure active high endstops
+</code></pre></div>
+<p>Define lead screw position for true bed leveling</p>
+<details class="tip">
+<summary>Bigger printer?</summary>
+<p>Those values will be different for bigger printers, take a close look how those are defined <code>X-4.5:150:304.5 Y-4.52:305:-4.52</code> meaning that the first lead is at <code>X-4.5</code> and <code>-4.52</code>, the second at <code>X150</code>, <code>Y305</code> and so on. Naturally the first (left) lead screw position is the same for all size variants but, taking the second as an example it will land at <code>X250</code>, <code>Y505</code> for the 500x500x500 version of V-Core 3.</p>
+</details>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="40 "></span><span class="nb">M671 </span><span class="k">X</span><span class="m">-4.5</span><span class="k">:</span><span class="m">150</span><span class="k">:</span><span class="m">304.5</span><span class="w"> </span><span class="k">Y</span><span class="m">-4.52</span><span class="k">:</span><span class="m">305</span><span class="k">:</span><span class="m">-4.52</span><span class="w"> </span><span class="k">S</span><span class="m">5</span><span class="w">       </span><span class="c">; define positions of Z leadscrews or bed levelling screws</span>
+<span class="linenos" data-linenos="41 "></span><span class="nb">M557 </span><span class="k">X</span><span class="m">20</span><span class="k">:</span><span class="m">280</span><span class="w"> </span><span class="k">Y</span><span class="m">20</span><span class="k">:</span><span class="m">280</span><span class="w"> </span><span class="k">P</span><span class="m">5</span><span class="w">                        </span><span class="c">; define 5x5 mesh grid</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Caution!</p>
+<p>The following step defines settings for the <strong>heating elements</strong>, refer to <a href="https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control">Duet's documentation</a> for guidance.</p>
+<p>The actuall PID settings are commented out here only to show where those can be set.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="44 "></span><span class="nb">M308 </span><span class="k">S</span><span class="m">0</span><span class="w"> </span>P&quot;temp0&quot; Y&quot;thermistor&quot; T100000 B3950 A&quot;Bed&quot;    ; configure sensor 0 as thermistor on pin temp0
+<span class="linenos" data-linenos="45 "></span><span class="nb">M950 </span><span class="k">H</span><span class="m">0</span><span class="w"> </span>C&quot;out0&quot; T0 Q11                                 ; create bed heater output on out5 and map it to sensor 0, lower switching frequency to 11Hz
+<span class="linenos" data-linenos="46 "></span><span class="nb">M307 </span><span class="k">H</span><span class="m">0</span><span class="w"> </span><span class="k">B</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">1.00</span><span class="w">                                       </span><span class="c">; disable bang-bang mode for the bed heater and set PWM limit</span>
+<span class="linenos" data-linenos="47 "></span><span class="nb">M140 </span><span class="k">H</span><span class="m">0</span><span class="w">                                                </span><span class="c">; map heated bed to heater 0</span>
+<span class="linenos" data-linenos="48 "></span><span class="nb">M143 </span><span class="k">H</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">110</span><span class="w">                                           </span><span class="c">; set temperature limit for heater 0 to 110C</span>
+<span class="linenos" data-linenos="49 "></span>
+<span class="linenos" data-linenos="50 "></span><span class="c">;; Run Bed PID Tune!! Below is an example for a 300x300 bed</span>
+<span class="linenos" data-linenos="51 "></span><span class="c">;; M307 H0 A303.1 C356.7 D1.4 S1.00 V24.0 B0</span>
+</code></pre></div>
+<p>Configure the hotend fan and layer fan.</p>
+<details class="info">
+<summary>Duet3 6HC users</summary>
+<p>For the older Duet3 6HC you can use the <code>M950 F0 C"out7" Q500</code> and <code>M950 F1 C"out4" Q500</code> ports for fans</p>
+</details>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="54 "></span><span class="nb">M950 </span><span class="k">F</span><span class="m">0</span><span class="w"> </span>C&quot;out4&quot; Q500                   ; create fan 0 on pin out4 and set its frequency
+<span class="linenos" data-linenos="55 "></span><span class="nb">M106 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span>C&quot;Layer Fan&quot; S0 H-1            ; set fan 0 name and value. Thermostatic control is turned off
+<span class="linenos" data-linenos="56 "></span><span class="nb">M950 </span><span class="k">F</span><span class="m">1</span><span class="w"> </span>C&quot;out3&quot; Q500                   ; create fan 1 on pin out3 and set its frequency
+<span class="linenos" data-linenos="57 "></span><span class="nb">M106 </span><span class="k">P</span><span class="m">1</span><span class="w"> </span>C&quot;Hotend Fan&quot; S0 H1 T45        ; set fan 1 name and value. Thermostatic control turned on for Hotend
+</code></pre></div>
+<p>Define the Tool (which is the print head):</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="60 "></span><span class="nb">M563 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">D</span><span class="m">0</span><span class="w"> </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">F</span><span class="m">0</span><span class="w">           </span><span class="c">; define tool 0</span>
+<span class="linenos" data-linenos="61 "></span><span class="nb">G10 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">X</span><span class="m">0</span><span class="w"> </span><span class="k">Y</span><span class="m">0</span><span class="w"> </span><span class="k">Z</span><span class="m">0</span><span class="w">            </span><span class="c">; set tool 0 axis offsets</span>
+<span class="linenos" data-linenos="62 "></span><span class="nb">G10 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">R</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">0</span><span class="w">               </span><span class="c">; set initial tool 0 active and standby temperatures to 0C</span>
+<span class="linenos" data-linenos="63 "></span>
+<span class="linenos" data-linenos="64 "></span><span class="nb">M950 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span>C&quot;out1&quot; T1         ; create nozzle heater output on out2 and map it to sensor 1
+<span class="linenos" data-linenos="65 "></span><span class="nb">M307 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">B</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">1.00</span><span class="w">           </span><span class="c">; disable bang-bang mode for heater and set PWM limit</span>
+<span class="linenos" data-linenos="66 "></span><span class="nb">M143 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">S</span><span class="m">250</span><span class="w">               </span><span class="c">; set the maximum temperature in C for heater</span>
+</code></pre></div>
+<p>Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D V6 hotend.</p>
+<div class="admonition warning">
+<p class="admonition-title">Caution!</p>
+<p>The following step defines settings for the <strong>heating elements</strong>, refer to <a href="https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control">Duet's documentation</a> for guidance.</p>
+<p>The actuall PID settings are commented out here only to show where those can be set.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="70 "></span><span class="nb">M92 </span><span class="k">E</span><span class="m">830</span><span class="w">          </span><span class="c">; set extruder steps per mm, 0.9 angle/step (LDO Pancake)</span>
+<span class="linenos" data-linenos="71 "></span><span class="nb">M906 </span><span class="k">E</span><span class="m">800</span><span class="w">         </span><span class="c">; set extruder motor current (mA) and idle factor in per cent</span>
+<span class="linenos" data-linenos="72 "></span>
+<span class="linenos" data-linenos="73 "></span><span class="nb">M308 </span><span class="k">S</span><span class="m">1</span><span class="w"> </span>P&quot;temp1&quot; Y&quot;thermistor&quot; T100000 B4725 C7.060000e-8 A&quot;Hotend&quot;  
+<span class="linenos" data-linenos="74 "></span><span class="c">;; Run Heater PID Tune!! </span>
+<span class="linenos" data-linenos="75 "></span><span class="c">;; M307 H1 A751.5 C196.6 D4.7 S1.00 V23.9 B0</span>
+</code></pre></div>
+<p>Z-probe setting, <strong>uncomment</strong> the lines with your probe of choice:</p>
+<div class="admonition info">
+<p class="admonition-title">BLTouch</p>
+<p>If you plan to use BLTouch you will also need to uncomment a few lines in <code>homeall.g</code> and <code>homez.g</code></p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="78 "></span><span class="c">;; Inductive Probe</span>
+<span class="linenos" data-linenos="79 "></span><span class="c">; M558 P5 C&quot;!io3.in&quot; H5 F400 T5000       ; set Z probe type to unmodulated and the dive height + speeds</span>
+<span class="linenos" data-linenos="80 "></span><span class="c">; G31 P500 X-30 Y-15 Z0.20               ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed</span>
+<span class="linenos" data-linenos="81 "></span><span class="c">;; BLTouch</span>
+<span class="linenos" data-linenos="82 "></span><span class="c">; M950 S0 C&quot;io7.out&quot;                     ; Create a servo pin on io7</span>
+<span class="linenos" data-linenos="83 "></span><span class="c">; M558 P9 C&quot;io7.in&quot; H5 F240 T10800 A5    ; set Z probe type to unmodulated and the dive height + speeds</span>
+<span class="linenos" data-linenos="84 "></span><span class="c">; G31 P25 X-28.00 Y-13.00 Z0.90          ; set Z probe trigger value, offset and trigger height, more Z means closer to the bed</span>
+</code></pre></div>
+<p>Finally you can calibrate pressure advance, read more about it <a href="https://duet3d.dozuki.com/Wiki/Pressure_advance" target="_blank">here</a>.</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="88 "></span><span class="c">; Pressure Advance</span>
+<span class="linenos" data-linenos="89 "></span><span class="c">; M572 D0 S0.10</span>
+</code></pre></div>
+<h3 id="homeallg">homeall.g<a class="headerlink" href="#homeallg" title="Permanent link">&para;</a></h3>
+<p>This file defines the sequence of actions for the printer to take on the <code>G28</code> - "Home All" request. This example moves the carriage diagnonally to reach the XY endstops and homes Z in the middle of the build surface:</p>
+<details class="tip">
+<summary>Bigger printer?</summary>
+<p>The following home files are prepared for the 300x300x300 variant, you will need to modify those for bigger printers to reach the endstops.</p>
+</details>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">500.00</span><span class="w"> </span><span class="k">Y</span><span class="m">500.00</span><span class="w">    </span><span class="c">; Reduce acceleration for homing moves</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="c">; BLTouch</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c">;M280 P0 S160           ; Precautionary alarm release</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="c">;M280 P0 S90            ; Ensure the pin is raised</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="nb">G91 </span><span class="w">                    </span><span class="c">; Relative positioning</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">          </span><span class="c">; Lift Z relative to current position</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">-625</span><span class="w"> </span><span class="k">Y</span><span class="m">605</span><span class="w"> </span><span class="k">F</span><span class="m">1800</span><span class="w">  </span><span class="c">; Move quickly to X and Y axis endstops and stop there (first pass)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span>
+<span class="linenos" data-linenos="13 "></span><span class="nb">G1 </span><span class="k">X</span><span class="m">3</span><span class="w"> </span><span class="k">Y</span><span class="m">-3</span><span class="w"> </span><span class="k">F</span><span class="m">600</span><span class="w">          </span><span class="c">; Go back a few mm</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">-625</span><span class="w"> </span><span class="k">Y</span><span class="m">605</span><span class="w"> </span><span class="k">F</span><span class="m">360</span><span class="w">   </span><span class="c">; Move slowly to X and Y axis endstops once more (second pass)</span>
+<span class="linenos" data-linenos="16 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">-625</span><span class="w"> </span><span class="k">F</span><span class="m">360</span><span class="w">        </span><span class="c">; Move slowly to X and Y axis endstops once more (second pass)</span>
+<span class="linenos" data-linenos="17 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">Y</span><span class="m">605</span><span class="w"> </span><span class="k">F</span><span class="m">360</span><span class="w">         </span><span class="c">; Move slowly to X and Y axis endstops once more (second pass)</span>
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">3000</span><span class="w"> </span><span class="k">Y</span><span class="m">3000</span><span class="w">        </span><span class="c">; Return to full acceleration</span>
+<span class="linenos" data-linenos="20 "></span>
+<span class="linenos" data-linenos="21 "></span><span class="nb">G90 </span><span class="w">                    </span><span class="c">; Absolute positioning</span>
+<span class="linenos" data-linenos="22 "></span><span class="nb">G1 </span><span class="k">X</span><span class="m">150</span><span class="w"> </span><span class="k">Y</span><span class="m">150</span><span class="w"> </span><span class="k">F</span><span class="m">10000</span><span class="w">     </span><span class="c">; Go to the center of the bed (300x300)</span>
+<span class="linenos" data-linenos="23 "></span><span class="c">;G1 X200 Y200 F10000    ; Go to the center of the bed (400x400)</span>
+<span class="linenos" data-linenos="24 "></span><span class="c">;G1 X250 Y250 F10000    ; Go to the center of the bed (500x500)</span>
+<span class="linenos" data-linenos="25 "></span><span class="nb">G30 </span><span class="w">                    </span><span class="c">; Home Z by probing the bed</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span><span class="nb">G91 </span><span class="w">                    </span><span class="c">; Relative positioning</span>
+<span class="linenos" data-linenos="28 "></span><span class="nb">G1 </span><span class="k">Z</span><span class="m">5</span><span class="w"> </span><span class="k">F</span><span class="m">100</span><span class="w">              </span><span class="c">; Lift Z relative to current position</span>
+<span class="linenos" data-linenos="29 "></span><span class="nb">G90 </span><span class="w">                    </span><span class="c">; Absolute positioning</span>
+</code></pre></div>
+<h3 id="homexg">homex.g<a class="headerlink" href="#homexg" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">500.00</span><span class="w"> </span><span class="k">Y</span><span class="m">500.00</span><span class="w">    </span><span class="c">; Reduce acceleration for homing moves</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="nb">G91 </span><span class="w">                    </span><span class="c">; Relative positioning</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">          </span><span class="c">; Lift Z relative to current position</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">-625</span><span class="w"> </span><span class="k">F</span><span class="m">1800</span><span class="w">       </span><span class="c">; Move quickly to X endstop and stop there (first pass)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="nb">G1 </span><span class="k">X</span><span class="m">3</span><span class="w"> </span><span class="k">F</span><span class="m">600</span><span class="w">              </span><span class="c">; Go back a few mm</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">-625</span><span class="w"> </span><span class="k">F</span><span class="m">360</span><span class="w">        </span><span class="c">; Move slowly to X endstop once more (second pass)</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">3000</span><span class="w"> </span><span class="k">Y</span><span class="m">3000</span><span class="w">        </span><span class="c">; Return to full acceleration</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">-5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">         </span><span class="c">; Lower Z relative to current position</span>
+<span class="linenos" data-linenos="13 "></span><span class="nb">G90 </span><span class="w">                    </span><span class="c">; Absolute positioning</span>
+</code></pre></div>
+<h3 id="homeyg">homey.g<a class="headerlink" href="#homeyg" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">500.00</span><span class="w"> </span><span class="k">Y</span><span class="m">500.00</span><span class="w">    </span><span class="c">; Reduce acceleration for homing moves</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="nb">G91 </span><span class="w">                    </span><span class="c">; Relative positioning</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">          </span><span class="c">; Lift Z relative to current position</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">Y</span><span class="m">605</span><span class="w"> </span><span class="k">F</span><span class="m">1800</span><span class="w">        </span><span class="c">; Move quickly to Y endstop and stop there (first pass)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="nb">G1 </span><span class="k">Y</span><span class="m">-3</span><span class="w"> </span><span class="k">F</span><span class="m">600</span><span class="w">             </span><span class="c">; Go back a few mm</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">1</span><span class="w"> </span><span class="k">Y</span><span class="m">605</span><span class="w"> </span><span class="k">F</span><span class="m">360</span><span class="w">         </span><span class="c">; Move slowly to Y endstop once more (second pass)</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="nb">M201 </span><span class="k">X</span><span class="m">3000</span><span class="w"> </span><span class="k">Y</span><span class="m">3000</span><span class="w">        </span><span class="c">; Return to full acceleration</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">-5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">         </span><span class="c">; Lower Z relative to current position</span>
+<span class="linenos" data-linenos="13 "></span><span class="nb">G90 </span><span class="w">                    </span><span class="c">; Absolute positioning</span>
+</code></pre></div>
+<h3 id="homezg">homez.g<a class="headerlink" href="#homezg" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c">; BLTouch</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="c">;M280 P0 S160           ; Precautionary alarm release</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="c">;M280 P0 S90            ; Ensure the pin is raised</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="nb">G91 </span><span class="w">                    </span><span class="c">; Relative positioning</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="nb">G1 </span><span class="k">H</span><span class="m">2</span><span class="w"> </span><span class="k">Z</span><span class="m">5</span><span class="w"> </span><span class="k">F</span><span class="m">6000</span><span class="w">          </span><span class="c">; Lift Z relative to current position</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="nb">G90 </span><span class="w">                    </span><span class="c">; Absolute positioning</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="nb">G1 </span><span class="k">X</span><span class="m">150</span><span class="w"> </span><span class="k">Y</span><span class="m">150</span><span class="w"> </span><span class="k">F</span><span class="m">10000</span><span class="w">     </span><span class="c">; Go to the center of the bed (300x300)</span>
+<span class="linenos" data-linenos="10 "></span><span class="c">;G1 X200 Y200 F10000    ; Go to the center of the bed (400x400)</span>
+<span class="linenos" data-linenos="11 "></span><span class="c">;G1 X250 Y250 F10000    ; Go to the center of the bed (500x500)</span>
+<span class="linenos" data-linenos="12 "></span><span class="nb">G30 </span><span class="w">                    </span><span class="c">; Home Z by probing the bed</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="c">; Uncomment the following lines to lift Z after probing</span>
+<span class="linenos" data-linenos="15 "></span><span class="c">;G91                     ; Relative positioning</span>
+<span class="linenos" data-linenos="16 "></span><span class="c">;G1 Z5 F100              ; Lift Z relative to current position</span>
+<span class="linenos" data-linenos="17 "></span><span class="c">;G90                     ; Absolute positioning</span>
+</code></pre></div>
+<h3 id="bedg">bed.g<a class="headerlink" href="#bedg" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="c">; this script compensates for what the Z offset is</span>
+<span class="linenos" data-linenos="2 "></span><span class="c">; so if G31 P500 X-30 Y-15 Z1.7 then first probe will be at</span>
+<span class="linenos" data-linenos="3 "></span><span class="c">; X30 Y20 (when G30 P0 X0 Y5)</span>
+<span class="linenos" data-linenos="4 "></span>
+<span class="linenos" data-linenos="5 "></span><span class="nb">M561 </span><span class="c">; clear any bed transform</span>
+<span class="linenos" data-linenos="6 "></span>
+<span class="linenos" data-linenos="7 "></span><span class="nb">G30 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">X</span><span class="m">5</span><span class="w"> </span><span class="k">Y</span><span class="m">5</span><span class="w"> </span><span class="k">Z</span><span class="m">-99999</span><span class="w"> </span><span class="c">; probe near a leadscrew</span>
+<span class="linenos" data-linenos="8 "></span><span class="nb">G30 </span><span class="k">P</span><span class="m">1</span><span class="w"> </span><span class="k">X</span><span class="m">150</span><span class="w"> </span><span class="k">Y</span><span class="m">285</span><span class="w"> </span><span class="k">Z</span><span class="m">-99999</span><span class="w"> </span><span class="c">; probe near a leadscrew</span>
+<span class="linenos" data-linenos="9 "></span><span class="nb">G30 </span><span class="k">P</span><span class="m">2</span><span class="w"> </span><span class="k">X</span><span class="m">270</span><span class="w"> </span><span class="k">Y</span><span class="m">5</span><span class="w"> </span><span class="k">Z</span><span class="m">-99999</span><span class="w"> </span><span class="k">S</span><span class="m">3</span><span class="w"> </span><span class="c">; probe near a leadscrew and calibrate 3 motors</span>
+</code></pre></div>
+<h3 id="deployprobeg">deployprobe.g<a class="headerlink" href="#deployprobeg" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">BLTouch</p>
+<p>Required only for BLTouch</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="c">; deployprobe.g</span>
+<span class="linenos" data-linenos="2 "></span><span class="c">; Called to deploy a physical Z probe</span>
+<span class="linenos" data-linenos="3 "></span><span class="c">;</span>
+<span class="linenos" data-linenos="4 "></span><span class="nb">M280 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">10</span><span class="w">                                                         </span><span class="c">; Deploy the BLTouch pin</span>
+</code></pre></div>
+<h3 id="retractprobeg">retractprobe.g<a class="headerlink" href="#retractprobeg" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">BLTouch</p>
+<p>Required only for BLTouch</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="c">; retractprobe.g</span>
+<span class="linenos" data-linenos="2 "></span><span class="c">; Called to retract a physical Z probe</span>
+<span class="linenos" data-linenos="3 "></span><span class="c">;</span>
+<span class="linenos" data-linenos="4 "></span><span class="nb">M280 </span><span class="k">P</span><span class="m">0</span><span class="w"> </span><span class="k">S</span><span class="m">90</span><span class="w">                                                 </span><span class="c">; Retract the BLTouch pin</span>
+</code></pre></div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../electronics/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Electronics" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Electronics
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../slicer/" class="md-footer__link md-footer__link--next" aria-label="Next: Slicer" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Slicer
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021 Rat Rig
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs.sticky", "navigation.tabs", "navigation.tracking", "search.suggest", "search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+<script>window.CI360 = { notInitOnLoad: true }</script>
+
+
+      <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+        <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../js/extra.js"></script>
+      
+    
+
+  </body>
+</html>

@@ -1,0 +1,1452 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises.">
+      
+      
+        <meta name="author" content="Rat Rig">
+      
+      
+        <link rel="canonical" href="https://v-core.ratrig.com/upgrade/">
+      
+      <link rel="icon" href="../assets/logo_rat_small.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>3.0 to 3.1 Upgrade - Rat Rig - V-Core</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+    
+  
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rat Rig - V-Core - 3.0 to 3.1 Upgrade">
+  <meta property="og:description" content="The V-Core 3 is a premium DIY kit for a CoreXY 3D Printer with no compromises.">
+  <meta property="og:url" content="https://v-core.ratrig.com/upgrade/">
+  <meta property="og:image" content="https://v-core.ratrig.com/assets/banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="rat_rig" data-md-color-accent="rat_rig_alt">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#v-core-30-to-31-upgrade" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Rat Rig - V-Core" class="md-header__button md-logo" aria-label="Rat Rig - V-Core" data-md-component="logo">
+      
+  <img src="../assets/logo_rat_medium.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Rat Rig - V-Core
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3.0 to 3.1 Upgrade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Rat-Rig/V-core-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    V-core-3
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Intro
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank" class="md-tabs__link">
+      Order
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../bom/" class="md-tabs__link">
+      BOM
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../printed_parts/" class="md-tabs__link">
+      Files & Printing
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://ratrig.dozuki.com/c/01._Rat_Rig_V-Core" target="_blank" class="md-tabs__link">
+      Build Guide
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      3.0 to 3.1 Upgrade
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../electronics/" class="md-tabs__link">
+      Electronics
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../firmware/" class="md-tabs__link">
+      Firmware
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../slicer/" class="md-tabs__link">
+      Slicer
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../community/" class="md-tabs__link">
+      Community
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank" class="md-tabs__link">
+      Gallery
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../videos/" class="md-tabs__link">
+      Videos
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../legacy/" class="md-tabs__link">
+      Legacy V-Core 3.0
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="mailto:info@ratrig.com" class="md-tabs__link">
+      Contact
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Rat Rig - V-Core" class="md-nav__button md-logo" aria-label="Rat Rig - V-Core" data-md-component="logo">
+      
+  <img src="../assets/logo_rat_medium.png" alt="logo">
+
+    </a>
+    Rat Rig - V-Core
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Rat-Rig/V-core-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    V-core-3
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/v-core3configurable.html" target="_blank" class="md-nav__link">
+        Order
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        BOM
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printed_parts/" class="md-nav__link">
+        Files & Printing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://ratrig.dozuki.com/c/01._Rat_Rig_V-Core" target="_blank" class="md-nav__link">
+        Build Guide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          3.0 to 3.1 Upgrade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        3.0 to 3.1 Upgrade
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-build-guide" class="md-nav__link">
+    Upgrade Build Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-bom" class="md-nav__link">
+    Upgrade BOM
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade BOM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rat-rig-v-core-3-upgrade-kit-v30-to-v31-hw2946mk" class="md-nav__link">
+    Rat Rig V-Core 3 - Upgrade Kit - v3.0 to v3.1 (HW2946MK)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rat-rig-v-core-31-eva-30-hardware-pack-hw3006mk" class="md-nav__link">
+    Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack (HW3006MK)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-printed-parts" class="md-nav__link">
+    Upgrade Printed Parts
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade Printed Parts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core" class="md-nav__link">
+    Core
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eva-302" class="md-nav__link">
+    EVA 3.0.2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-core-30-panels-on-31" class="md-nav__link">
+    V-Core 3.0 panels on 3.1
+  </a>
+  
+    <nav class="md-nav" aria-label="V-Core 3.0 panels on 3.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#panel-cutting-template" class="md-nav__link">
+    Panel cutting template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-motor-cage-trim" class="md-nav__link">
+    Rear motor cage trim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electronics/" class="md-nav__link">
+        Electronics
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware/" class="md-nav__link">
+        Firmware
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer/" class="md-nav__link">
+        Slicer
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos/" class="md-nav__link">
+        Videos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legacy/" class="md-nav__link">
+        Legacy V-Core 3.0
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mailto:info@ratrig.com" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-build-guide" class="md-nav__link">
+    Upgrade Build Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-bom" class="md-nav__link">
+    Upgrade BOM
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade BOM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rat-rig-v-core-3-upgrade-kit-v30-to-v31-hw2946mk" class="md-nav__link">
+    Rat Rig V-Core 3 - Upgrade Kit - v3.0 to v3.1 (HW2946MK)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rat-rig-v-core-31-eva-30-hardware-pack-hw3006mk" class="md-nav__link">
+    Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack (HW3006MK)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-printed-parts" class="md-nav__link">
+    Upgrade Printed Parts
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade Printed Parts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core" class="md-nav__link">
+    Core
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eva-302" class="md-nav__link">
+    EVA 3.0.2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-core-30-panels-on-31" class="md-nav__link">
+    V-Core 3.0 panels on 3.1
+  </a>
+  
+    <nav class="md-nav" aria-label="V-Core 3.0 panels on 3.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#panel-cutting-template" class="md-nav__link">
+    Panel cutting template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-motor-cage-trim" class="md-nav__link">
+    Rear motor cage trim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="v-core-30-to-31-upgrade">V-Core 3.0 to 3.1 Upgrade<a class="headerlink" href="#v-core-30-to-31-upgrade" title="Permanent link">&para;</a></h1>
+<h2 id="upgrade-build-guide">Upgrade Build Guide<a class="headerlink" href="#upgrade-build-guide" title="Permanent link">&para;</a></h2>
+<p>The V-Core 3.0 upgrade guide walks you through the disassembly steps necessary to prepare your printer for the V-Core 3.1 upgrade.
+<a class="md-button md-button--primary" href="https://ratrig.dozuki.com/Guide/01.+Rat+Rig+V-Core+3.0+to+3.1+Upgrade+Guide/148"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.06 11.81L11.73 17c-.65.67-1.51 1-2.37 1-.86 0-1.72-.33-2.36-1-1.33-1.29-1.33-3.42 0-4.74l1.35-1.36-.01.6c-.01.5.07 1 .23 1.44l.05.15-.4.41a1.597 1.597 0 0 0 0 2.28c.61.62 1.67.62 2.28 0l2.2-2.19c.3-.31.48-.72.48-1.15 0-.44-.18-.83-.48-1.14a.87.87 0 0 1 0-1.24c.33-.33.91-.32 1.24 0 .63.64.98 1.48.98 2.38 0 .9-.35 1.74-.98 2.37M17 11.74l-1.34 1.36v-.6c.01-.5-.07-1-.23-1.44l-.05-.14.4-.42a1.597 1.597 0 0 0 0-2.28c-.61-.62-1.68-.61-2.28 0l-2.2 2.2c-.3.3-.48.71-.48 1.14 0 .44.18.83.48 1.14.17.16.26.38.26.62s-.09.46-.26.62a.86.86 0 0 1-.62.25c-.22 0-.45-.08-.62-.25a3.362 3.362 0 0 1 0-4.75L12.27 7A3.311 3.311 0 0 1 17 7c.65.62 1 1.46 1 2.36 0 .9-.35 1.74-1 2.38z"/></svg></span> V-Core 3.0 to 3.1 Upgrade Guide</a></p>
+<h2 id="upgrade-bom">Upgrade BOM<a class="headerlink" href="#upgrade-bom" title="Permanent link">&para;</a></h2>
+<p>The following list shows all parts contained in the V-Core 3.0 to 3.1 upgrade kit</p>
+<h3 id="rat-rig-v-core-3-upgrade-kit-v30-to-v31-hw2946mk">Rat Rig V-Core 3 - Upgrade Kit - v3.0 to v3.1 (<code>HW2946MK</code>)<a class="headerlink" href="#rat-rig-v-core-3-upgrade-kit-v30-to-v31-hw2946mk" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product name</th>
+<th>QTY</th>
+<th>Length (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HW2949PC</code></td>
+<td>V-Core 3.1 - XY_JOINER_PLATE_V1.1</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2950WC</code></td>
+<td>Rat Rig Bi-Material Lead Screw Decoupler</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2990GC</code></td>
+<td>Coupler - Rigid Type - Black 25*20mm - 5mm to 8mm</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2915GC</code></td>
+<td>Leadscrew Nut - POM - TR8*4</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1653GC</code></td>
+<td>Timing Belt  - 2GT 9mm (By the meter)</td>
+<td>1</td>
+<td>5800</td>
+</tr>
+<tr>
+<td><code>HW2947WC</code></td>
+<td>Ball Bearing - F695ZZ</td>
+<td>24</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2948WC</code></td>
+<td>Ball Bearing - 695ZZ</td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1309WC</code></td>
+<td>Ball Bearing F688ZZ Flanged 8 x 16 x 5</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2126GC</code></td>
+<td>Dowel Pin - 3.0mm x 35.0mm</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1502SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 8mm)</td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1292SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 12mm)</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1868SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 35mm)</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2110SC</code></td>
+<td>Cap Head Screw M5 (Single) (Length: 18mm)</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1836SC</code></td>
+<td>Cap Head Screw M6 (Single) (Length: 12mm)</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1874SC</code></td>
+<td>Countersink Screw M3 (Single) (Length: 12mm)</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1251NC</code></td>
+<td>Hex Locking Nut - M3</td>
+<td>20</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1361NC</code></td>
+<td>T-Nut - Drop In for 3030 - M6 (Single)</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1630NC</code></td>
+<td>Mini Precision Shim - 8 x 5 x 1mm - C</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW3006MK</code></td>
+<td>Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack</td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="rat-rig-v-core-31-eva-30-hardware-pack-hw3006mk">Rat Rig V-Core 3.1 - EVA 3.0 Hardware Pack (<code>HW3006MK</code>)<a class="headerlink" href="#rat-rig-v-core-31-eva-30-hardware-pack-hw3006mk" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product name</th>
+<th>QTY</th>
+<th>Length (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HW2348SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 6mm)</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1502SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 8mm)</td>
+<td>28</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1505SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 10mm)</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1292SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 12mm)</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1504SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 20mm)</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1290SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 25mm)</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1868SC</code></td>
+<td>Cap Head Screw M3 (Single) (Length: 35mm)</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2138SC</code></td>
+<td>Cap Head Screw M5 (Single) (Length: 40mm)</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1508NC</code></td>
+<td>Hex Nut - M3</td>
+<td>43</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1251NC</code></td>
+<td>Hex Locking Nut - M3</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW1039NC</code></td>
+<td>Hex Locking Nut - M5</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>HW2907GC</code></td>
+<td>PTFE Tube Generic - OD 4mm ID 2mm - 1000mm</td>
+<td>1</td>
+<td>72</td>
+</tr>
+</tbody>
+</table>
+<h2 id="upgrade-printed-parts">Upgrade Printed Parts<a class="headerlink" href="#upgrade-printed-parts" title="Permanent link">&para;</a></h2>
+<p>These printed parts are required to upgrade a V-Core 3 from 3.0 to 3.1. They can be downloaded individually or you can download an archive containing all of the 3.1 upgrade files <a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/vcore_3_1_upgrade_parts_and_panels.zip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3h18v4H3V3m1 18V8h16v13H4m10-7v-3h-4v3H7l5 5 5-5h-3z"/></svg></span> by clicking here</a>.</p>
+<div class="admonition attention">
+<p class="admonition-title">Downloading STL or STEP files</p>
+<p>To download individual STL or STEP files, please right click on the appropriate download link in the list and choose "Save link as..."</p>
+</div>
+<h3 id="core">Core<a class="headerlink" href="#core" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Name</th>
+<th>QTY</th>
+<th>STL</th>
+<th>STEP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>core</td>
+<td>bed_arm_back_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/bed_arm_back_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/bed_arm_back_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>bed_arm_left_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/bed_arm_left_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/bed_arm_left_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>bed_arm_right_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/bed_arm_right_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/bed_arm_right_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>bed_cable_relief_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/bed_cable_relief_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/bed_cable_relief_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>electronics_wire_guide_rear</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/electronics_wire_guide_rear.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/electronics_wire_guide_rear.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>lead_screw_constraint_front_left_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/lead_screw_constraint_front_left_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/lead_screw_constraint_front_left_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>lead_screw_constraint_front_right_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/lead_screw_constraint_front_right_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/lead_screw_constraint_front_right_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>lead_screw_constraint_rear_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/lead_screw_constraint_rear_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/lead_screw_constraint_rear_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>lead_screw_motor_cage_back_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/lead_screw_motor_cage_back_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/lead_screw_motor_cage_back_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>lead_screw_motor_cage_front_3.1</td>
+<td>2</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/lead_screw_motor_cage_front_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/lead_screw_motor_cage_front_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>x_endstop_block_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/x_endstop_block_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/x_endstop_block_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>xy_joiner_left_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/xy_joiner_left_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/xy_joiner_left_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>xy_joiner_right_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/xy_joiner_right_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/xy_joiner_right_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>y_max_endstop_block_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/y_max_endstop_block_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/y_max_endstop_block_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>core</td>
+<td>y_max_endstop_slider_3.1</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/core/y_max_endstop_slider_3.1.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/core/y_max_endstop_slider_3.1.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="eva-302">EVA 3.0.2<a class="headerlink" href="#eva-302" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Name</th>
+<th>QTY</th>
+<th>STL</th>
+<th>STEP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>eva3</td>
+<td>40mm_fan_inlet</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/40mm_fan_inlet.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/40mm_fan_inlet.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>back_core_xy</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/back_core_xy.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/back_core_xy.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>bl_touch_mount</td>
+<td>1 (Slice Engineering / Rapido HF)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/bl_touch_mount.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/bl_touch_mount.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>bl_touch_mount_volcano</td>
+<td>1 (Rapido UHF)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/bl_touch_mount_volcano.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/bl_touch_mount_volcano.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>bottom_horns</td>
+<td>1 (Slice Engineering / Rapido HF)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/bottom_horns.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/bottom_horns.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>bottom_horns_volcano</td>
+<td>1 (Rapido UHF)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/bottom_horns_volcano.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/bottom_horns_volcano.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>cable_guide</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/cable_guide.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/cable_guide.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>cable_guide_mount</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/cable_guide_mount.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/cable_guide_mount.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>core_xy_belt_grabber</td>
+<td>2</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/core_xy_belt_grabber.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/core_xy_belt_grabber.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>drive_lgx_lite</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/drive_lgx_lite.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/drive_lgx_lite.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>face_belt_grabber</td>
+<td>2</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/face_belt_grabber.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/face_belt_grabber.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>front_universal</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/front_universal.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/front_universal.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>hotend_mosquito</td>
+<td>1 (Slice Engineering Mosquito)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/hotend_mosquito.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/hotend_mosquito.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>hotend_rapido</td>
+<td>1 (Rapido HF/UHF)</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/hotend_rapido.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/hotend_rapido.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>lj8_probe_mount</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/lj8_probe_mount.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/lj8_probe_mount.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>ratrig_eva3_shroud</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/ratrig_eva3_shroud.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/ratrig_eva3_shroud.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+<tr>
+<td>eva3</td>
+<td>top_endstop_mgn12c</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/eva3/top_endstop_mgn12c.stl" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/eva3/top_endstop_mgn12c.step" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="v-core-30-panels-on-31">V-Core 3.0 panels on 3.1<a class="headerlink" href="#v-core-30-panels-on-31" title="Permanent link">&para;</a></h2>
+<p>All but one of the existing panels for the V-Core 3.0 enclosure fit, without modification, on the 3.1 upgrade. The base panel needs to be modified as the Z-axis motor cages changed in design with 3.1. The existing 3.0 base panel requires 3 sections to be removed, and then a modified rear motor cage trim is used to cover the remaining hole.</p>
+<h3 id="panel-cutting-template">Panel cutting template<a class="headerlink" href="#panel-cutting-template" title="Permanent link">&para;</a></h3>
+<p>The following PDF provides a printable template which can be used as a guide for removing the necessary material: <a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/panel_base_30_to_31_cutout_template.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.06 11.81L11.73 17c-.65.67-1.51 1-2.37 1-.86 0-1.72-.33-2.36-1-1.33-1.29-1.33-3.42 0-4.74l1.35-1.36-.01.6c-.01.5.07 1 .23 1.44l.05.15-.4.41a1.597 1.597 0 0 0 0 2.28c.61.62 1.67.62 2.28 0l2.2-2.19c.3-.31.48-.72.48-1.15 0-.44-.18-.83-.48-1.14a.87.87 0 0 1 0-1.24c.33-.33.91-.32 1.24 0 .63.64.98 1.48.98 2.38 0 .9-.35 1.74-.98 2.37M17 11.74l-1.34 1.36v-.6c.01-.5-.07-1-.23-1.44l-.05-.14.4-.42a1.597 1.597 0 0 0 0-2.28c-.61-.62-1.68-.61-2.28 0l-2.2 2.2c-.3.3-.48.71-.48 1.14 0 .44.18.83.48 1.14.17.16.26.38.26.62s-.09.46-.26.62a.86.86 0 0 1-.62.25c-.22 0-.45-.08-.62-.25a3.362 3.362 0 0 1 0-4.75L12.27 7A3.311 3.311 0 0 1 17 7c.65.62 1 1.46 1 2.36 0 .9-.35 1.74-1 2.38z"/></svg></span> by clicking here</a></p>
+<p>Position the templates, and remove the marked material from the panel, as shown in the <a href="https://ratrig.dozuki.com/Guide/01.+Rat+Rig+V-Core+3.0+to+3.1+Upgrade+Guide/148#s1099">V-Core 3.0 to 3.1 upgrade guide</a></p>
+<h3 id="rear-motor-cage-trim">Rear motor cage trim<a class="headerlink" href="#rear-motor-cage-trim" title="Permanent link">&para;</a></h3>
+<p>A modified trim for the rear lead screw motor cage is provided to cover the hole which remains when modifying a 3.0 base panel for 3.1. This replaces the stock lead_screw_motor_cage_back_trim_3.1 printed part</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Name</th>
+<th>QTY</th>
+<th>STL</th>
+<th>STEP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>enclosure</td>
+<td>lead_screw_motor_cage_back_trim_30_to_31</td>
+<td>1</td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/stl/enclosure/lead_screw_motor_cage_back_trim_30_to_31.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STL</a></td>
+<td><a href="https://github.com/Rat-Rig/V-core-3/raw/main/cad/printed_parts/step/enclosure/lead_screw_motor_cage_back_trim_30_to_31.step"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z"/></svg></span> Download STEP</a></td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../printed_parts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Files &amp; Printing" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Files & Printing
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../electronics/" class="md-footer__link md-footer__link--next" aria-label="Next: Electronics" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Electronics
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021 Rat Rig
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs.sticky", "navigation.tabs", "navigation.tracking", "search.suggest", "search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+<script>window.CI360 = { notInitOnLoad: true }</script>
+
+
+      <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+        <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../js/extra.js"></script>
+      
+    
+
+  </body>
+</html>

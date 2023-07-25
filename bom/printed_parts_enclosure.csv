@@ -1,0 +1,17 @@
+enclosure,3030_panel_mount_horizontal,2
+enclosure,3030_panel_mount_vertical,2 (if using a split door)
+enclosure,lead_screw_motor_cage_back_trim_3.1,1
+enclosure,lead_screw_motor_cage_front_trim_3.1,2
+enclosure,panel_magnet_holder,10
+enclosure,panel_magnet_mount,10
+enclosure,shelf_left_200_3.1,1 (of the required size)
+enclosure,shelf_left_300_3.1,1 (of the required size)
+enclosure,shelf_left_400_3.1,1 (of the required size)
+enclosure,shelf_left_500_3.1,1 (of the required size)
+enclosure,shelf_right_200_3.1,1 (of the required size)
+enclosure,shelf_right_300_3.1,1 (of the required size)
+enclosure,shelf_right_400_3.1,1 (of the required size)
+enclosure,shelf_right_500_3.1,1 (of the required size)
+enclosure,xy_motor_cage_top_left_3.1_cutout,1
+enclosure,xy_motor_cage_top_right_3.1_cutout,1
+enclosure,y_min_bumper,2
