@@ -1,0 +1,5 @@
+These files were maded for VC3-400 with T0:0.4mm and T1:1.0mm nozzle.
+
+In [fast_mode], two filament [fisr_layer_temperature] must be different.
+
+In [idex], the extruder1's temperature will disappear. So it must add in [change tool gcode].
